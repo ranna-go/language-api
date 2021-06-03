@@ -40,14 +40,31 @@ def generate_static_files(spec: dict):
     to_json_file(f'{OUTPUT_DIR}{languages}', spec, minified=False)
     to_json_file(f'{OUTPUT_DIR}{languages_minified}', spec, minified=True)
 
-    content = '## Endpoints\n\n' \
-        f'- [{languages}]({languages})\n' \
-        f'- [{languages_minified}]({languages_minified})\n' \
-        '\n' \
-        '---\n' \
-        f'Updated on: {datetime.now().strftime("%d/%m/%Y %H:%M:%S %Z")}\n' \
-        f'Source: {LANGUAGE_SPEC}'
-    with open(f'{OUTPUT_DIR}/index.md', 'w') as f:
+    content = f"""
+    <html>
+        <head>
+        </head>
+        <body>
+            <h1>Endpoints</h1>
+            <ul>
+                <li>
+                    <a href="{languages}">{languages}</a>
+                </li>
+                <li>
+                    <a href="{languages_minified}">{languages_minified}</a>
+                </li>
+            </ul>
+            <hr />
+            <i>
+                Generated on:&nbsp;
+                {datetime.now().strftime("%d/%m/%Y %H:%M:%S %Z")}
+            </i><br />
+            <i>Source: <a href="{LANGUAGE_SPEC}">{LANGUAGE_SPEC}</a></i>
+        </body>
+    </html>
+    """.strip().replace('    ', '').replace('\n', '')
+
+    with open(f'{OUTPUT_DIR}/index.html', 'w') as f:
         f.write(content)
 
 
