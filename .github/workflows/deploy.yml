@@ -1,0 +1,35 @@
+name: Deploy Pages
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+
+  deploy:
+    name: 'Deploy to Pages'
+    runs-on: 'ubuntu-latest'
+
+    steps:
+
+    - name: 'Setup Node'
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8.x'
+
+    - name: 'Checkout Code'
+      uses: actions/checkout@v2
+
+    - name: 'Install Dependencies'
+      run: python3 -m pip install -r requirements.txt
+
+    - name: 'Build Static Content'
+      run: python3 generate.py
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./data
+        cname: languages.ranna.zekro.de
