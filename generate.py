@@ -18,7 +18,9 @@ def request_and_parse_spec() -> dict:
 
 def to_json_file(filename: str, data: any, minified=True):
     with open(filename, 'w') as f:
-        json.dump(data, f, indent=None if minified else 2)
+        json.dump(data, f,
+                  indent=None if minified else 2,
+                  separators=(',', ':') if minified else None)
 
 
 def drizzle_spec(spec: dict) -> dict:
