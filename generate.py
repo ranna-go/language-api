@@ -1,6 +1,8 @@
 import requests
 import yaml
 import json
+import hashlib
+from os import path
 from datetime import datetime
 
 
@@ -9,11 +11,33 @@ LANGUAGE_SPEC = 'https://raw.githubusercontent.com/github/linguist' \
 
 OUTPUT_DIR = 'data'
 
+CHECKSUM_FILE = f'{OUTPUT_DIR}/checksums.json'
 
-def request_and_parse_spec() -> dict:
+
+def request_spec() -> str:
     res = requests.get(LANGUAGE_SPEC, data='str')
     res.raise_for_status()
-    return yaml.load(res.text, Loader=yaml.Loader)
+    return res.text
+
+
+def parse_spec(v: str) -> dict:
+    return yaml.load(v, Loader=yaml.Loader)
+
+
+def get_checksum(v: str) -> str:
+    return hashlib.md5(v.encode()).hexdigest()
+
+
+def compare_checksum(checksum: str) -> bool:
+    checksums = {}
+    if path.isfile(CHECKSUM_FILE):
+        with open(CHECKSUM_FILE, 'r') as f:
+            checksums = json.load(f)
+    equals = checksums.get('spec') == checksum
+    checksums['spec'] = checksum
+    with open(CHECKSUM_FILE, 'w') as f:
+        json.dump(checksums, f, indent=2)
+    return equals
 
 
 def to_json_file(filename: str, data: any, minified=True):
@@ -35,9 +59,10 @@ def drizzle_spec(spec: dict) -> dict:
     return alias_spec
 
 
-def generate_static_files(spec: dict):
+def generate_static_files(spec: dict, checksum: str):
     languages = '/languages.json'
     languages_minified = '/languages.minified.json'
+    checksums = '/checksums.json'
 
     to_json_file(f'{OUTPUT_DIR}{languages}', spec, minified=False)
     to_json_file(f'{OUTPUT_DIR}{languages_minified}', spec, minified=True)
@@ -55,12 +80,16 @@ def generate_static_files(spec: dict):
                 <li>
                     <a href="{languages_minified}">{languages_minified}</a>
                 </li>
+                <li>
+                    <a href="{checksums}">{checksums}</a>
+                </li>
             </ul>
             <hr />
             <i>
                 Generated on:&nbsp;
                 {datetime.now().strftime("%d/%m/%Y %H:%M:%S %Z")}
             </i><br />
+            <i>Checksum: {checksum}</i><br />
             <i>Source: <a href="{LANGUAGE_SPEC}">{LANGUAGE_SPEC}</a></i>
         </body>
     </html>
@@ -71,9 +100,14 @@ def generate_static_files(spec: dict):
 
 
 def main():
-    spec = request_and_parse_spec()
-    spec = drizzle_spec(spec)
-    generate_static_files(spec)
+    spec_raw = request_spec()
+    checksum = get_checksum(spec_raw)
+    if compare_checksum(checksum):
+        print('Skip because checksums match')
+        return
+    spec = drizzle_spec(parse_spec(spec_raw))
+    generate_static_files(spec, checksum)
+    print('Updated files')
 
 
 if __name__ == '__main__':
