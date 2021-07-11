@@ -2283,6 +2283,66 @@
     "ace_mode": "text",
     "language_id": 92
   },
+  "e-mail": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
+  "email": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
+  "eml": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
+  "mail": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
+  "mbox": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
   "ebnf": {
     "type": "data",
     "extensions": [
@@ -2328,16 +2388,6 @@
     "tm_scope": "text.html.js",
     "ace_mode": "ejs",
     "language_id": 95
-  },
-  "eml": {
-    "type": "data",
-    "extensions": [
-      ".eml",
-      ".mbox"
-    ],
-    "tm_scope": "text.eml.basic",
-    "ace_mode": "text",
-    "language_id": 529653389
   },
   "eq": {
     "type": "programming",
