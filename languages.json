@@ -639,6 +639,18 @@
     "ace_mode": "assembly_x86",
     "language_id": 24
   },
+  "astro": {
+    "type": "markup",
+    "color": "#ff5a03",
+    "extensions": [
+      ".astro"
+    ],
+    "tm_scope": "text.html.astro",
+    "ace_mode": "html",
+    "codemirror_mode": "jsx",
+    "codemirror_mime_type": "text/jsx",
+    "language_id": 578209015
+  },
   "asymptote": {
     "type": "programming",
     "color": "#ff0000",
@@ -4918,6 +4930,45 @@
     ],
     "tm_scope": "source.yaml",
     "language_id": 818804755
+  },
+  "kakounescript": {
+    "type": "programming",
+    "color": "#6f8042",
+    "tm_scope": "source.kakscript",
+    "extensions": [
+      ".kak"
+    ],
+    "filenames": [
+      "kakrc"
+    ],
+    "ace_mode": "text",
+    "language_id": 603336474
+  },
+  "kak": {
+    "type": "programming",
+    "color": "#6f8042",
+    "tm_scope": "source.kakscript",
+    "extensions": [
+      ".kak"
+    ],
+    "filenames": [
+      "kakrc"
+    ],
+    "ace_mode": "text",
+    "language_id": 603336474
+  },
+  "kakscript": {
+    "type": "programming",
+    "color": "#6f8042",
+    "tm_scope": "source.kakscript",
+    "extensions": [
+      ".kak"
+    ],
+    "filenames": [
+      "kakrc"
+    ],
+    "ace_mode": "text",
+    "language_id": 603336474
   },
   "kicad layout": {
     "type": "data",
@@ -10612,7 +10663,7 @@
   },
   "swift": {
     "type": "programming",
-    "color": "#ffac45",
+    "color": "#F05138",
     "extensions": [
       ".swift"
     ],
