@@ -12,6 +12,7 @@
   },
   "4d": {
     "type": "programming",
+    "color": "#004289",
     "extensions": [
       ".4dm"
     ],
@@ -321,6 +322,7 @@
   },
   "adobe font metrics": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -330,6 +332,7 @@
   },
   "acfm": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -339,6 +342,7 @@
   },
   "adobe composite font metrics": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -348,6 +352,7 @@
   },
   "adobe multiple font metrics": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -357,6 +362,7 @@
   },
   "amfm": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -386,6 +392,7 @@
   },
   "alpine abuild": {
     "type": "programming",
+    "color": "#0D597F",
     "group": "Shell",
     "filenames": [
       "APKBUILD"
@@ -398,6 +405,7 @@
   },
   "abuild": {
     "type": "programming",
+    "color": "#0D597F",
     "group": "Shell",
     "filenames": [
       "APKBUILD"
@@ -410,6 +418,7 @@
   },
   "apkbuild": {
     "type": "programming",
+    "color": "#0D597F",
     "group": "Shell",
     "filenames": [
       "APKBUILD"
@@ -422,6 +431,7 @@
   },
   "altium designer": {
     "type": "data",
+    "color": "#A89663",
     "extensions": [
       ".OutJob",
       ".PcbDoc",
@@ -434,6 +444,7 @@
   },
   "altium": {
     "type": "data",
+    "color": "#A89663",
     "extensions": [
       ".OutJob",
       ".PcbDoc",
@@ -459,6 +470,7 @@
   },
   "ant build system": {
     "type": "data",
+    "color": "#A9157E",
     "tm_scope": "text.xml.ant",
     "filenames": [
       "ant.xml",
@@ -471,6 +483,7 @@
   },
   "apacheconf": {
     "type": "data",
+    "color": "#d12127",
     "extensions": [
       ".apacheconf",
       ".vhost"
@@ -486,6 +499,7 @@
   },
   "aconf": {
     "type": "data",
+    "color": "#d12127",
     "extensions": [
       ".apacheconf",
       ".vhost"
@@ -501,6 +515,7 @@
   },
   "apache": {
     "type": "data",
+    "color": "#d12127",
     "extensions": [
       ".apacheconf",
       ".vhost"
@@ -577,6 +592,7 @@
   },
   "asciidoc": {
     "type": "prose",
+    "color": "#73a0c5",
     "ace_mode": "asciidoc",
     "wrap": true,
     "extensions": [
@@ -668,6 +684,7 @@
   },
   "augeas": {
     "type": "programming",
+    "color": "#9CC134",
     "extensions": [
       ".aug"
     ],
@@ -739,6 +756,7 @@
   },
   "avro idl": {
     "type": "data",
+    "color": "#0040FF",
     "extensions": [
       ".avdl"
     ],
@@ -864,6 +882,7 @@
   },
   "bibtex": {
     "type": "markup",
+    "color": "#778899",
     "group": "TeX",
     "extensions": [
       ".bib",
@@ -898,6 +917,7 @@
   },
   "bitbake": {
     "type": "programming",
+    "color": "#00bce4",
     "tm_scope": "none",
     "extensions": [
       ".bb"
@@ -918,6 +938,7 @@
   },
   "blitzbasic": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -928,6 +949,7 @@
   },
   "b3d": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -938,6 +960,7 @@
   },
   "blitz3d": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -948,6 +971,7 @@
   },
   "blitzplus": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -958,6 +982,7 @@
   },
   "bplus": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -988,6 +1013,7 @@
   },
   "bluespec": {
     "type": "programming",
+    "color": "#12223c",
     "extensions": [
       ".bsv"
     ],
@@ -1033,6 +1059,7 @@
   },
   "brightscript": {
     "type": "programming",
+    "color": "#662D91",
     "extensions": [
       ".brs"
     ],
@@ -1229,6 +1256,7 @@
   },
   "clips": {
     "type": "programming",
+    "color": "#00A300",
     "extensions": [
       ".clp"
     ],
@@ -1238,6 +1266,7 @@
   },
   "cmake": {
     "type": "programming",
+    "color": "#DA3434",
     "extensions": [
       ".cmake",
       ".cmake.in"
@@ -1277,6 +1306,7 @@
   },
   "collada": {
     "type": "data",
+    "color": "#F1A42B",
     "extensions": [
       ".dae"
     ],
@@ -1312,6 +1342,7 @@
   },
   "csv": {
     "type": "data",
+    "color": "#237346",
     "ace_mode": "text",
     "tm_scope": "none",
     "extensions": [
@@ -1331,6 +1362,7 @@
   },
   "cweb": {
     "type": "programming",
+    "color": "#00007a",
     "extensions": [
       ".w"
     ],
@@ -1340,6 +1372,7 @@
   },
   "cabal config": {
     "type": "data",
+    "color": "#483465",
     "extensions": [
       ".cabal"
     ],
@@ -1355,6 +1388,7 @@
   },
   "Cabal": {
     "type": "data",
+    "color": "#483465",
     "extensions": [
       ".cabal"
     ],
@@ -1370,6 +1404,7 @@
   },
   "cap'n proto": {
     "type": "programming",
+    "color": "#c42727",
     "tm_scope": "source.capnp",
     "extensions": [
       ".capnp"
@@ -1436,6 +1471,7 @@
   },
   "chuck": {
     "type": "programming",
+    "color": "#3f8000",
     "extensions": [
       ".ck"
     ],
@@ -1555,6 +1591,7 @@
   },
   "cloud firestore security rules": {
     "type": "data",
+    "color": "#FFA000",
     "ace_mode": "less",
     "codemirror_mode": "css",
     "codemirror_mime_type": "text/css",
@@ -1596,6 +1633,7 @@
   },
   "codeql": {
     "type": "programming",
+    "color": "#140f46",
     "extensions": [
       ".ql",
       ".qll"
@@ -1606,6 +1644,7 @@
   },
   "ql": {
     "type": "programming",
+    "color": "#140f46",
     "extensions": [
       ".ql",
       ".qll"
@@ -1852,6 +1891,7 @@
   },
   "coq": {
     "type": "programming",
+    "color": "#d0b68c",
     "extensions": [
       ".coq",
       ".v"
@@ -1913,6 +1953,7 @@
   },
   "csound": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".orc",
       ".udo"
@@ -1923,6 +1964,7 @@
   },
   "csound-orc": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".orc",
       ".udo"
@@ -1933,6 +1975,7 @@
   },
   "csound document": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".csd"
     ],
@@ -1942,6 +1985,7 @@
   },
   "csound-csd": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".csd"
     ],
@@ -1951,6 +1995,7 @@
   },
   "csound score": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".sco"
     ],
@@ -1960,6 +2005,7 @@
   },
   "csound-sco": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".sco"
     ],
@@ -2154,6 +2200,7 @@
   },
   "darcs patch": {
     "type": "data",
+    "color": "#8eff23",
     "extensions": [
       ".darcspatch",
       ".dpatch"
@@ -2164,6 +2211,7 @@
   },
   "dpatch": {
     "type": "data",
+    "color": "#8eff23",
     "extensions": [
       ".darcspatch",
       ".dpatch"
@@ -2235,6 +2283,7 @@
   },
   "directx 3d file": {
     "type": "data",
+    "color": "#aace60",
     "extensions": [
       ".x"
     ],
@@ -2381,6 +2430,7 @@
   },
   "eclipse": {
     "type": "programming",
+    "color": "#001d9d",
     "group": "prolog",
     "extensions": [
       ".ecl"
@@ -2427,6 +2477,7 @@
   },
   "easybuild": {
     "type": "data",
+    "color": "#069406",
     "group": "Python",
     "ace_mode": "python",
     "codemirror_mode": "python",
@@ -2439,6 +2490,7 @@
   },
   "ecere projects": {
     "type": "data",
+    "color": "#913960",
     "group": "JavaScript",
     "extensions": [
       ".epj"
@@ -2451,6 +2503,7 @@
   },
   "editorconfig": {
     "type": "data",
+    "color": "#fff1f2",
     "group": "INI",
     "filenames": [
       ".editorconfig"
@@ -2463,6 +2516,7 @@
   },
   "editor-config": {
     "type": "data",
+    "color": "#fff1f2",
     "group": "INI",
     "filenames": [
       ".editorconfig"
@@ -2695,6 +2749,7 @@
   },
   "figlet font": {
     "type": "data",
+    "color": "#FFDDBB",
     "extensions": [
       ".flf"
     ],
@@ -2704,6 +2759,7 @@
   },
   "FIGfont": {
     "type": "data",
+    "color": "#FFDDBB",
     "extensions": [
       ".flf"
     ],
@@ -2787,6 +2843,7 @@
   },
   "filebench wml": {
     "type": "programming",
+    "color": "#F6B900",
     "extensions": [
       ".f"
     ],
@@ -2861,6 +2918,7 @@
   },
   "fortran free form": {
     "group": "Fortran",
+    "color": "#4d41b1",
     "type": "programming",
     "extensions": [
       ".f90",
@@ -2965,6 +3023,7 @@
   },
   "gams": {
     "type": "programming",
+    "color": "#f49a22",
     "extensions": [
       ".gms"
     ],
@@ -2974,6 +3033,7 @@
   },
   "gap": {
     "type": "programming",
+    "color": "#0000cc",
     "extensions": [
       ".g",
       ".gap",
@@ -2987,6 +3047,7 @@
   },
   "gcc machine description": {
     "type": "programming",
+    "color": "#FFCFAB",
     "extensions": [
       ".md"
     ],
@@ -3018,6 +3079,7 @@
   },
   "gedcom": {
     "type": "data",
+    "color": "#003058",
     "ace_mode": "text",
     "extensions": [
       ".ged"
@@ -3027,6 +3089,7 @@
   },
   "glsl": {
     "type": "programming",
+    "color": "#5686a5",
     "extensions": [
       ".glsl",
       ".fp",
@@ -3106,6 +3169,7 @@
   },
   "genshi": {
     "type": "programming",
+    "color": "#951531",
     "extensions": [
       ".kid"
     ],
@@ -3117,6 +3181,7 @@
   },
   "xml+genshi": {
     "type": "programming",
+    "color": "#951531",
     "extensions": [
       ".kid"
     ],
@@ -3128,6 +3193,7 @@
   },
   "xml+kid": {
     "type": "programming",
+    "color": "#951531",
     "extensions": [
       ".kid"
     ],
@@ -3139,6 +3205,7 @@
   },
   "gentoo ebuild": {
     "type": "programming",
+    "color": "#9400ff",
     "group": "Shell",
     "extensions": [
       ".ebuild"
@@ -3151,6 +3218,7 @@
   },
   "gentoo eclass": {
     "type": "programming",
+    "color": "#9400ff",
     "group": "Shell",
     "extensions": [
       ".eclass"
@@ -3163,6 +3231,7 @@
   },
   "gerber image": {
     "type": "data",
+    "color": "#d20b00",
     "extensions": [
       ".gbr",
       ".cmp",
@@ -3191,6 +3260,7 @@
   },
   "rs-274x": {
     "type": "data",
+    "color": "#d20b00",
     "extensions": [
       ".gbr",
       ".cmp",
@@ -3261,6 +3331,7 @@
   },
   "git attributes": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "filenames": [
       ".gitattributes"
@@ -3273,6 +3344,7 @@
   },
   "gitattributes": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "filenames": [
       ".gitattributes"
@@ -3285,6 +3357,7 @@
   },
   "git config": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "extensions": [
       ".gitconfig"
@@ -3301,6 +3374,7 @@
   },
   "gitconfig": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "extensions": [
       ".gitconfig"
@@ -3317,6 +3391,7 @@
   },
   "gitmodules": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "extensions": [
       ".gitconfig"
@@ -3419,6 +3494,7 @@
   },
   "grace": {
     "type": "programming",
+    "color": "#615f8b",
     "extensions": [
       ".grace"
     ],
@@ -3428,6 +3504,7 @@
   },
   "gradle": {
     "type": "data",
+    "color": "#02303a",
     "extensions": [
       ".gradle"
     ],
@@ -3482,6 +3559,7 @@
   },
   "graphviz (dot)": {
     "type": "data",
+    "color": "#2596be",
     "tm_scope": "source.dot",
     "extensions": [
       ".dot",
@@ -3513,6 +3591,7 @@
   },
   "groovy server pages": {
     "type": "programming",
+    "color": "#4298b8",
     "group": "Groovy",
     "extensions": [
       ".gsp"
@@ -3525,6 +3604,7 @@
   },
   "gsp": {
     "type": "programming",
+    "color": "#4298b8",
     "group": "Groovy",
     "extensions": [
       ".gsp"
@@ -3537,6 +3617,7 @@
   },
   "java server page": {
     "type": "programming",
+    "color": "#4298b8",
     "group": "Groovy",
     "extensions": [
       ".gsp"
@@ -3549,6 +3630,7 @@
   },
   "haproxy": {
     "type": "data",
+    "color": "#106da9",
     "extensions": [
       ".cfg"
     ],
@@ -3606,6 +3688,7 @@
   },
   "hlsl": {
     "type": "programming",
+    "color": "#aace60",
     "extensions": [
       ".hlsl",
       ".cginc",
@@ -3653,6 +3736,7 @@
   },
   "html+ecr": {
     "type": "markup",
+    "color": "#2e1052",
     "tm_scope": "text.html.ecr",
     "group": "HTML",
     "extensions": [
@@ -3665,6 +3749,7 @@
   },
   "ecr": {
     "type": "markup",
+    "color": "#2e1052",
     "tm_scope": "text.html.ecr",
     "group": "HTML",
     "extensions": [
@@ -3677,6 +3762,7 @@
   },
   "html+eex": {
     "type": "markup",
+    "color": "#6e4a7e",
     "tm_scope": "text.html.elixir",
     "group": "HTML",
     "extensions": [
@@ -3690,6 +3776,7 @@
   },
   "eex": {
     "type": "markup",
+    "color": "#6e4a7e",
     "tm_scope": "text.html.elixir",
     "group": "HTML",
     "extensions": [
@@ -3703,6 +3790,7 @@
   },
   "leex": {
     "type": "markup",
+    "color": "#6e4a7e",
     "tm_scope": "text.html.elixir",
     "group": "HTML",
     "extensions": [
@@ -3716,6 +3804,7 @@
   },
   "html+erb": {
     "type": "markup",
+    "color": "#701516",
     "tm_scope": "text.html.erb",
     "group": "HTML",
     "extensions": [
@@ -3730,6 +3819,7 @@
   },
   "erb": {
     "type": "markup",
+    "color": "#701516",
     "tm_scope": "text.html.erb",
     "group": "HTML",
     "extensions": [
@@ -3744,6 +3834,7 @@
   },
   "rhtml": {
     "type": "markup",
+    "color": "#701516",
     "tm_scope": "text.html.erb",
     "group": "HTML",
     "extensions": [
@@ -3758,6 +3849,7 @@
   },
   "html+ruby": {
     "type": "markup",
+    "color": "#701516",
     "tm_scope": "text.html.erb",
     "group": "HTML",
     "extensions": [
@@ -3772,6 +3864,7 @@
   },
   "html+php": {
     "type": "markup",
+    "color": "#4f5d95",
     "tm_scope": "text.html.php",
     "group": "HTML",
     "extensions": [
@@ -3784,6 +3877,7 @@
   },
   "html+razor": {
     "type": "markup",
+    "color": "#512be4",
     "tm_scope": "text.html.cshtml",
     "group": "HTML",
     "extensions": [
@@ -3797,6 +3891,7 @@
   },
   "razor": {
     "type": "markup",
+    "color": "#512be4",
     "tm_scope": "text.html.cshtml",
     "group": "HTML",
     "extensions": [
@@ -3810,6 +3905,7 @@
   },
   "http": {
     "type": "data",
+    "color": "#005C9C",
     "extensions": [
       ".http"
     ],
@@ -3821,6 +3917,7 @@
   },
   "hxml": {
     "type": "data",
+    "color": "#f68712",
     "ace_mode": "text",
     "extensions": [
       ".hxml"
@@ -4034,6 +4131,7 @@
   },
   "ini": {
     "type": "data",
+    "color": "#d1dbe0",
     "extensions": [
       ".ini",
       ".cfg",
@@ -4054,6 +4152,7 @@
   },
   "dosini": {
     "type": "data",
+    "color": "#d1dbe0",
     "extensions": [
       ".ini",
       ".cfg",
@@ -4121,6 +4220,7 @@
   },
   "ignore list": {
     "type": "data",
+    "color": "#000000",
     "group": "INI",
     "extensions": [
       ".gitignore"
@@ -4151,6 +4251,7 @@
   },
   "ignore": {
     "type": "data",
+    "color": "#000000",
     "group": "INI",
     "extensions": [
       ".gitignore"
@@ -4181,6 +4282,7 @@
   },
   "gitignore": {
     "type": "data",
+    "color": "#000000",
     "group": "INI",
     "extensions": [
       ".gitignore"
@@ -4211,6 +4313,7 @@
   },
   "git-ignore": {
     "type": "data",
+    "color": "#000000",
     "group": "INI",
     "extensions": [
       ".gitignore"
@@ -4294,6 +4397,7 @@
   },
   "inno setup": {
     "type": "programming",
+    "color": "#264b99",
     "extensions": [
       ".iss",
       ".isl"
@@ -4340,6 +4444,7 @@
   },
   "isabelle root": {
     "type": "programming",
+    "color": "#FEFE00",
     "group": "Isabelle",
     "filenames": [
       "ROOT"
@@ -4413,6 +4518,7 @@
   },
   "json with comments": {
     "type": "data",
+    "color": "#292929",
     "group": "JSON",
     "tm_scope": "source.js",
     "ace_mode": "javascript",
@@ -4451,6 +4557,7 @@
   },
   "jsonc": {
     "type": "data",
+    "color": "#292929",
     "group": "JSON",
     "tm_scope": "source.js",
     "ace_mode": "javascript",
@@ -4489,6 +4596,7 @@
   },
   "json5": {
     "type": "data",
+    "color": "#267CB9",
     "extensions": [
       ".json5"
     ],
@@ -4500,6 +4608,7 @@
   },
   "jsonld": {
     "type": "data",
+    "color": "#0c479c",
     "extensions": [
       ".jsonld"
     ],
@@ -4523,6 +4632,7 @@
   },
   "jasmin": {
     "type": "programming",
+    "color": "#d03600",
     "ace_mode": "java",
     "extensions": [
       ".j"
@@ -4545,6 +4655,7 @@
   },
   "java properties": {
     "type": "data",
+    "color": "#2A6277",
     "extensions": [
       ".properties"
     ],
@@ -4556,6 +4667,7 @@
   },
   "java server pages": {
     "type": "programming",
+    "color": "#2A6277",
     "group": "Java",
     "extensions": [
       ".jsp"
@@ -4568,6 +4680,7 @@
   },
   "jsp": {
     "type": "programming",
+    "color": "#2A6277",
     "group": "Java",
     "extensions": [
       ".jsp"
@@ -4727,6 +4840,7 @@
   },
   "javascript+erb": {
     "type": "programming",
+    "color": "#f1e05a",
     "tm_scope": "source.js",
     "group": "JavaScript",
     "extensions": [
@@ -4809,6 +4923,7 @@
   },
   "jison": {
     "type": "programming",
+    "color": "#56b3cb",
     "group": "Yacc",
     "extensions": [
       ".jison"
@@ -4819,6 +4934,7 @@
   },
   "jison lex": {
     "type": "programming",
+    "color": "#56b3cb",
     "group": "Lex",
     "extensions": [
       ".jisonlex"
@@ -4972,6 +5088,7 @@
   },
   "kicad layout": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
       ".kicad_pcb",
       ".kicad_mod",
@@ -4988,6 +5105,7 @@
   },
   "pcbnew": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
       ".kicad_pcb",
       ".kicad_mod",
@@ -5004,6 +5122,7 @@
   },
   "kicad legacy layout": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
       ".brd"
     ],
@@ -5013,6 +5132,7 @@
   },
   "kicad schematic": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
       ".sch"
     ],
@@ -5022,6 +5142,7 @@
   },
   "eeschema schematic": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
       ".sch"
     ],
@@ -5122,6 +5243,7 @@
   },
   "labview": {
     "type": "programming",
+    "color": "#fede06",
     "extensions": [
       ".lvproj",
       ".lvlib"
@@ -5290,6 +5412,7 @@
   },
   "literate agda": {
     "type": "programming",
+    "color": "#315665",
     "group": "Agda",
     "extensions": [
       ".lagda"
@@ -5300,6 +5423,7 @@
   },
   "literate coffeescript": {
     "type": "programming",
+    "color": "#244776",
     "tm_scope": "source.litcoffee",
     "group": "CoffeeScript",
     "ace_mode": "text",
@@ -5312,6 +5436,7 @@
   },
   "litcoffee": {
     "type": "programming",
+    "color": "#244776",
     "tm_scope": "source.litcoffee",
     "group": "CoffeeScript",
     "ace_mode": "text",
@@ -5324,6 +5449,7 @@
   },
   "literate haskell": {
     "type": "programming",
+    "color": "#5e5086",
     "group": "Haskell",
     "extensions": [
       ".lhs"
@@ -5336,6 +5462,7 @@
   },
   "lhaskell": {
     "type": "programming",
+    "color": "#5e5086",
     "group": "Haskell",
     "extensions": [
       ".lhs"
@@ -5348,6 +5475,7 @@
   },
   "lhs": {
     "type": "programming",
+    "color": "#5e5086",
     "group": "Haskell",
     "extensions": [
       ".lhs"
@@ -5419,6 +5547,7 @@
   },
   "logtalk": {
     "type": "programming",
+    "color": "#295b9a",
     "extensions": [
       ".lgt",
       ".logtalk"
@@ -5792,6 +5921,7 @@
   },
   "mako": {
     "type": "programming",
+    "color": "#7e858d",
     "extensions": [
       ".mako",
       ".mao"
@@ -5888,6 +6018,7 @@
   },
   "mathematica": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5907,6 +6038,7 @@
   },
   "mma": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5926,6 +6058,7 @@
   },
   "wolfram": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5945,6 +6078,7 @@
   },
   "wolfram language": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5964,6 +6098,7 @@
   },
   "wolfram lang": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5983,6 +6118,7 @@
   },
   "wl": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -6140,6 +6276,7 @@
   },
   "modelica": {
     "type": "programming",
+    "color": "#de1d31",
     "extensions": [
       ".mo"
     ],
@@ -6151,6 +6288,7 @@
   },
   "modula-2": {
     "type": "programming",
+    "color": "#10253f",
     "extensions": [
       ".mod"
     ],
@@ -6206,6 +6344,7 @@
   },
   "moonscript": {
     "type": "programming",
+    "color": "#ff4585",
     "extensions": [
       ".moon"
     ],
@@ -6218,6 +6357,7 @@
   },
   "motorola 68k assembly": {
     "type": "programming",
+    "color": "#005daa",
     "group": "Assembly",
     "extensions": [
       ".asm",
@@ -6232,6 +6372,7 @@
   },
   "m68k": {
     "type": "programming",
+    "color": "#005daa",
     "group": "Assembly",
     "extensions": [
       ".asm",
@@ -6353,6 +6494,7 @@
   },
   "npm config": {
     "type": "data",
+    "color": "#cb3837",
     "group": "INI",
     "filenames": [
       ".npmrc"
@@ -6363,6 +6505,7 @@
   },
   "npmrc": {
     "type": "data",
+    "color": "#cb3837",
     "group": "INI",
     "filenames": [
       ".npmrc"
@@ -6485,6 +6628,7 @@
   },
   "nginx": {
     "type": "data",
+    "color": "#009639",
     "extensions": [
       ".nginx",
       ".nginxconf",
@@ -6501,6 +6645,7 @@
   },
   "nginx configuration file": {
     "type": "data",
+    "color": "#009639",
     "extensions": [
       ".nginx",
       ".nginxconf",
@@ -6898,6 +7043,7 @@
   },
   "open policy agent": {
     "type": "programming",
+    "color": "#7d9199",
     "ace_mode": "text",
     "extensions": [
       ".rego"
@@ -6907,6 +7053,7 @@
   },
   "opencl": {
     "type": "programming",
+    "color": "#ed2e2d",
     "group": "C",
     "extensions": [
       ".cl",
@@ -6920,6 +7067,7 @@
   },
   "openedge abl": {
     "type": "programming",
+    "color": "#5ce600",
     "extensions": [
       ".p",
       ".cls",
@@ -6931,6 +7079,7 @@
   },
   "progress": {
     "type": "programming",
+    "color": "#5ce600",
     "extensions": [
       ".p",
       ".cls",
@@ -6942,6 +7091,7 @@
   },
   "openedge": {
     "type": "programming",
+    "color": "#5ce600",
     "extensions": [
       ".p",
       ".cls",
@@ -6953,6 +7103,7 @@
   },
   "abl": {
     "type": "programming",
+    "color": "#5ce600",
     "extensions": [
       ".p",
       ".cls",
@@ -6998,6 +7149,7 @@
   },
   "openscad": {
     "type": "programming",
+    "color": "#e5cd45",
     "extensions": [
       ".scad"
     ],
@@ -7188,6 +7340,7 @@
   },
   "plpgsql": {
     "type": "programming",
+    "color": "#336790",
     "ace_mode": "pgsql",
     "codemirror_mode": "sql",
     "codemirror_mime_type": "text/x-sql",
@@ -7200,6 +7353,7 @@
   },
   "pov-ray sdl": {
     "type": "programming",
+    "color": "#6bac65",
     "extensions": [
       ".pov",
       ".inc"
@@ -7210,6 +7364,7 @@
   },
   "pov-ray": {
     "type": "programming",
+    "color": "#6bac65",
     "extensions": [
       ".pov",
       ".inc"
@@ -7220,6 +7375,7 @@
   },
   "povray": {
     "type": "programming",
+    "color": "#6bac65",
     "extensions": [
       ".pov",
       ".inc"
@@ -7481,6 +7637,7 @@
   },
   "picolisp": {
     "type": "programming",
+    "color": "#6067af",
     "extensions": [
       ".l"
     ],
@@ -7577,6 +7734,7 @@
   },
   "postcss": {
     "type": "markup",
+    "color": "#dc3a0c",
     "tm_scope": "source.postcss",
     "group": "CSS",
     "extensions": [
@@ -7965,6 +8123,7 @@
   },
   "python console": {
     "type": "programming",
+    "color": "#3572A5",
     "group": "Python",
     "tm_scope": "text.python.console",
     "ace_mode": "text",
@@ -7972,6 +8131,7 @@
   },
   "pycon": {
     "type": "programming",
+    "color": "#3572A5",
     "group": "Python",
     "tm_scope": "text.python.console",
     "ace_mode": "text",
@@ -7979,6 +8139,7 @@
   },
   "python traceback": {
     "type": "data",
+    "color": "#3572A5",
     "group": "Python",
     "extensions": [
       ".pytb"
@@ -8156,6 +8317,7 @@
   },
   "rdoc": {
     "type": "prose",
+    "color": "#701516",
     "ace_mode": "rdoc",
     "wrap": true,
     "extensions": [
@@ -8180,6 +8342,7 @@
   },
   "rexx": {
     "type": "programming",
+    "color": "#d90e09",
     "extensions": [
       ".rexx",
       ".pprx",
@@ -8195,6 +8358,7 @@
   },
   "arexx": {
     "type": "programming",
+    "color": "#d90e09",
     "extensions": [
       ".rexx",
       ".pprx",
@@ -8210,6 +8374,7 @@
   },
   "rmarkdown": {
     "type": "prose",
+    "color": "#198ce7",
     "wrap": true,
     "ace_mode": "markdown",
     "codemirror_mode": "gfm",
@@ -8681,6 +8846,7 @@
   },
   "robotframework": {
     "type": "programming",
+    "color": "#00c0b5",
     "extensions": [
       ".robot"
     ],
@@ -9113,6 +9279,7 @@
   },
   "roff manpage": {
     "type": "markup",
+    "color": "#ecdebe",
     "group": "Roff",
     "extensions": [
       ".1",
@@ -9661,6 +9828,7 @@
   },
   "sparql": {
     "type": "data",
+    "color": "#0C4597",
     "tm_scope": "source.sparql",
     "ace_mode": "text",
     "codemirror_mode": "sparql",
@@ -9684,6 +9852,7 @@
   },
   "sql": {
     "type": "data",
+    "color": "#e38c00",
     "tm_scope": "source.sql",
     "ace_mode": "sql",
     "codemirror_mode": "sql",
@@ -9703,6 +9872,7 @@
   },
   "sqlpl": {
     "type": "programming",
+    "color": "#e38c00",
     "ace_mode": "sql",
     "codemirror_mode": "sql",
     "codemirror_mime_type": "text/x-sql",
@@ -9889,6 +10059,7 @@
   },
   "scilab": {
     "type": "programming",
+    "color": "#ca0f21",
     "extensions": [
       ".sci",
       ".sce",
@@ -9910,6 +10081,7 @@
   },
   "shaderlab": {
     "type": "programming",
+    "color": "#222c37",
     "extensions": [
       ".shader"
     ],
@@ -10410,6 +10582,7 @@
   },
   "smarty": {
     "type": "programming",
+    "color": "#f0c040",
     "extensions": [
       ".tpl"
     ],
@@ -10580,6 +10753,7 @@
   },
   "stata": {
     "type": "programming",
+    "color": "#1a5f91",
     "extensions": [
       ".do",
       ".ado",
@@ -10617,6 +10791,7 @@
   },
   "subrip text": {
     "type": "data",
+    "color": "#9e0101",
     "extensions": [
       ".srt"
     ],
@@ -10626,6 +10801,7 @@
   },
   "sugarss": {
     "type": "markup",
+    "color": "#2fcc9f",
     "tm_scope": "source.css.postcss.sugarss",
     "group": "CSS",
     "extensions": [
@@ -10702,6 +10878,7 @@
   },
   "tla": {
     "type": "programming",
+    "color": "#4b0079",
     "extensions": [
       ".tla"
     ],
@@ -10711,6 +10888,7 @@
   },
   "toml": {
     "type": "data",
+    "color": "#9c4221",
     "extensions": [
       ".toml"
     ],
@@ -10728,6 +10906,7 @@
   },
   "tsql": {
     "type": "programming",
+    "color": "#e38c00",
     "extensions": [
       ".sql"
     ],
@@ -10737,6 +10916,7 @@
   },
   "tsv": {
     "type": "data",
+    "color": "#237346",
     "ace_mode": "text",
     "tm_scope": "source.generic-db",
     "extensions": [
@@ -10746,6 +10926,7 @@
   },
   "tsx": {
     "type": "programming",
+    "color": "#2b7489",
     "group": "TypeScript",
     "extensions": [
       ".tsx"
@@ -10758,6 +10939,7 @@
   },
   "txl": {
     "type": "programming",
+    "color": "#0178b8",
     "extensions": [
       ".txl"
     ],
@@ -11047,6 +11229,7 @@
   },
   "textile": {
     "type": "prose",
+    "color": "#ffe7ac",
     "ace_mode": "textile",
     "codemirror_mode": "textile",
     "codemirror_mime_type": "text/x-textile",
@@ -11059,6 +11242,7 @@
   },
   "thrift": {
     "type": "programming",
+    "color": "#D12127",
     "tm_scope": "source.thrift",
     "extensions": [
       ".thrift"
@@ -11165,6 +11349,7 @@
   },
   "unity3d asset": {
     "type": "data",
+    "color": "#222c37",
     "ace_mode": "yaml",
     "codemirror_mode": "yaml",
     "codemirror_mime_type": "text/x-yaml",
@@ -11217,6 +11402,7 @@
   },
   "urweb": {
     "type": "programming",
+    "color": "#ccccee",
     "extensions": [
       ".ur",
       ".urs"
@@ -11227,6 +11413,7 @@
   },
   "Ur/Web": {
     "type": "programming",
+    "color": "#ccccee",
     "extensions": [
       ".ur",
       ".urs"
@@ -11237,6 +11424,7 @@
   },
   "Ur": {
     "type": "programming",
+    "color": "#ccccee",
     "extensions": [
       ".ur",
       ".urs"
@@ -11430,6 +11618,7 @@
   },
   "vim help file": {
     "type": "prose",
+    "color": "#199f4b",
     "extensions": [
       ".txt"
     ],
@@ -11439,6 +11628,7 @@
   },
   "help": {
     "type": "prose",
+    "color": "#199f4b",
     "extensions": [
       ".txt"
     ],
@@ -11448,6 +11638,7 @@
   },
   "vimhelp": {
     "type": "prose",
+    "color": "#199f4b",
     "extensions": [
       ".txt"
     ],
@@ -11457,6 +11648,7 @@
   },
   "vim snippet": {
     "type": "markup",
+    "color": "#199f4b",
     "extensions": [
       ".snip",
       ".snippet",
@@ -11468,6 +11660,7 @@
   },
   "SnipMate": {
     "type": "markup",
+    "color": "#199f4b",
     "extensions": [
       ".snip",
       ".snippet",
@@ -11479,6 +11672,7 @@
   },
   "UltiSnip": {
     "type": "markup",
+    "color": "#199f4b",
     "extensions": [
       ".snip",
       ".snippet",
@@ -11490,6 +11684,7 @@
   },
   "UltiSnips": {
     "type": "markup",
+    "color": "#199f4b",
     "extensions": [
       ".snip",
       ".snippet",
@@ -11501,6 +11696,7 @@
   },
   "NeoSnippet": {
     "type": "markup",
+    "color": "#199f4b",
     "extensions": [
       ".snip",
       ".snippet",
@@ -11705,6 +11901,7 @@
   },
   "web ontology language": {
     "type": "data",
+    "color": "#5b70bd",
     "extensions": [
       ".owl"
     ],
@@ -11794,6 +11991,7 @@
   },
   "wikitext": {
     "type": "prose",
+    "color": "#fc5757",
     "wrap": true,
     "extensions": [
       ".mediawiki",
@@ -11806,6 +12004,7 @@
   },
   "mediawiki": {
     "type": "prose",
+    "color": "#fc5757",
     "wrap": true,
     "extensions": [
       ".mediawiki",
@@ -11818,6 +12017,7 @@
   },
   "wiki": {
     "type": "prose",
+    "color": "#fc5757",
     "wrap": true,
     "extensions": [
       ".mediawiki",
@@ -11830,6 +12030,7 @@
   },
   "windows registry entries": {
     "type": "data",
+    "color": "#52d5ff",
     "extensions": [
       ".reg"
     ],
@@ -11851,6 +12052,7 @@
   },
   "world of warcraft addon data": {
     "type": "data",
+    "color": "#f7e43f",
     "extensions": [
       ".toc"
     ],
@@ -11965,6 +12167,7 @@
   },
   "xml": {
     "type": "data",
+    "color": "#0060ac",
     "tm_scope": "text.xml",
     "ace_mode": "xml",
     "codemirror_mode": "xml",
@@ -12087,6 +12290,7 @@
   },
   "rss": {
     "type": "data",
+    "color": "#0060ac",
     "tm_scope": "text.xml",
     "ace_mode": "xml",
     "codemirror_mode": "xml",
@@ -12209,6 +12413,7 @@
   },
   "xsd": {
     "type": "data",
+    "color": "#0060ac",
     "tm_scope": "text.xml",
     "ace_mode": "xml",
     "codemirror_mode": "xml",
@@ -12331,6 +12536,7 @@
   },
   "wsdl": {
     "type": "data",
+    "color": "#0060ac",
     "tm_scope": "text.xml",
     "ace_mode": "xml",
     "codemirror_mode": "xml",
@@ -12453,6 +12659,7 @@
   },
   "xml property list": {
     "type": "data",
+    "color": "#0060ac",
     "group": "XML",
     "extensions": [
       ".plist",
@@ -12548,6 +12755,7 @@
   },
   "xojo": {
     "type": "programming",
+    "color": "#81bd41",
     "extensions": [
       ".xojo_code",
       ".xojo_menu",
@@ -12574,6 +12782,7 @@
   },
   "xtend": {
     "type": "programming",
+    "color": "#24255d",
     "extensions": [
       ".xtend"
     ],
@@ -12773,6 +12982,7 @@
   },
   "zimpl": {
     "type": "programming",
+    "color": "#d67711",
     "extensions": [
       ".zimpl",
       ".zmpl",
@@ -12855,6 +13065,7 @@
   },
   "fish": {
     "type": "programming",
+    "color": "#4aae47",
     "group": "Shell",
     "interpreters": [
       "fish"
@@ -12898,6 +13109,7 @@
   },
   "mupad": {
     "type": "programming",
+    "color": "#244963",
     "extensions": [
       ".mu"
     ],
@@ -12907,6 +13119,7 @@
   },
   "nanorc": {
     "type": "data",
+    "color": "#2d004d",
     "group": "INI",
     "extensions": [
       ".nanorc"
@@ -12951,6 +13164,7 @@
   },
   "restructuredtext": {
     "type": "prose",
+    "color": "#141414",
     "wrap": true,
     "extensions": [
       ".rst",
@@ -12966,6 +13180,7 @@
   },
   "rst": {
     "type": "prose",
+    "color": "#141414",
     "wrap": true,
     "extensions": [
       ".rst",
