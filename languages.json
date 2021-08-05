@@ -2422,7 +2422,7 @@
       ".ecl",
       ".eclxml"
     ],
-    "tm_scope": "none",
+    "tm_scope": "source.ecl",
     "ace_mode": "text",
     "codemirror_mode": "ecl",
     "codemirror_mime_type": "text/x-ecl",
@@ -4505,8 +4505,11 @@
     ],
     "filenames": [
       ".arcconfig",
+      ".auto-changelog",
+      ".c8rc",
       ".htmlhintrc",
       ".imgbotconfig",
+      ".nycrc",
       ".tern-config",
       ".tern-project",
       ".watchmanconfig",
