@@ -3469,6 +3469,66 @@
     "codemirror_mime_type": "text/x-go",
     "language_id": 132
   },
+  "go checksums": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go.sum": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go sum": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go module": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.mod"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 947461016
+  },
+  "go.mod": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.mod"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 947461016
+  },
+  "go mod": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.mod"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 947461016
+  },
   "golo": {
     "type": "programming",
     "color": "#88562A",
@@ -11121,14 +11181,11 @@
       "LICENSE",
       "LICENSE.mysql",
       "NEWS",
-      "README.1ST",
       "README.me",
       "README.mysql",
       "README.nss",
       "click.me",
       "delete.me",
-      "go.mod",
-      "go.sum",
       "keep.me",
       "package.mask",
       "package.use.mask",
@@ -11163,14 +11220,11 @@
       "LICENSE",
       "LICENSE.mysql",
       "NEWS",
-      "README.1ST",
       "README.me",
       "README.mysql",
       "README.nss",
       "click.me",
       "delete.me",
-      "go.mod",
-      "go.sum",
       "keep.me",
       "package.mask",
       "package.use.mask",
@@ -11205,14 +11259,11 @@
       "LICENSE",
       "LICENSE.mysql",
       "NEWS",
-      "README.1ST",
       "README.me",
       "README.mysql",
       "README.nss",
       "click.me",
       "delete.me",
-      "go.mod",
-      "go.sum",
       "keep.me",
       "package.mask",
       "package.use.mask",
