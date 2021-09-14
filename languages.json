@@ -4930,6 +4930,18 @@
     "codemirror_mime_type": "application/javascript",
     "language_id": 914318960
   },
+  "jest snapshot": {
+    "type": "data",
+    "color": "#15c213",
+    "tm_scope": "source.jest.snap",
+    "extensions": [
+      ".snap"
+    ],
+    "ace_mode": "javascript",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/javascript",
+    "language_id": 774635084
+  },
   "jinja": {
     "type": "markup",
     "color": "#a52a22",
