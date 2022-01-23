@@ -35,6 +35,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./data
-        cname: languages.ranna.zekro.de
+        cname: languages.ranna.dev
         user_name: 'Pages Auto Deploy'
         user_email: 'autodeploy@example.com' 
