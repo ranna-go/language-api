@@ -1178,6 +1178,7 @@
       ".inl",
       ".ino",
       ".ipp",
+      ".ixx",
       ".re",
       ".tcc",
       ".tpp"
@@ -1206,6 +1207,7 @@
       ".inl",
       ".ino",
       ".ipp",
+      ".ixx",
       ".re",
       ".tcc",
       ".tpp"
@@ -2299,6 +2301,23 @@
       ".dockerfile"
     ],
     "filenames": [
+      "Containerfile",
+      "Dockerfile"
+    ],
+    "ace_mode": "dockerfile",
+    "codemirror_mode": "dockerfile",
+    "codemirror_mime_type": "text/x-dockerfile",
+    "language_id": 89
+  },
+  "Containerfile": {
+    "type": "programming",
+    "color": "#384d54",
+    "tm_scope": "source.dockerfile",
+    "extensions": [
+      ".dockerfile"
+    ],
+    "filenames": [
+      "Containerfile",
       "Dockerfile"
     ],
     "ace_mode": "dockerfile",
@@ -2445,6 +2464,7 @@
     "extensions": [
       ".ejs",
       ".ect",
+      ".ejs.t",
       ".jst"
     ],
     "tm_scope": "text.html.js",
@@ -2474,6 +2494,16 @@
     "codemirror_mode": "xml",
     "codemirror_mime_type": "text/xml",
     "language_id": 97
+  },
+  "earthly": {
+    "type": "programming",
+    "color": "#2af0ff",
+    "tm_scope": "source.earthfile",
+    "ace_mode": "text",
+    "filenames": [
+      "Earthfile"
+    ],
+    "language_id": 963512632
   },
   "easybuild": {
     "type": "data",
@@ -3104,6 +3134,8 @@
       ".glslv",
       ".gs",
       ".gshader",
+      ".rchit",
+      ".rmiss",
       ".shader",
       ".tesc",
       ".tese",
@@ -3829,6 +3861,7 @@
     "group": "HTML",
     "extensions": [
       ".eex",
+      ".html.heex",
       ".html.leex"
     ],
     "ace_mode": "text",
@@ -3843,6 +3876,22 @@
     "group": "HTML",
     "extensions": [
       ".eex",
+      ".html.heex",
+      ".html.leex"
+    ],
+    "ace_mode": "text",
+    "codemirror_mode": "htmlmixed",
+    "codemirror_mime_type": "text/html",
+    "language_id": 149
+  },
+  "heex": {
+    "type": "markup",
+    "color": "#6e4a7e",
+    "tm_scope": "text.html.elixir",
+    "group": "HTML",
+    "extensions": [
+      ".eex",
+      ".html.heex",
       ".html.leex"
     ],
     "ace_mode": "text",
@@ -3857,6 +3906,7 @@
     "group": "HTML",
     "extensions": [
       ".eex",
+      ".html.heex",
       ".html.leex"
     ],
     "ace_mode": "text",
@@ -4204,6 +4254,7 @@
       ".properties"
     ],
     "filenames": [
+      ".flake8",
       "buildozer.spec"
     ],
     "tm_scope": "source.ini",
@@ -4225,6 +4276,7 @@
       ".properties"
     ],
     "filenames": [
+      ".flake8",
       "buildozer.spec"
     ],
     "tm_scope": "source.ini",
@@ -6450,6 +6502,16 @@
     "ace_mode": "text",
     "language_id": 238
   },
+  "motoko": {
+    "type": "programming",
+    "color": "#fbb03b",
+    "extensions": [
+      ".mo"
+    ],
+    "tm_scope": "source.mo",
+    "ace_mode": "text",
+    "language_id": 202937027
+  },
   "motorola 68k assembly": {
     "type": "programming",
     "color": "#005daa",
@@ -7974,6 +8036,16 @@
     "tm_scope": "source.prolog",
     "ace_mode": "prolog",
     "language_id": 295
+  },
+  "promela": {
+    "type": "programming",
+    "color": "#de0000",
+    "tm_scope": "source.promela",
+    "ace_mode": "text",
+    "extensions": [
+      ".pml"
+    ],
+    "language_id": 441858312
   },
   "propeller spin": {
     "type": "programming",
@@ -10211,6 +10283,7 @@
       ".env",
       ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -10226,6 +10299,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -10279,6 +10353,7 @@
       ".env",
       ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -10294,6 +10369,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -10347,6 +10423,7 @@
       ".env",
       ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -10362,6 +10439,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -10415,6 +10493,7 @@
       ".env",
       ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -10430,6 +10509,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -10483,6 +10563,7 @@
       ".env",
       ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -10498,6 +10579,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -10523,6 +10605,30 @@
     "codemirror_mode": "shell",
     "codemirror_mime_type": "text/x-sh",
     "language_id": 346
+  },
+  "shellcheck config": {
+    "type": "data",
+    "color": "#cecfcb",
+    "filenames": [
+      ".shellcheckrc"
+    ],
+    "tm_scope": "source.shellcheckrc",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 687511714
+  },
+  "shellcheckrc": {
+    "type": "data",
+    "color": "#cecfcb",
+    "filenames": [
+      ".shellcheckrc"
+    ],
+    "tm_scope": "source.shellcheckrc",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 687511714
   },
   "shellsession": {
     "type": "programming",
@@ -11184,6 +11290,8 @@
       ".no"
     ],
     "filenames": [
+      "CITATION",
+      "CITATIONS",
       "COPYING",
       "COPYING.regex",
       "COPYRIGHT.regex",
@@ -11223,6 +11331,8 @@
       ".no"
     ],
     "filenames": [
+      "CITATION",
+      "CITATIONS",
       "COPYING",
       "COPYING.regex",
       "COPYRIGHT.regex",
@@ -11262,6 +11372,8 @@
       ".no"
     ],
     "filenames": [
+      "CITATION",
+      "CITATIONS",
       "COPYING",
       "COPYING.regex",
       "COPYRIGHT.regex",
@@ -11740,6 +11852,7 @@
     "extensions": [
       ".vim",
       ".vba",
+      ".vimrc",
       ".vmb"
     ],
     "filenames": [
@@ -11762,6 +11875,7 @@
     "extensions": [
       ".vim",
       ".vba",
+      ".vimrc",
       ".vmb"
     ],
     "filenames": [
@@ -11784,6 +11898,7 @@
     "extensions": [
       ".vim",
       ".vba",
+      ".vimrc",
       ".vmb"
     ],
     "filenames": [
@@ -11806,6 +11921,7 @@
     "extensions": [
       ".vim",
       ".vba",
+      ".vimrc",
       ".vmb"
     ],
     "filenames": [
@@ -12289,6 +12405,7 @@
       ".gmx",
       ".grxml",
       ".gst",
+      ".hzp",
       ".iml",
       ".ivy",
       ".jelly",
@@ -12412,6 +12529,7 @@
       ".gmx",
       ".grxml",
       ".gst",
+      ".hzp",
       ".iml",
       ".ivy",
       ".jelly",
@@ -12535,6 +12653,7 @@
       ".gmx",
       ".grxml",
       ".gst",
+      ".hzp",
       ".iml",
       ".ivy",
       ".jelly",
@@ -12658,6 +12777,7 @@
       ".gmx",
       ".grxml",
       ".gst",
+      ".hzp",
       ".iml",
       ".ivy",
       ".jelly",
@@ -12897,6 +13017,7 @@
       ".clang-format",
       ".clang-tidy",
       ".gemrc",
+      "CITATION.cff",
       "glide.lock",
       "yarn.lock"
     ],
@@ -12925,6 +13046,7 @@
       ".clang-format",
       ".clang-tidy",
       ".gemrc",
+      "CITATION.cff",
       "glide.lock",
       "yarn.lock"
     ],
