@@ -1503,6 +1503,16 @@
     "tm_scope": "source.clarion",
     "language_id": 59
   },
+  "clarity": {
+    "type": "programming",
+    "color": "#5546ff",
+    "ace_mode": "lisp",
+    "extensions": [
+      ".clar"
+    ],
+    "tm_scope": "source.clar",
+    "language_id": 91493841
+  },
   "classic asp": {
     "type": "programming",
     "color": "#6a40fd",
@@ -2037,6 +2047,16 @@
     "ace_mode": "text",
     "language_id": 942714150
   },
+  "curry": {
+    "type": "programming",
+    "color": "#531242",
+    "extensions": [
+      ".curry"
+    ],
+    "tm_scope": "source.curry",
+    "ace_mode": "haskell",
+    "language_id": 439829048
+  },
   "cycript": {
     "type": "programming",
     "extensions": [
@@ -2496,6 +2516,16 @@
     "language_id": 97
   },
   "earthly": {
+    "type": "programming",
+    "color": "#2af0ff",
+    "tm_scope": "source.earthfile",
+    "ace_mode": "text",
+    "filenames": [
+      "Earthfile"
+    ],
+    "language_id": 963512632
+  },
+  "Earthfile": {
     "type": "programming",
     "color": "#2af0ff",
     "tm_scope": "source.earthfile",
@@ -3437,6 +3467,16 @@
     "codemirror_mime_type": "text/x-properties",
     "tm_scope": "source.gitconfig",
     "language_id": 807968997
+  },
+  "gleam": {
+    "type": "programming",
+    "color": "#ffaff3",
+    "ace_mode": "text",
+    "extensions": [
+      ".gleam"
+    ],
+    "tm_scope": "source.gleam",
+    "language_id": 1054258749
   },
   "glyph": {
     "type": "programming",
@@ -4760,6 +4800,21 @@
     ],
     "tm_scope": "source.jsoniq",
     "language_id": 177
+  },
+  "janet": {
+    "type": "programming",
+    "color": "#0886a5",
+    "extensions": [
+      ".janet"
+    ],
+    "tm_scope": "source.janet",
+    "ace_mode": "scheme",
+    "codemirror_mode": "scheme",
+    "codemirror_mime_type": "text/x-scheme",
+    "interpreters": [
+      "janet"
+    ],
+    "language_id": 1028705371
   },
   "jasmin": {
     "type": "programming",
@@ -6407,6 +6462,16 @@
     "ace_mode": "text",
     "language_id": 231
   },
+  "mint": {
+    "type": "programming",
+    "extensions": [
+      ".mint"
+    ],
+    "ace_mode": "text",
+    "color": "#02b046",
+    "tm_scope": "source.mint",
+    "language_id": 968740319
+  },
   "mirah": {
     "type": "programming",
     "color": "#c7a938",
@@ -8011,6 +8076,16 @@
     "ace_mode": "text",
     "language_id": 294
   },
+  "procfile": {
+    "type": "programming",
+    "color": "#3B2F63",
+    "filenames": [
+      "Procfile"
+    ],
+    "tm_scope": "source.procfile",
+    "ace_mode": "batchfile",
+    "language_id": 305313959
+  },
   "proguard": {
     "type": "data",
     "extensions": [
@@ -8089,6 +8164,36 @@
     "codemirror_mode": "protobuf",
     "codemirror_mime_type": "text/x-protobuf",
     "language_id": 297
+  },
+  "protocol buffer text format": {
+    "type": "data",
+    "extensions": [
+      ".textproto",
+      ".pbtxt"
+    ],
+    "tm_scope": "source.textproto",
+    "ace_mode": "text",
+    "language_id": 436568854
+  },
+  "text proto": {
+    "type": "data",
+    "extensions": [
+      ".textproto",
+      ".pbtxt"
+    ],
+    "tm_scope": "source.textproto",
+    "ace_mode": "text",
+    "language_id": 436568854
+  },
+  "protobuf text format": {
+    "type": "data",
+    "extensions": [
+      ".textproto",
+      ".pbtxt"
+    ],
+    "tm_scope": "source.textproto",
+    "ace_mode": "text",
+    "language_id": 436568854
   },
   "public key": {
     "type": "data",
@@ -8587,6 +8692,39 @@
     ],
     "tm_scope": "source.c",
     "language_id": 1031374237
+  },
+  "rpgle": {
+    "type": "programming",
+    "ace_mode": "text",
+    "color": "#2BDE21",
+    "extensions": [
+      ".rpgle",
+      ".sqlrpgle"
+    ],
+    "tm_scope": "source.rpgle",
+    "language_id": 609977990
+  },
+  "ile rpg": {
+    "type": "programming",
+    "ace_mode": "text",
+    "color": "#2BDE21",
+    "extensions": [
+      ".rpgle",
+      ".sqlrpgle"
+    ],
+    "tm_scope": "source.rpgle",
+    "language_id": 609977990
+  },
+  "sqlrpgle": {
+    "type": "programming",
+    "ace_mode": "text",
+    "color": "#2BDE21",
+    "extensions": [
+      ".rpgle",
+      ".sqlrpgle"
+    ],
+    "tm_scope": "source.rpgle",
+    "language_id": 609977990
   },
   "rpm spec": {
     "type": "data",
@@ -10271,7 +10409,8 @@
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
@@ -10341,7 +10480,8 @@
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
@@ -10411,7 +10551,8 @@
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
@@ -10481,7 +10622,8 @@
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
@@ -10551,7 +10693,8 @@
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
@@ -13227,7 +13370,8 @@
     "type": "data",
     "extensions": [
       ".desktop",
-      ".desktop.in"
+      ".desktop.in",
+      ".service"
     ],
     "tm_scope": "source.desktop",
     "ace_mode": "text",
@@ -13285,6 +13429,16 @@
     "tm_scope": "source.fish",
     "ace_mode": "text",
     "language_id": 415
+  },
+  "hoon": {
+    "type": "programming",
+    "color": "#00b171",
+    "tm_scope": "source.hoon",
+    "ace_mode": "text",
+    "extensions": [
+      ".hoon"
+    ],
+    "language_id": 560883276
   },
   "jq": {
     "color": "#c7254e",
