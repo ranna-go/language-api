@@ -3196,6 +3196,20 @@
     "codemirror_mime_type": "text/x-python",
     "language_id": 302957008
   },
+  "gsc": {
+    "type": "programming",
+    "color": "#FF6800",
+    "extensions": [
+      ".gsc",
+      ".csc",
+      ".gsh"
+    ],
+    "tm_scope": "source.gsc",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 257856279
+  },
   "game maker language": {
     "type": "programming",
     "color": "#71b417",
@@ -4394,6 +4408,7 @@
       ".npmignore",
       ".prettierignore",
       ".stylelintignore",
+      ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
@@ -4426,6 +4441,7 @@
       ".npmignore",
       ".prettierignore",
       ".stylelintignore",
+      ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
@@ -4458,6 +4474,7 @@
       ".npmignore",
       ".prettierignore",
       ".stylelintignore",
+      ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
@@ -4490,6 +4507,7 @@
       ".npmignore",
       ".prettierignore",
       ".stylelintignore",
+      ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
@@ -8169,6 +8187,7 @@
     "type": "data",
     "extensions": [
       ".textproto",
+      ".pbt",
       ".pbtxt"
     ],
     "tm_scope": "source.textproto",
@@ -8179,6 +8198,7 @@
     "type": "data",
     "extensions": [
       ".textproto",
+      ".pbt",
       ".pbtxt"
     ],
     "tm_scope": "source.textproto",
@@ -8189,6 +8209,7 @@
     "type": "data",
     "extensions": [
       ".textproto",
+      ".pbt",
       ".pbtxt"
     ],
     "tm_scope": "source.textproto",
@@ -12385,6 +12406,16 @@
     "codemirror_mode": "properties",
     "codemirror_mime_type": "text/x-properties",
     "language_id": 969674868
+  },
+  "witcher script": {
+    "type": "programming",
+    "color": "#ff0000",
+    "extensions": [
+      ".ws"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.witcherscript",
+    "language_id": 686821385
   },
   "wollok": {
     "type": "programming",
