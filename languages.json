@@ -10,6 +10,16 @@
     "ace_mode": "text",
     "language_id": 0
   },
+  "2-dimensional array": {
+    "type": "data",
+    "color": "#38761D",
+    "extensions": [
+      ".2da"
+    ],
+    "tm_scope": "source.2da",
+    "ace_mode": "text",
+    "language_id": 387204628
+  },
   "4d": {
     "type": "programming",
     "color": "#004289",
@@ -5544,6 +5554,18 @@
     "codemirror_mime_type": "text/css",
     "language_id": 198
   },
+  "less-css": {
+    "type": "markup",
+    "color": "#1d365d",
+    "extensions": [
+      ".less"
+    ],
+    "tm_scope": "source.css.less",
+    "ace_mode": "less",
+    "codemirror_mode": "css",
+    "codemirror_mime_type": "text/css",
+    "language_id": 198
+  },
   "lex": {
     "type": "programming",
     "color": "#DBCA00",
@@ -6481,6 +6503,18 @@
     "tm_scope": "none",
     "ace_mode": "text",
     "language_id": 231
+  },
+  "miniyaml": {
+    "type": "data",
+    "color": "#ff1111",
+    "tm_scope": "source.miniyaml",
+    "extensions": [
+      ".yaml"
+    ],
+    "ace_mode": "yaml",
+    "codemirror_mode": "yaml",
+    "codemirror_mime_type": "text/x-yaml",
+    "language_id": 4896465
   },
   "mint": {
     "type": "programming",
@@ -9708,6 +9742,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9772,6 +9807,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9836,6 +9872,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9900,6 +9937,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9964,6 +10002,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -10028,6 +10067,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -12566,6 +12606,7 @@
       ".adml",
       ".admx",
       ".ant",
+      ".axaml",
       ".axml",
       ".builds",
       ".ccproj",
@@ -12690,6 +12731,7 @@
       ".adml",
       ".admx",
       ".ant",
+      ".axaml",
       ".axml",
       ".builds",
       ".ccproj",
@@ -12814,6 +12856,7 @@
       ".adml",
       ".admx",
       ".ant",
+      ".axaml",
       ".axml",
       ".builds",
       ".ccproj",
@@ -12938,6 +12981,7 @@
       ".adml",
       ".admx",
       ".ant",
+      ".axaml",
       ".axml",
       ".builds",
       ".ccproj",
