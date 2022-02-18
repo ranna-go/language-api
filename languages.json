@@ -2277,6 +2277,28 @@
     "tm_scope": "source.data-weave",
     "language_id": 974514097
   },
+  "debian package control file": {
+    "type": "data",
+    "color": "#D70751",
+    "extensions": [
+      ".dsc"
+    ],
+    "tm_scope": "source.deb-control",
+    "ace_mode": "text",
+    "language_id": 527438264
+  },
+  "denizenscript": {
+    "type": "programming",
+    "color": "#FBEE96",
+    "ace_mode": "yaml",
+    "codemirror_mode": "yaml",
+    "codemirror_mime_type": "text/x-yaml",
+    "extensions": [
+      ".dsc"
+    ],
+    "tm_scope": "source.denizenscript",
+    "language_id": 435000929
+  },
   "dhall": {
     "type": "programming",
     "color": "#dfafff",
