@@ -2406,7 +2406,7 @@
     "type": "programming",
     "color": "#ccce35",
     "extensions": [
-      ".E"
+      ".e"
     ],
     "interpreters": [
       "rune"
@@ -2788,6 +2788,21 @@
       "escript"
     ],
     "language_id": 104
+  },
+  "euphoria": {
+    "type": "programming",
+    "color": "#FF790B",
+    "extensions": [
+      ".e",
+      ".ex"
+    ],
+    "interpreters": [
+      "eui",
+      "euiw"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.euphoria",
+    "language_id": 880693982
   },
   "f#": {
     "type": "programming",
@@ -13558,6 +13573,16 @@
     ],
     "tm_scope": "source.jq",
     "language_id": 905371884
+  },
+  "kvlang": {
+    "type": "markup",
+    "ace_mode": "text",
+    "extensions": [
+      ".kv"
+    ],
+    "color": "#1da6e0",
+    "tm_scope": "source.python.kivy",
+    "language_id": 970675279
   },
   "mirc script": {
     "type": "programming",
