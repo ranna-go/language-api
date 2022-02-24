@@ -1414,6 +1414,16 @@
     "tm_scope": "source.cabal",
     "language_id": 677095381
   },
+  "cairo": {
+    "type": "programming",
+    "color": "#ff4a48",
+    "ace_mode": "text",
+    "tm_scope": "source.cairo",
+    "extensions": [
+      ".cairo"
+    ],
+    "language_id": 620599567
+  },
   "cap'n proto": {
     "type": "programming",
     "color": "#c42727",
