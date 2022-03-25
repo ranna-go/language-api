@@ -3290,6 +3290,26 @@
     ],
     "language_id": 907065713
   },
+  "genero": {
+    "type": "programming",
+    "color": "#63408e",
+    "extensions": [
+      ".4gl"
+    ],
+    "tm_scope": "source.genero",
+    "ace_mode": "text",
+    "language_id": 986054050
+  },
+  "genero forms": {
+    "type": "markup",
+    "color": "#d8df39",
+    "extensions": [
+      ".per"
+    ],
+    "tm_scope": "source.genero-forms",
+    "ace_mode": "text",
+    "language_id": 902995658
+  },
   "genie": {
     "type": "programming",
     "ace_mode": "text",
@@ -4975,7 +4995,9 @@
       ".jsb",
       ".jscad",
       ".jsfl",
+      ".jslib",
       ".jsm",
+      ".jspre",
       ".jss",
       ".jsx",
       ".mjs",
@@ -5024,7 +5046,9 @@
       ".jsb",
       ".jscad",
       ".jsfl",
+      ".jslib",
       ".jsm",
+      ".jspre",
       ".jss",
       ".jsx",
       ".mjs",
@@ -5073,7 +5097,9 @@
       ".jsb",
       ".jscad",
       ".jsfl",
+      ".jslib",
       ".jsm",
+      ".jspre",
       ".jss",
       ".jsx",
       ".mjs",
@@ -5918,7 +5944,8 @@
   "m4": {
     "type": "programming",
     "extensions": [
-      ".m4"
+      ".m4",
+      ".mc"
     ],
     "tm_scope": "source.m4",
     "ace_mode": "text",
@@ -6645,6 +6672,18 @@
     "ace_mode": "text",
     "tm_scope": "source.monkey",
     "language_id": 236
+  },
+  "monkey c": {
+    "type": "programming",
+    "color": "#8D6747",
+    "extensions": [
+      ".mc"
+    ],
+    "tm_scope": "source.mc",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 231751931
   },
   "moocode": {
     "type": "programming",
@@ -8756,6 +8795,7 @@
     "codemirror_mode": "gfm",
     "codemirror_mime_type": "text/x-gfm",
     "extensions": [
+      ".qmd",
       ".rmd"
     ],
     "tm_scope": "source.gfm",
@@ -12016,7 +12056,7 @@
   },
   "vala": {
     "type": "programming",
-    "color": "#fbe5cd",
+    "color": "#a56de2",
     "extensions": [
       ".vala",
       ".vapi"
@@ -12493,6 +12533,17 @@
     "tm_scope": "text.html.mediawiki",
     "ace_mode": "text",
     "language_id": 228
+  },
+  "win32 message file": {
+    "type": "data",
+    "extensions": [
+      ".mc"
+    ],
+    "tm_scope": "source.win32-messages",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 950967261
   },
   "windows registry entries": {
     "type": "data",
