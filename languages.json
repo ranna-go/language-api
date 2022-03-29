@@ -671,7 +671,7 @@
     "extensions": [
       ".astro"
     ],
-    "tm_scope": "text.html.astro",
+    "tm_scope": "source.astro",
     "ace_mode": "html",
     "codemirror_mode": "jsx",
     "codemirror_mime_type": "text/jsx",
@@ -889,6 +889,26 @@
     "tm_scope": "source.befunge",
     "ace_mode": "text",
     "language_id": 30
+  },
+  "berry": {
+    "type": "programming",
+    "extensions": [
+      ".be"
+    ],
+    "tm_scope": "source.berry",
+    "ace_mode": "text",
+    "color": "#15A13C",
+    "language_id": 121855308
+  },
+  "be": {
+    "type": "programming",
+    "extensions": [
+      ".be"
+    ],
+    "tm_scope": "source.berry",
+    "ace_mode": "text",
+    "color": "#15A13C",
+    "language_id": 121855308
   },
   "bibtex": {
     "type": "markup",
@@ -1413,6 +1433,16 @@
     "codemirror_mime_type": "text/x-haskell",
     "tm_scope": "source.cabal",
     "language_id": 677095381
+  },
+  "cadence": {
+    "type": "programming",
+    "color": "#00ef8b",
+    "ace_mode": "text",
+    "tm_scope": "source.cadence",
+    "extensions": [
+      ".cdc"
+    ],
+    "language_id": 270184138
   },
   "cairo": {
     "type": "programming",
@@ -4382,7 +4412,8 @@
       ".lektorproject",
       ".prefs",
       ".pro",
-      ".properties"
+      ".properties",
+      ".url"
     ],
     "filenames": [
       ".flake8",
@@ -4404,7 +4435,8 @@
       ".lektorproject",
       ".prefs",
       ".pro",
-      ".properties"
+      ".properties",
+      ".url"
     ],
     "filenames": [
       ".flake8",
