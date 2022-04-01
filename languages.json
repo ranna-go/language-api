@@ -1454,6 +1454,19 @@
     ],
     "language_id": 620599567
   },
+  "cameligo": {
+    "type": "programming",
+    "color": "#3be133",
+    "extensions": [
+      ".mligo"
+    ],
+    "tm_scope": "source.mligo",
+    "ace_mode": "ocaml",
+    "codemirror_mode": "mllike",
+    "codemirror_mime_type": "text/x-ocaml",
+    "group": "LigoLANG",
+    "language_id": 829207807
+  },
   "cap'n proto": {
     "type": "programming",
     "color": "#c42727",
@@ -5701,6 +5714,19 @@
     "ace_mode": "text",
     "language_id": 199
   },
+  "ligolang": {
+    "type": "programming",
+    "color": "#0e74ff",
+    "extensions": [
+      ".ligo"
+    ],
+    "tm_scope": "source.ligo",
+    "ace_mode": "pascal",
+    "codemirror_mode": "pascal",
+    "codemirror_mime_type": "text/x-pascal",
+    "group": "LigoLANG",
+    "language_id": 1040646257
+  },
   "lilypond": {
     "type": "programming",
     "color": "#9ccc7c",
@@ -9158,6 +9184,19 @@
     "tm_scope": "source.reason",
     "language_id": 869538413
   },
+  "reasonligo": {
+    "type": "programming",
+    "color": "#ff5847",
+    "ace_mode": "rust",
+    "codemirror_mode": "rust",
+    "codemirror_mime_type": "text/x-rustsrc",
+    "group": "LigoLANG",
+    "extensions": [
+      ".religo"
+    ],
+    "tm_scope": "source.religo",
+    "language_id": 319002153
+  },
   "rebol": {
     "type": "programming",
     "color": "#358a5b",
@@ -11472,6 +11511,16 @@
     "tm_scope": "source.txl",
     "ace_mode": "text",
     "language_id": 366
+  },
+  "talon": {
+    "type": "programming",
+    "ace_mode": "text",
+    "color": "#333333",
+    "extensions": [
+      ".talon"
+    ],
+    "tm_scope": "source.talon",
+    "language_id": 959889508
   },
   "tcl": {
     "type": "programming",
