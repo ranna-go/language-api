@@ -4854,6 +4854,7 @@
     ],
     "filenames": [
       ".babelrc",
+      ".devcontainer.json",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
@@ -4894,6 +4895,7 @@
     ],
     "filenames": [
       ".babelrc",
+      ".devcontainer.json",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
