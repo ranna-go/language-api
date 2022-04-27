@@ -5594,6 +5594,7 @@
     "color": "#fede06",
     "extensions": [
       ".lvproj",
+      ".lvclass",
       ".lvlib"
     ],
     "tm_scope": "text.xml",
@@ -13527,6 +13528,16 @@
     "ace_mode": "text",
     "color": "#4B6C4B",
     "language_id": 409
+  },
+  "yul": {
+    "type": "programming",
+    "color": "#794932",
+    "ace_mode": "text",
+    "tm_scope": "source.yul",
+    "extensions": [
+      ".yul"
+    ],
+    "language_id": 237469033
   },
   "zap": {
     "type": "programming",
