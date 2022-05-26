@@ -4429,8 +4429,11 @@
       ".url"
     ],
     "filenames": [
+      ".coveragerc",
       ".flake8",
-      "buildozer.spec"
+      ".pylintrc",
+      "buildozer.spec",
+      "pylintrc"
     ],
     "tm_scope": "source.ini",
     "ace_mode": "ini",
@@ -4452,8 +4455,11 @@
       ".url"
     ],
     "filenames": [
+      ".coveragerc",
       ".flake8",
-      "buildozer.spec"
+      ".pylintrc",
+      "buildozer.spec",
+      "pylintrc"
     ],
     "tm_scope": "source.ini",
     "ace_mode": "ini",
@@ -5199,6 +5205,34 @@
     "codemirror_mime_type": "application/javascript",
     "language_id": 774635084
   },
+  "jetbrains mps": {
+    "type": "programming",
+    "color": "#21D789",
+    "extensions": [
+      ".mps",
+      ".mpl",
+      ".msd"
+    ],
+    "ace_mode": "xml",
+    "codemirror_mode": "xml",
+    "codemirror_mime_type": "text/xml",
+    "tm_scope": "none",
+    "language_id": 465165328
+  },
+  "mps": {
+    "type": "programming",
+    "color": "#21D789",
+    "extensions": [
+      ".mps",
+      ".mpl",
+      ".msd"
+    ],
+    "ace_mode": "xml",
+    "codemirror_mode": "xml",
+    "codemirror_mime_type": "text/xml",
+    "tm_scope": "none",
+    "language_id": 465165328
+  },
   "jinja": {
     "type": "markup",
     "color": "#a52a22",
@@ -5482,6 +5516,7 @@
     "type": "data",
     "color": "#2f4aab",
     "extensions": [
+      ".kicad_sch",
       ".sch"
     ],
     "tm_scope": "source.pcb.schematic",
@@ -5492,6 +5527,7 @@
     "type": "data",
     "color": "#2f4aab",
     "extensions": [
+      ".kicad_sch",
       ".sch"
     ],
     "tm_scope": "source.pcb.schematic",
@@ -6318,6 +6354,7 @@
     "wrap": true,
     "extensions": [
       ".md",
+      ".livemd",
       ".markdown",
       ".mdown",
       ".mdwn",
@@ -6344,6 +6381,7 @@
     "wrap": true,
     "extensions": [
       ".md",
+      ".livemd",
       ".markdown",
       ".mdown",
       ".mdwn",
@@ -12578,6 +12616,16 @@
     "tm_scope": "source.wgetrc",
     "ace_mode": "text",
     "language_id": 668457123
+  },
+  "whiley": {
+    "type": "programming",
+    "color": "#d5c397",
+    "extensions": [
+      ".whiley"
+    ],
+    "tm_scope": "source.whiley",
+    "ace_mode": "text",
+    "language_id": 888779559
   },
   "wikitext": {
     "type": "prose",
