@@ -10637,9 +10637,39 @@
     "extensions": [
       ".star"
     ],
-    "tm_scope": "none",
+    "tm_scope": "source.star",
     "ace_mode": "text",
     "language_id": 424510560
+  },
+  "stl": {
+    "type": "data",
+    "color": "#373b5e",
+    "extensions": [
+      ".stl"
+    ],
+    "tm_scope": "source.stl",
+    "ace_mode": "text",
+    "language_id": 455361735
+  },
+  "ascii stl": {
+    "type": "data",
+    "color": "#373b5e",
+    "extensions": [
+      ".stl"
+    ],
+    "tm_scope": "source.stl",
+    "ace_mode": "text",
+    "language_id": 455361735
+  },
+  "stla": {
+    "type": "data",
+    "color": "#373b5e",
+    "extensions": [
+      ".stl"
+    ],
+    "tm_scope": "source.stl",
+    "ace_mode": "text",
+    "language_id": 455361735
   },
   "ston": {
     "type": "data",
