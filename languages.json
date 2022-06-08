@@ -491,6 +491,18 @@
     "codemirror_mime_type": "application/xml",
     "language_id": 15
   },
+  "antlers": {
+    "type": "markup",
+    "color": "#ff269e",
+    "extensions": [
+      ".antlers.html",
+      ".antlers.php",
+      ".antlers.xml"
+    ],
+    "tm_scope": "text.html.statamic",
+    "ace_mode": "text",
+    "language_id": 1067292663
+  },
   "apacheconf": {
     "type": "data",
     "color": "#d12127",
@@ -934,6 +946,18 @@
     "ace_mode": "text",
     "language_id": 321200902
   },
+  "bikeshed": {
+    "type": "markup",
+    "color": "#5562ac",
+    "extensions": [
+      ".bs"
+    ],
+    "tm_scope": "source.csswg",
+    "ace_mode": "html",
+    "codemirror_mode": "htmlmixed",
+    "codemirror_mime_type": "text/html",
+    "language_id": 1055528081
+  },
   "bison": {
     "type": "programming",
     "color": "#6A463F",
@@ -1087,13 +1111,23 @@
     "codemirror_mime_type": "text/x-brainfuck",
     "language_id": 38
   },
+  "brighterscript": {
+    "type": "programming",
+    "color": "#66AABB",
+    "extensions": [
+      ".bs"
+    ],
+    "tm_scope": "source.brs",
+    "ace_mode": "text",
+    "language_id": 943571030
+  },
   "brightscript": {
     "type": "programming",
     "color": "#662D91",
     "extensions": [
       ".brs"
     ],
-    "tm_scope": "source.brightscript",
+    "tm_scope": "source.brs",
     "ace_mode": "text",
     "language_id": 39
   },
@@ -3623,6 +3657,26 @@
     "codemirror_mime_type": "text/x-properties",
     "tm_scope": "source.gitconfig",
     "language_id": 807968997
+  },
+  "git revision list": {
+    "type": "data",
+    "color": "#F44D27",
+    "filenames": [
+      ".git-blame-ignore-revs"
+    ],
+    "tm_scope": "source.git-revlist",
+    "ace_mode": "text",
+    "language_id": 461881235
+  },
+  "Git Blame Ignore Revs": {
+    "type": "data",
+    "color": "#F44D27",
+    "filenames": [
+      ".git-blame-ignore-revs"
+    ],
+    "tm_scope": "source.git-revlist",
+    "ace_mode": "text",
+    "language_id": 461881235
   },
   "gleam": {
     "type": "programming",
@@ -6990,6 +7044,18 @@
     "tm_scope": "source.m68k",
     "ace_mode": "assembly_x86",
     "language_id": 477582706
+  },
+  "mule": {
+    "type": "programming",
+    "color": "#00a1df",
+    "tm_scope": "text.xml",
+    "ace_mode": "xml",
+    "codemirror_mode": "xml",
+    "codemirror_mime_type": "application/xml",
+    "extensions": [
+      ".xml"
+    ],
+    "language_id": 213085803
   },
   "muse": {
     "type": "prose",
@@ -11729,7 +11795,7 @@
   },
   "tsx": {
     "type": "programming",
-    "color": "#2b7489",
+    "color": "#3178c6",
     "group": "TypeScript",
     "extensions": [
       ".tsx"
@@ -12115,13 +12181,15 @@
   },
   "typescript": {
     "type": "programming",
-    "color": "#2b7489",
+    "color": "#3178c6",
     "interpreters": [
       "deno",
       "ts-node"
     ],
     "extensions": [
-      ".ts"
+      ".ts",
+      ".cts",
+      ".mts"
     ],
     "tm_scope": "source.ts",
     "ace_mode": "typescript",
@@ -12131,13 +12199,15 @@
   },
   "ts": {
     "type": "programming",
-    "color": "#2b7489",
+    "color": "#3178c6",
     "interpreters": [
       "deno",
       "ts-node"
     ],
     "extensions": [
-      ".ts"
+      ".ts",
+      ".cts",
+      ".mts"
     ],
     "tm_scope": "source.ts",
     "ace_mode": "typescript",
@@ -12177,6 +12247,39 @@
     "language_id": 380
   },
   "unix assembly": {
+    "type": "programming",
+    "group": "Assembly",
+    "extensions": [
+      ".s",
+      ".ms"
+    ],
+    "tm_scope": "source.x86",
+    "ace_mode": "assembly_x86",
+    "language_id": 120
+  },
+  "gas": {
+    "type": "programming",
+    "group": "Assembly",
+    "extensions": [
+      ".s",
+      ".ms"
+    ],
+    "tm_scope": "source.x86",
+    "ace_mode": "assembly_x86",
+    "language_id": 120
+  },
+  "gnu asm": {
+    "type": "programming",
+    "group": "Assembly",
+    "extensions": [
+      ".s",
+      ".ms"
+    ],
+    "tm_scope": "source.x86",
+    "ace_mode": "assembly_x86",
+    "language_id": 120
+  },
+  "unix asm": {
     "type": "programming",
     "group": "Assembly",
     "extensions": [
