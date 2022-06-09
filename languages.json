@@ -1588,6 +1588,186 @@
     "ace_mode": "text",
     "language_id": 56
   },
+  "checksums": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "checksum": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "hash": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "hashes": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "sum": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "sums": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
   "chuck": {
     "type": "programming",
     "color": "#3f8000",
@@ -1680,6 +1860,7 @@
     "color": "#db5855",
     "extensions": [
       ".clj",
+      ".bb",
       ".boot",
       ".cl2",
       ".cljc",
@@ -1691,6 +1872,9 @@
     ],
     "filenames": [
       "riemann.config"
+    ],
+    "interpreters": [
+      "bb"
     ],
     "language_id": 62
   },
@@ -4877,6 +5061,8 @@
     "codemirror_mime_type": "application/json",
     "extensions": [
       ".json",
+      ".4DForm",
+      ".4DProject",
       ".avsc",
       ".geojson",
       ".gltf",
@@ -4918,6 +5104,8 @@
     "codemirror_mime_type": "application/json",
     "extensions": [
       ".json",
+      ".4DForm",
+      ".4DProject",
       ".avsc",
       ".geojson",
       ".gltf",
@@ -4959,6 +5147,8 @@
     "codemirror_mime_type": "application/json",
     "extensions": [
       ".json",
+      ".4DForm",
+      ".4DProject",
       ".avsc",
       ".geojson",
       ".gltf",
@@ -5000,6 +5190,8 @@
     "codemirror_mime_type": "application/json",
     "extensions": [
       ".json",
+      ".4DForm",
+      ".4DProject",
       ".avsc",
       ".geojson",
       ".gltf",
