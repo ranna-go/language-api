@@ -7237,18 +7237,6 @@
     "ace_mode": "assembly_x86",
     "language_id": 477582706
   },
-  "mule": {
-    "type": "programming",
-    "color": "#00a1df",
-    "tm_scope": "text.xml",
-    "ace_mode": "xml",
-    "codemirror_mode": "xml",
-    "codemirror_mime_type": "application/xml",
-    "extensions": [
-      ".xml"
-    ],
-    "language_id": 213085803
-  },
   "muse": {
     "type": "prose",
     "extensions": [
