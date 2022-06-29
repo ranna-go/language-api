@@ -643,6 +643,7 @@
       ".a51",
       ".i",
       ".inc",
+      ".nas",
       ".nasm"
     ],
     "tm_scope": "source.assembly",
@@ -657,6 +658,7 @@
       ".a51",
       ".i",
       ".inc",
+      ".nas",
       ".nasm"
     ],
     "tm_scope": "source.assembly",
@@ -671,6 +673,7 @@
       ".a51",
       ".i",
       ".inc",
+      ".nas",
       ".nasm"
     ],
     "tm_scope": "source.assembly",
@@ -7390,6 +7393,16 @@
     "codemirror_mime_type": "text/x-csrc",
     "language_id": 731233819
   },
+  "nasal": {
+    "type": "programming",
+    "color": "#1d2c4e",
+    "extensions": [
+      ".nas"
+    ],
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "language_id": 178322513
+  },
   "nearley": {
     "type": "programming",
     "ace_mode": "text",
@@ -13208,6 +13221,26 @@
     "tm_scope": "source.toc",
     "ace_mode": "text",
     "language_id": 396
+  },
+  "wren": {
+    "type": "programming",
+    "color": "#383838",
+    "extensions": [
+      ".wren"
+    ],
+    "tm_scope": "source.wren",
+    "ace_mode": "text",
+    "language_id": 713580619
+  },
+  "wrenlang": {
+    "type": "programming",
+    "color": "#383838",
+    "extensions": [
+      ".wren"
+    ],
+    "tm_scope": "source.wren",
+    "ace_mode": "text",
+    "language_id": 713580619
   },
   "x bitmap": {
     "type": "data",
