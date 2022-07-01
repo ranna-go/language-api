@@ -7240,6 +7240,16 @@
     "ace_mode": "assembly_x86",
     "language_id": 477582706
   },
+  "move": {
+    "type": "programming",
+    "color": "#4a137a",
+    "extensions": [
+      ".move"
+    ],
+    "tm_scope": "source.move",
+    "ace_mode": "text",
+    "language_id": 638334599
+  },
   "muse": {
     "type": "prose",
     "extensions": [
@@ -10296,6 +10306,19 @@
     ],
     "tm_scope": "source.clojure",
     "language_id": 325
+  },
+  "routeros script": {
+    "type": "programming",
+    "ace_mode": "text",
+    "extensions": [
+      ".rsc"
+    ],
+    "interpreters": [
+      "RouterOS"
+    ],
+    "color": "#DE3941",
+    "tm_scope": "none",
+    "language_id": 592853203
   },
   "ruby": {
     "type": "programming",
