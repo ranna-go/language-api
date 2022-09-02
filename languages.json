@@ -330,6 +330,56 @@
     "ace_mode": "ada",
     "language_id": 11
   },
+  "adblock filter list": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
+  "ad block filters": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
+  "ad block": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
+  "adb": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
+  "adblock": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
   "adobe font metrics": {
     "type": "data",
     "color": "#fa0f00",
