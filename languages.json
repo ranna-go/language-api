@@ -8159,6 +8159,45 @@
     "ace_mode": "text",
     "language_id": 374317347
   },
+  "option list": {
+    "type": "data",
+    "color": "#476732",
+    "filenames": [
+      ".ackrc",
+      "ackrc"
+    ],
+    "tm_scope": "source.opts",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 723589315
+  },
+  "opts": {
+    "type": "data",
+    "color": "#476732",
+    "filenames": [
+      ".ackrc",
+      "ackrc"
+    ],
+    "tm_scope": "source.opts",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 723589315
+  },
+  "ackrc": {
+    "type": "data",
+    "color": "#476732",
+    "filenames": [
+      ".ackrc",
+      "ackrc"
+    ],
+    "tm_scope": "source.opts",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 723589315
+  },
   "org": {
     "type": "prose",
     "color": "#77aa99",
@@ -8545,10 +8584,12 @@
       ".t"
     ],
     "filenames": [
+      ".latexmkrc",
       "Makefile.PL",
       "Rexfile",
       "ack",
-      "cpanfile"
+      "cpanfile",
+      "latexmkrc"
     ],
     "interpreters": [
       "cperl",
@@ -8576,10 +8617,12 @@
       ".t"
     ],
     "filenames": [
+      ".latexmkrc",
       "Makefile.PL",
       "Rexfile",
       "ack",
-      "cpanfile"
+      "cpanfile",
+      "latexmkrc"
     ],
     "interpreters": [
       "cperl",
@@ -11663,6 +11706,32 @@
     "codemirror_mode": "sieve",
     "codemirror_mime_type": "application/sieve",
     "language_id": 208976687
+  },
+  "simple file verification": {
+    "type": "data",
+    "group": "Checksums",
+    "color": "#C9BFED",
+    "extensions": [
+      ".sfv"
+    ],
+    "tm_scope": "source.sfv",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 735623761
+  },
+  "sfv": {
+    "type": "data",
+    "group": "Checksums",
+    "color": "#C9BFED",
+    "extensions": [
+      ".sfv"
+    ],
+    "tm_scope": "source.sfv",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 735623761
   },
   "singularity": {
     "type": "programming",
