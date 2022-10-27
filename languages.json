@@ -5200,6 +5200,7 @@
       ".yyp"
     ],
     "filenames": [
+      ".all-contributorsrc",
       ".arcconfig",
       ".auto-changelog",
       ".c8rc",
@@ -5243,6 +5244,7 @@
       ".yyp"
     ],
     "filenames": [
+      ".all-contributorsrc",
       ".arcconfig",
       ".auto-changelog",
       ".c8rc",
@@ -5286,6 +5288,7 @@
       ".yyp"
     ],
     "filenames": [
+      ".all-contributorsrc",
       ".arcconfig",
       ".auto-changelog",
       ".c8rc",
@@ -5329,6 +5332,7 @@
       ".yyp"
     ],
     "filenames": [
+      ".all-contributorsrc",
       ".arcconfig",
       ".auto-changelog",
       ".c8rc",
@@ -7142,6 +7146,28 @@
     "tm_scope": "source.mercury",
     "language_id": 229
   },
+  "mermaid": {
+    "type": "markup",
+    "color": "#ff3670",
+    "extensions": [
+      ".mmd",
+      ".mermaid"
+    ],
+    "tm_scope": "source.mermaid",
+    "ace_mode": "text",
+    "language_id": 385992043
+  },
+  "mermaid example": {
+    "type": "markup",
+    "color": "#ff3670",
+    "extensions": [
+      ".mmd",
+      ".mermaid"
+    ],
+    "tm_scope": "source.mermaid",
+    "ace_mode": "text",
+    "language_id": 385992043
+  },
   "meson": {
     "type": "programming",
     "color": "#007800",
@@ -8269,7 +8295,8 @@
     "color": "#476732",
     "filenames": [
       ".ackrc",
-      "ackrc"
+      "ackrc",
+      "mocha.opts"
     ],
     "tm_scope": "source.opts",
     "ace_mode": "sh",
@@ -8282,7 +8309,8 @@
     "color": "#476732",
     "filenames": [
       ".ackrc",
-      "ackrc"
+      "ackrc",
+      "mocha.opts"
     ],
     "tm_scope": "source.opts",
     "ace_mode": "sh",
@@ -8295,7 +8323,8 @@
     "color": "#476732",
     "filenames": [
       ".ackrc",
-      "ackrc"
+      "ackrc",
+      "mocha.opts"
     ],
     "tm_scope": "source.opts",
     "ace_mode": "sh",
