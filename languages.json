@@ -2949,10 +2949,39 @@
     "codemirror_mime_type": "application/json",
     "language_id": 98
   },
+  "ecmarkup": {
+    "type": "markup",
+    "color": "#eb8131",
+    "group": "HTML",
+    "extensions": [
+      ".html"
+    ],
+    "tm_scope": "text.html.ecmarkup",
+    "ace_mode": "html",
+    "codemirror_mode": "htmlmixed",
+    "codemirror_mime_type": "text/html",
+    "language_id": 844766630
+  },
+  "ecmarkdown": {
+    "type": "markup",
+    "color": "#eb8131",
+    "group": "HTML",
+    "extensions": [
+      ".html"
+    ],
+    "tm_scope": "text.html.ecmarkup",
+    "ace_mode": "html",
+    "codemirror_mode": "htmlmixed",
+    "codemirror_mime_type": "text/html",
+    "language_id": 844766630
+  },
   "editorconfig": {
     "type": "data",
     "color": "#fff1f2",
     "group": "INI",
+    "extensions": [
+      ".editorconfig"
+    ],
     "filenames": [
       ".editorconfig"
     ],
@@ -2966,6 +2995,9 @@
     "type": "data",
     "color": "#fff1f2",
     "group": "INI",
+    "extensions": [
+      ".editorconfig"
+    ],
     "filenames": [
       ".editorconfig"
     ],
