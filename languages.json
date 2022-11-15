@@ -5111,6 +5111,16 @@
     "ace_mode": "text",
     "language_id": 166
   },
+  "ink": {
+    "type": "programming",
+    "wrap": true,
+    "extensions": [
+      ".ink"
+    ],
+    "tm_scope": "source.ink",
+    "ace_mode": "text",
+    "language_id": 838252715
+  },
   "inno setup": {
     "type": "programming",
     "color": "#264b99",
@@ -12041,6 +12051,18 @@
     "tm_scope": "text.html.smarty",
     "language_id": 353
   },
+  "smithy": {
+    "type": "programming",
+    "ace_mode": "text",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "tm_scope": "source.smithy",
+    "color": "#c44536",
+    "extensions": [
+      ".smithy"
+    ],
+    "language_id": 1027892786
+  },
   "solidity": {
     "type": "programming",
     "color": "#AA6746",
@@ -12350,6 +12372,7 @@
       "Cargo.lock",
       "Gopkg.lock",
       "Pipfile",
+      "pdm.lock",
       "poetry.lock"
     ],
     "tm_scope": "source.toml",
@@ -13015,7 +13038,6 @@
       ".bas",
       ".cls",
       ".frm",
-      ".frx",
       ".vba"
     ],
     "tm_scope": "source.vbnet",
@@ -13031,7 +13053,6 @@
       ".bas",
       ".cls",
       ".frm",
-      ".frx",
       ".vba"
     ],
     "tm_scope": "source.vbnet",
@@ -13422,8 +13443,10 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".cls",
       ".ctl",
-      ".Dsr"
+      ".Dsr",
+      ".frm"
     ],
     "tm_scope": "source.vbnet",
     "ace_mode": "text",
@@ -13435,8 +13458,10 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".cls",
       ".ctl",
-      ".Dsr"
+      ".Dsr",
+      ".frm"
     ],
     "tm_scope": "source.vbnet",
     "ace_mode": "text",
@@ -13448,8 +13473,10 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".cls",
       ".ctl",
-      ".Dsr"
+      ".Dsr",
+      ".frm"
     ],
     "tm_scope": "source.vbnet",
     "ace_mode": "text",
@@ -13461,8 +13488,10 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".cls",
       ".ctl",
-      ".Dsr"
+      ".Dsr",
+      ".frm"
     ],
     "tm_scope": "source.vbnet",
     "ace_mode": "text",
@@ -13474,8 +13503,10 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".cls",
       ".ctl",
-      ".Dsr"
+      ".Dsr",
+      ".frm"
     ],
     "tm_scope": "source.vbnet",
     "ace_mode": "text",
@@ -13487,8 +13518,10 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".cls",
       ".ctl",
-      ".Dsr"
+      ".Dsr",
+      ".frm"
     ],
     "tm_scope": "source.vbnet",
     "ace_mode": "text",
