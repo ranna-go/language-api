@@ -5255,6 +5255,16 @@
     "ace_mode": "text",
     "language_id": 447261135
   },
+  "jcl": {
+    "type": "programming",
+    "color": "#d90e09",
+    "extensions": [
+      ".jcl"
+    ],
+    "tm_scope": "source.jcl",
+    "ace_mode": "text",
+    "language_id": 316620079
+  },
   "jflex": {
     "type": "programming",
     "color": "#DBCA00",
@@ -12291,6 +12301,7 @@
       "BUCK",
       "BUILD",
       "BUILD.bazel",
+      "MODULE.bazel",
       "Tiltfile",
       "WORKSPACE",
       "WORKSPACE.bazel"
@@ -12312,6 +12323,7 @@
       "BUCK",
       "BUILD",
       "BUILD.bazel",
+      "MODULE.bazel",
       "Tiltfile",
       "WORKSPACE",
       "WORKSPACE.bazel"
@@ -12333,6 +12345,7 @@
       "BUCK",
       "BUILD",
       "BUILD.bazel",
+      "MODULE.bazel",
       "Tiltfile",
       "WORKSPACE",
       "WORKSPACE.bazel"
