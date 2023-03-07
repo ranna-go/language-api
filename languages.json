@@ -4876,6 +4876,7 @@
     "extensions": [
       ".ini",
       ".cfg",
+      ".cnf",
       ".dof",
       ".lektorproject",
       ".prefs",
@@ -4902,6 +4903,7 @@
     "extensions": [
       ".ini",
       ".cfg",
+      ".cnf",
       ".dof",
       ".lektorproject",
       ".prefs",
