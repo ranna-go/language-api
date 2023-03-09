@@ -1286,6 +1286,7 @@
       ".c++",
       ".cc",
       ".cp",
+      ".cppm",
       ".cxx",
       ".h",
       ".h++",
@@ -1315,6 +1316,7 @@
       ".c++",
       ".cc",
       ".cp",
+      ".cppm",
       ".cxx",
       ".h",
       ".h++",
@@ -3105,6 +3107,14 @@
     "tm_scope": "source.elvish",
     "color": "#55BB55",
     "language_id": 570996448
+  },
+  "elvish transcript": {
+    "type": "programming",
+    "group": "Elvish",
+    "ace_mode": "text",
+    "tm_scope": "source.elvish-transcript",
+    "color": "#55BB55",
+    "language_id": 452025714
   },
   "emacs lisp": {
     "type": "programming",
@@ -9416,7 +9426,6 @@
       ".pyt",
       ".pyw",
       ".rpy",
-      ".smk",
       ".spec",
       ".tac",
       ".wsgi",
@@ -9427,7 +9436,6 @@
       "DEPS",
       "SConscript",
       "SConstruct",
-      "Snakefile",
       "wscript"
     ],
     "interpreters": [
@@ -9461,7 +9469,6 @@
       ".pyt",
       ".pyw",
       ".rpy",
-      ".smk",
       ".spec",
       ".tac",
       ".wsgi",
@@ -9472,7 +9479,6 @@
       "DEPS",
       "SConscript",
       "SConstruct",
-      "Snakefile",
       "wscript"
     ],
     "interpreters": [
@@ -9506,7 +9512,6 @@
       ".pyt",
       ".pyw",
       ".rpy",
-      ".smk",
       ".spec",
       ".tac",
       ".wsgi",
@@ -9517,7 +9522,6 @@
       "DEPS",
       "SConscript",
       "SConstruct",
-      "Snakefile",
       "wscript"
     ],
     "interpreters": [
@@ -12185,6 +12189,40 @@
       ".smithy"
     ],
     "language_id": 1027892786
+  },
+  "snakemake": {
+    "type": "programming",
+    "group": "Python",
+    "tm_scope": "source.python",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "color": "#419179",
+    "extensions": [
+      ".smk",
+      ".snakefile"
+    ],
+    "filenames": [
+      "Snakefile"
+    ],
+    "language_id": 151241392
+  },
+  "snakefile": {
+    "type": "programming",
+    "group": "Python",
+    "tm_scope": "source.python",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "color": "#419179",
+    "extensions": [
+      ".smk",
+      ".snakefile"
+    ],
+    "filenames": [
+      "Snakefile"
+    ],
+    "language_id": 151241392
   },
   "solidity": {
     "type": "programming",
