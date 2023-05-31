@@ -605,9 +605,10 @@
     "type": "programming",
     "color": "#1797c0",
     "extensions": [
-      ".cls"
+      ".cls",
+      ".trigger"
     ],
-    "tm_scope": "source.java",
+    "tm_scope": "source.apex",
     "ace_mode": "java",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-java",
@@ -1300,7 +1301,8 @@
       ".ixx",
       ".re",
       ".tcc",
-      ".tpp"
+      ".tpp",
+      ".txx"
     ],
     "language_id": 43
   },
@@ -1330,7 +1332,8 @@
       ".ixx",
       ".re",
       ".tcc",
-      ".tpp"
+      ".tpp",
+      ".txx"
     ],
     "language_id": 43
   },
@@ -2508,6 +2511,26 @@
     "tm_scope": "objdump.x86asm",
     "ace_mode": "assembly_x86",
     "language_id": 81
+  },
+  "d2": {
+    "type": "markup",
+    "color": "#526ee8",
+    "extensions": [
+      ".d2"
+    ],
+    "tm_scope": "source.d2",
+    "ace_mode": "text",
+    "language_id": 37531557
+  },
+  "d2lang": {
+    "type": "markup",
+    "color": "#526ee8",
+    "extensions": [
+      ".d2"
+    ],
+    "tm_scope": "source.d2",
+    "ace_mode": "text",
+    "language_id": 37531557
   },
   "digital command language": {
     "type": "programming",
@@ -4116,7 +4139,8 @@
     "type": "data",
     "color": "#00ADD8",
     "filenames": [
-      "go.sum"
+      "go.sum",
+      "go.work.sum"
     ],
     "tm_scope": "go.sum",
     "ace_mode": "text",
@@ -4126,7 +4150,8 @@
     "type": "data",
     "color": "#00ADD8",
     "filenames": [
-      "go.sum"
+      "go.sum",
+      "go.work.sum"
     ],
     "tm_scope": "go.sum",
     "ace_mode": "text",
@@ -4136,7 +4161,30 @@
     "type": "data",
     "color": "#00ADD8",
     "filenames": [
-      "go.sum"
+      "go.sum",
+      "go.work.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go.work.sum": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum",
+      "go.work.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go work sum": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum",
+      "go.work.sum"
     ],
     "tm_scope": "go.sum",
     "ace_mode": "text",
@@ -4171,6 +4219,36 @@
     "tm_scope": "go.mod",
     "ace_mode": "text",
     "language_id": 947461016
+  },
+  "go workspace": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.work"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 934546256
+  },
+  "go.work": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.work"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 934546256
+  },
+  "go work": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.work"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 934546256
   },
   "godot resource": {
     "type": "data",
@@ -4427,6 +4505,10 @@
     "color": "#9ff8ee",
     "extensions": [
       ".hocon"
+    ],
+    "filenames": [
+      ".scalafix.conf",
+      ".scalafmt.conf"
     ],
     "tm_scope": "source.hocon",
     "ace_mode": "text",
@@ -4900,7 +4982,8 @@
       ".flake8",
       ".pylintrc",
       "buildozer.spec",
-      "pylintrc"
+      "pylintrc",
+      "vlcrc"
     ],
     "tm_scope": "source.ini",
     "ace_mode": "ini",
@@ -4927,7 +5010,8 @@
       ".flake8",
       ".pylintrc",
       "buildozer.spec",
-      "pylintrc"
+      "pylintrc",
+      "vlcrc"
     ],
     "tm_scope": "source.ini",
     "ace_mode": "ini",
@@ -5502,6 +5586,7 @@
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      ".swcrc",
       "api-extractor.json",
       "devcontainer.json",
       "jsconfig.json",
@@ -5543,6 +5628,7 @@
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      ".swcrc",
       "api-extractor.json",
       "devcontainer.json",
       "jsconfig.json",
@@ -6280,7 +6366,7 @@
       ".lol"
     ],
     "color": "#cc9900",
-    "tm_scope": "none",
+    "tm_scope": "source.lolcode",
     "ace_mode": "text",
     "language_id": 192
   },
@@ -6795,6 +6881,19 @@
     "ace_mode": "text",
     "language_id": 217
   },
+  "mdx": {
+    "type": "markup",
+    "color": "#fcb32c",
+    "ace_mode": "markdown",
+    "codemirror_mode": "gfm",
+    "codemirror_mime_type": "text/x-gfm",
+    "wrap": true,
+    "extensions": [
+      ".mdx"
+    ],
+    "tm_scope": "source.mdx",
+    "language_id": 512838272
+  },
   "mlir": {
     "type": "programming",
     "color": "#5EC8DB",
@@ -7042,7 +7141,6 @@
       ".markdown",
       ".mdown",
       ".mdwn",
-      ".mdx",
       ".mkd",
       ".mkdn",
       ".mkdown",
@@ -7053,7 +7151,33 @@
     "filenames": [
       "contents.lr"
     ],
-    "tm_scope": "source.gfm",
+    "tm_scope": "text.md",
+    "language_id": 222
+  },
+  "md": {
+    "type": "prose",
+    "color": "#083fa1",
+    "ace_mode": "markdown",
+    "codemirror_mode": "gfm",
+    "codemirror_mime_type": "text/x-gfm",
+    "wrap": true,
+    "extensions": [
+      ".md",
+      ".livemd",
+      ".markdown",
+      ".mdown",
+      ".mdwn",
+      ".mkd",
+      ".mkdn",
+      ".mkdown",
+      ".ronn",
+      ".scd",
+      ".workbook"
+    ],
+    "filenames": [
+      "contents.lr"
+    ],
+    "tm_scope": "text.md",
     "language_id": 222
   },
   "pandoc": {
@@ -7069,7 +7193,6 @@
       ".markdown",
       ".mdown",
       ".mdwn",
-      ".mdx",
       ".mkd",
       ".mkdn",
       ".mkdown",
@@ -7080,7 +7203,7 @@
     "filenames": [
       "contents.lr"
     ],
-    "tm_scope": "source.gfm",
+    "tm_scope": "text.md",
     "language_id": 222
   },
   "marko": {
@@ -7722,7 +7845,7 @@
     "extensions": [
       ".nas"
     ],
-    "tm_scope": "none",
+    "tm_scope": "source.nasal",
     "ace_mode": "text",
     "language_id": 178322513
   },
@@ -7975,6 +8098,51 @@
     "ace_mode": "nunjucks",
     "language_id": 461856962
   },
+  "nushell": {
+    "type": "programming",
+    "color": "#4E9906",
+    "extensions": [
+      ".nu"
+    ],
+    "interpreters": [
+      "nu"
+    ],
+    "tm_scope": "source.nushell",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 446573572
+  },
+  "nu-script": {
+    "type": "programming",
+    "color": "#4E9906",
+    "extensions": [
+      ".nu"
+    ],
+    "interpreters": [
+      "nu"
+    ],
+    "tm_scope": "source.nushell",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 446573572
+  },
+  "nushell-script": {
+    "type": "programming",
+    "color": "#4E9906",
+    "extensions": [
+      ".nu"
+    ],
+    "interpreters": [
+      "nu"
+    ],
+    "tm_scope": "source.nushell",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 446573572
+  },
   "oasv2-json": {
     "type": "data",
     "color": "#85ea2d",
@@ -8034,7 +8202,7 @@
     "ace_mode": "ocaml",
     "codemirror_mode": "mllike",
     "codemirror_mime_type": "text/x-ocaml",
-    "color": "#3be133",
+    "color": "#ef7a08",
     "extensions": [
       ".ml",
       ".eliom",
@@ -8706,6 +8874,16 @@
     "ace_mode": "text",
     "language_id": 275
   },
+  "pact": {
+    "type": "programming",
+    "color": "#F7A8B8",
+    "ace_mode": "text",
+    "tm_scope": "source.pact",
+    "extensions": [
+      ".pact"
+    ],
+    "language_id": 756774415
+  },
   "pan": {
     "type": "programming",
     "color": "#cc0000",
@@ -9269,6 +9447,17 @@
     "codemirror_mime_type": "text/x-protobuf",
     "language_id": 297
   },
+  "proto": {
+    "type": "data",
+    "extensions": [
+      ".proto"
+    ],
+    "tm_scope": "source.proto",
+    "ace_mode": "protobuf",
+    "codemirror_mode": "protobuf",
+    "codemirror_mime_type": "text/x-protobuf",
+    "language_id": 297
+  },
   "protobuf": {
     "type": "data",
     "extensions": [
@@ -9729,6 +9918,19 @@
     ],
     "language_id": 308
   },
+  "rbs": {
+    "type": "data",
+    "ace_mode": "ruby",
+    "codemirror_mode": "ruby",
+    "codemirror_mime_type": "text/x-ruby",
+    "extensions": [
+      ".rbs"
+    ],
+    "color": "#701516",
+    "tm_scope": "source.rbs",
+    "group": "Ruby",
+    "language_id": 899227493
+  },
   "rdoc": {
     "type": "prose",
     "color": "#701516",
@@ -9797,7 +9999,7 @@
       ".qmd",
       ".rmd"
     ],
-    "tm_scope": "source.gfm",
+    "tm_scope": "text.md",
     "language_id": 313
   },
   "rpc": {
@@ -11197,6 +11399,9 @@
     "ace_mode": "rust",
     "codemirror_mode": "rust",
     "codemirror_mime_type": "text/x-rustsrc",
+    "interpreters": [
+      "rust-script"
+    ],
     "language_id": 327
   },
   "rs": {
@@ -11210,6 +11415,9 @@
     "ace_mode": "rust",
     "codemirror_mode": "rust",
     "codemirror_mime_type": "text/x-rustsrc",
+    "interpreters": [
+      "rust-script"
+    ],
     "language_id": 327
   },
   "sas": {
@@ -11635,6 +11843,7 @@
       ".sh.in",
       ".tmux",
       ".tool",
+      ".trigger",
       ".zsh",
       ".zsh-theme"
     ],
@@ -11704,6 +11913,7 @@
       ".sh.in",
       ".tmux",
       ".tool",
+      ".trigger",
       ".zsh",
       ".zsh-theme"
     ],
@@ -11773,6 +11983,7 @@
       ".sh.in",
       ".tmux",
       ".tool",
+      ".trigger",
       ".zsh",
       ".zsh-theme"
     ],
@@ -11842,6 +12053,7 @@
       ".sh.in",
       ".tmux",
       ".tool",
+      ".trigger",
       ".zsh",
       ".zsh-theme"
     ],
@@ -11911,6 +12123,7 @@
       ".sh.in",
       ".tmux",
       ".tool",
+      ".trigger",
       ".zsh",
       ".zsh-theme"
     ],
@@ -12528,6 +12741,16 @@
     ],
     "language_id": 422,
     "tm_scope": "none"
+  },
+  "tl-verilog": {
+    "type": "programming",
+    "extensions": [
+      ".tlv"
+    ],
+    "tm_scope": "source.tlverilog",
+    "ace_mode": "verilog",
+    "color": "#C40023",
+    "language_id": 118656070
   },
   "tla": {
     "type": "programming",
@@ -13620,6 +13843,7 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".bas",
       ".cls",
       ".ctl",
       ".Dsr",
@@ -13635,6 +13859,7 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".bas",
       ".cls",
       ".ctl",
       ".Dsr",
@@ -13650,6 +13875,7 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".bas",
       ".cls",
       ".ctl",
       ".Dsr",
@@ -13665,6 +13891,7 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".bas",
       ".cls",
       ".ctl",
       ".Dsr",
@@ -13680,6 +13907,7 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".bas",
       ".cls",
       ".ctl",
       ".Dsr",
@@ -13695,6 +13923,7 @@
     "type": "programming",
     "color": "#2c6353",
     "extensions": [
+      ".bas",
       ".cls",
       ".ctl",
       ".Dsr",
@@ -13804,6 +14033,30 @@
     "codemirror_mode": "commonlisp",
     "codemirror_mime_type": "text/x-common-lisp",
     "language_id": 956556503
+  },
+  "webassembly interface type": {
+    "type": "data",
+    "color": "#6250e7",
+    "extensions": [
+      ".wit"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.wit",
+    "codemirror_mode": "webidl",
+    "codemirror_mime_type": "text/x-webidl",
+    "language_id": 134534086
+  },
+  "wit": {
+    "type": "data",
+    "color": "#6250e7",
+    "extensions": [
+      ".wit"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.wit",
+    "codemirror_mode": "webidl",
+    "codemirror_mime_type": "text/x-webidl",
+    "language_id": 134534086
   },
   "webidl": {
     "type": "programming",
