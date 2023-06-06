@@ -13440,7 +13440,7 @@
       ".frm",
       ".vba"
     ],
-    "tm_scope": "source.vbnet",
+    "tm_scope": "source.vba",
     "ace_mode": "text",
     "codemirror_mode": "vb",
     "codemirror_mime_type": "text/x-vb",
@@ -13455,7 +13455,7 @@
       ".frm",
       ".vba"
     ],
-    "tm_scope": "source.vbnet",
+    "tm_scope": "source.vba",
     "ace_mode": "text",
     "codemirror_mode": "vb",
     "codemirror_mime_type": "text/x-vb",
@@ -13966,6 +13966,26 @@
     "ace_mode": "text",
     "tm_scope": "source.vyper",
     "language_id": 1055641948
+  },
+  "wdl": {
+    "type": "programming",
+    "color": "#42f1f4",
+    "extensions": [
+      ".wdl"
+    ],
+    "tm_scope": "source.wdl",
+    "ace_mode": "text",
+    "language_id": 374521672
+  },
+  "Workflow Description Language": {
+    "type": "programming",
+    "color": "#42f1f4",
+    "extensions": [
+      ".wdl"
+    ],
+    "tm_scope": "source.wdl",
+    "ace_mode": "text",
+    "language_id": 374521672
   },
   "wavefront material": {
     "type": "data",
@@ -15456,16 +15476,6 @@
     "ace_mode": "text",
     "tm_scope": "source.sed",
     "language_id": 847830017
-  },
-  "wdl": {
-    "type": "programming",
-    "color": "#42f1f4",
-    "extensions": [
-      ".wdl"
-    ],
-    "tm_scope": "source.wdl",
-    "ace_mode": "text",
-    "language_id": 374521672
   },
   "wisp": {
     "type": "programming",
