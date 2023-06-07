@@ -13987,6 +13987,16 @@
     "ace_mode": "text",
     "language_id": 374521672
   },
+  "wgsl": {
+    "type": "programming",
+    "color": "#1a5e9a",
+    "extensions": [
+      ".wgsl"
+    ],
+    "tm_scope": "source.wgsl",
+    "ace_mode": "text",
+    "language_id": 836605993
+  },
   "wavefront material": {
     "type": "data",
     "extensions": [
