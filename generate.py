@@ -66,7 +66,7 @@ def to_css_file(filename: str, spec: dict, classname: str, property: str):
             if not color:
                 continue
             f.write(f".{classname}[srclang=\"{k}\"]"
-                    f"{{{property}:{color}}}\n")
+                    f"{{{property}:{color};}}\n")
 
 
 def generate_static_files(spec: dict, checksum: str):
