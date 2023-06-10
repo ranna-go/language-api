@@ -10,8 +10,19 @@
     "ace_mode": "text",
     "language_id": 0
   },
+  "2-dimensional array": {
+    "type": "data",
+    "color": "#38761D",
+    "extensions": [
+      ".2da"
+    ],
+    "tm_scope": "source.2da",
+    "ace_mode": "text",
+    "language_id": 387204628
+  },
   "4d": {
     "type": "programming",
+    "color": "#004289",
     "extensions": [
       ".4dm"
     ],
@@ -319,8 +330,59 @@
     "ace_mode": "ada",
     "language_id": 11
   },
+  "adblock filter list": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
+  "ad block filters": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
+  "ad block": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
+  "adb": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
+  "adblock": {
+    "type": "data",
+    "color": "#800000",
+    "ace_mode": "text",
+    "extensions": [
+      ".txt"
+    ],
+    "tm_scope": "text.adblock",
+    "language_id": 884614762
+  },
   "adobe font metrics": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -330,6 +392,7 @@
   },
   "acfm": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -339,6 +402,7 @@
   },
   "adobe composite font metrics": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -348,6 +412,7 @@
   },
   "adobe multiple font metrics": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -357,6 +422,7 @@
   },
   "amfm": {
     "type": "data",
+    "color": "#fa0f00",
     "tm_scope": "source.afm",
     "extensions": [
       ".afm"
@@ -386,6 +452,7 @@
   },
   "alpine abuild": {
     "type": "programming",
+    "color": "#0D597F",
     "group": "Shell",
     "filenames": [
       "APKBUILD"
@@ -398,6 +465,7 @@
   },
   "abuild": {
     "type": "programming",
+    "color": "#0D597F",
     "group": "Shell",
     "filenames": [
       "APKBUILD"
@@ -410,6 +478,7 @@
   },
   "apkbuild": {
     "type": "programming",
+    "color": "#0D597F",
     "group": "Shell",
     "filenames": [
       "APKBUILD"
@@ -422,6 +491,7 @@
   },
   "altium designer": {
     "type": "data",
+    "color": "#A89663",
     "extensions": [
       ".OutJob",
       ".PcbDoc",
@@ -434,6 +504,7 @@
   },
   "altium": {
     "type": "data",
+    "color": "#A89663",
     "extensions": [
       ".OutJob",
       ".PcbDoc",
@@ -459,6 +530,7 @@
   },
   "ant build system": {
     "type": "data",
+    "color": "#A9157E",
     "tm_scope": "text.xml.ant",
     "filenames": [
       "ant.xml",
@@ -469,8 +541,21 @@
     "codemirror_mime_type": "application/xml",
     "language_id": 15
   },
+  "antlers": {
+    "type": "markup",
+    "color": "#ff269e",
+    "extensions": [
+      ".antlers.html",
+      ".antlers.php",
+      ".antlers.xml"
+    ],
+    "tm_scope": "text.html.statamic",
+    "ace_mode": "text",
+    "language_id": 1067292663
+  },
   "apacheconf": {
     "type": "data",
+    "color": "#d12127",
     "extensions": [
       ".apacheconf",
       ".vhost"
@@ -486,6 +571,7 @@
   },
   "aconf": {
     "type": "data",
+    "color": "#d12127",
     "extensions": [
       ".apacheconf",
       ".vhost"
@@ -501,6 +587,7 @@
   },
   "apache": {
     "type": "data",
+    "color": "#d12127",
     "extensions": [
       ".apacheconf",
       ".vhost"
@@ -518,9 +605,10 @@
     "type": "programming",
     "color": "#1797c0",
     "extensions": [
-      ".cls"
+      ".cls",
+      ".trigger"
     ],
-    "tm_scope": "source.java",
+    "tm_scope": "source.apex",
     "ace_mode": "java",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-java",
@@ -577,6 +665,7 @@
   },
   "asciidoc": {
     "type": "prose",
+    "color": "#73a0c5",
     "ace_mode": "asciidoc",
     "wrap": true,
     "extensions": [
@@ -605,6 +694,7 @@
       ".a51",
       ".i",
       ".inc",
+      ".nas",
       ".nasm"
     ],
     "tm_scope": "source.assembly",
@@ -619,6 +709,7 @@
       ".a51",
       ".i",
       ".inc",
+      ".nas",
       ".nasm"
     ],
     "tm_scope": "source.assembly",
@@ -633,11 +724,24 @@
       ".a51",
       ".i",
       ".inc",
+      ".nas",
       ".nasm"
     ],
     "tm_scope": "source.assembly",
     "ace_mode": "assembly_x86",
     "language_id": 24
+  },
+  "astro": {
+    "type": "markup",
+    "color": "#ff5a03",
+    "extensions": [
+      ".astro"
+    ],
+    "tm_scope": "source.astro",
+    "ace_mode": "html",
+    "codemirror_mode": "jsx",
+    "codemirror_mime_type": "text/jsx",
+    "language_id": 578209015
   },
   "asymptote": {
     "type": "programming",
@@ -656,6 +760,7 @@
   },
   "augeas": {
     "type": "programming",
+    "color": "#9CC134",
     "extensions": [
       ".aug"
     ],
@@ -727,6 +832,7 @@
   },
   "avro idl": {
     "type": "data",
+    "color": "#0040FF",
     "extensions": [
       ".avdl"
     ],
@@ -844,14 +950,36 @@
   "befunge": {
     "type": "programming",
     "extensions": [
-      ".befunge"
+      ".befunge",
+      ".bf"
     ],
     "tm_scope": "source.befunge",
     "ace_mode": "text",
     "language_id": 30
   },
+  "berry": {
+    "type": "programming",
+    "extensions": [
+      ".be"
+    ],
+    "tm_scope": "source.berry",
+    "ace_mode": "text",
+    "color": "#15A13C",
+    "language_id": 121855308
+  },
+  "be": {
+    "type": "programming",
+    "extensions": [
+      ".be"
+    ],
+    "tm_scope": "source.berry",
+    "ace_mode": "text",
+    "color": "#15A13C",
+    "language_id": 121855308
+  },
   "bibtex": {
     "type": "markup",
+    "color": "#778899",
     "group": "TeX",
     "extensions": [
       ".bib",
@@ -873,6 +1001,18 @@
     "ace_mode": "text",
     "language_id": 321200902
   },
+  "bikeshed": {
+    "type": "markup",
+    "color": "#5562ac",
+    "extensions": [
+      ".bs"
+    ],
+    "tm_scope": "source.csswg",
+    "ace_mode": "html",
+    "codemirror_mode": "htmlmixed",
+    "codemirror_mime_type": "text/html",
+    "language_id": 1055528081
+  },
   "bison": {
     "type": "programming",
     "color": "#6A463F",
@@ -886,6 +1026,7 @@
   },
   "bitbake": {
     "type": "programming",
+    "color": "#00bce4",
     "tm_scope": "none",
     "extensions": [
       ".bb"
@@ -906,6 +1047,7 @@
   },
   "blitzbasic": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -916,6 +1058,7 @@
   },
   "b3d": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -926,6 +1069,7 @@
   },
   "blitz3d": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -936,6 +1080,7 @@
   },
   "blitzplus": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -946,6 +1091,7 @@
   },
   "bplus": {
     "type": "programming",
+    "color": "#00FFAE",
     "extensions": [
       ".bb",
       ".decls"
@@ -976,6 +1122,7 @@
   },
   "bluespec": {
     "type": "programming",
+    "color": "#12223c",
     "extensions": [
       ".bsv"
     ],
@@ -1019,12 +1166,23 @@
     "codemirror_mime_type": "text/x-brainfuck",
     "language_id": 38
   },
+  "brighterscript": {
+    "type": "programming",
+    "color": "#66AABB",
+    "extensions": [
+      ".bs"
+    ],
+    "tm_scope": "source.brs",
+    "ace_mode": "text",
+    "language_id": 943571030
+  },
   "brightscript": {
     "type": "programming",
+    "color": "#662D91",
     "extensions": [
       ".brs"
     ],
-    "tm_scope": "source.brightscript",
+    "tm_scope": "source.brs",
     "ace_mode": "text",
     "language_id": 39
   },
@@ -1129,6 +1287,7 @@
       ".c++",
       ".cc",
       ".cp",
+      ".cppm",
       ".cxx",
       ".h",
       ".h++",
@@ -1139,9 +1298,11 @@
       ".inl",
       ".ino",
       ".ipp",
+      ".ixx",
       ".re",
       ".tcc",
-      ".tpp"
+      ".tpp",
+      ".txx"
     ],
     "language_id": 43
   },
@@ -1157,6 +1318,7 @@
       ".c++",
       ".cc",
       ".cp",
+      ".cppm",
       ".cxx",
       ".h",
       ".h++",
@@ -1167,9 +1329,11 @@
       ".inl",
       ".ino",
       ".ipp",
+      ".ixx",
       ".re",
       ".tcc",
-      ".tpp"
+      ".tpp",
+      ".txx"
     ],
     "language_id": 43
   },
@@ -1206,6 +1370,26 @@
     "codemirror_mime_type": "text/x-haskell",
     "language_id": 45
   },
+  "cap cds": {
+    "type": "programming",
+    "tm_scope": "source.cds",
+    "color": "#0092d1",
+    "extensions": [
+      ".cds"
+    ],
+    "ace_mode": "text",
+    "language_id": 390788699
+  },
+  "cds": {
+    "type": "programming",
+    "tm_scope": "source.cds",
+    "color": "#0092d1",
+    "extensions": [
+      ".cds"
+    ],
+    "ace_mode": "text",
+    "language_id": 390788699
+  },
   "cil": {
     "type": "data",
     "tm_scope": "source.cil",
@@ -1217,6 +1401,7 @@
   },
   "clips": {
     "type": "programming",
+    "color": "#00A300",
     "extensions": [
       ".clp"
     ],
@@ -1226,6 +1411,7 @@
   },
   "cmake": {
     "type": "programming",
+    "color": "#DA3434",
     "extensions": [
       ".cmake",
       ".cmake.in"
@@ -1265,6 +1451,7 @@
   },
   "collada": {
     "type": "data",
+    "color": "#F1A42B",
     "extensions": [
       ".dae"
     ],
@@ -1300,6 +1487,7 @@
   },
   "csv": {
     "type": "data",
+    "color": "#237346",
     "ace_mode": "text",
     "tm_scope": "none",
     "extensions": [
@@ -1319,6 +1507,7 @@
   },
   "cweb": {
     "type": "programming",
+    "color": "#00007a",
     "extensions": [
       ".w"
     ],
@@ -1328,6 +1517,7 @@
   },
   "cabal config": {
     "type": "data",
+    "color": "#483465",
     "extensions": [
       ".cabal"
     ],
@@ -1343,6 +1533,7 @@
   },
   "Cabal": {
     "type": "data",
+    "color": "#483465",
     "extensions": [
       ".cabal"
     ],
@@ -1356,8 +1547,42 @@
     "tm_scope": "source.cabal",
     "language_id": 677095381
   },
+  "cadence": {
+    "type": "programming",
+    "color": "#00ef8b",
+    "ace_mode": "text",
+    "tm_scope": "source.cadence",
+    "extensions": [
+      ".cdc"
+    ],
+    "language_id": 270184138
+  },
+  "cairo": {
+    "type": "programming",
+    "color": "#ff4a48",
+    "ace_mode": "text",
+    "tm_scope": "source.cairo",
+    "extensions": [
+      ".cairo"
+    ],
+    "language_id": 620599567
+  },
+  "cameligo": {
+    "type": "programming",
+    "color": "#3be133",
+    "extensions": [
+      ".mligo"
+    ],
+    "tm_scope": "source.mligo",
+    "ace_mode": "ocaml",
+    "codemirror_mode": "mllike",
+    "codemirror_mime_type": "text/x-ocaml",
+    "group": "LigoLANG",
+    "language_id": 829207807
+  },
   "cap'n proto": {
     "type": "programming",
+    "color": "#c42727",
     "tm_scope": "source.capnp",
     "extensions": [
       ".capnp"
@@ -1422,8 +1647,189 @@
     "ace_mode": "text",
     "language_id": 56
   },
+  "checksums": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "checksum": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "hash": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "hashes": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "sum": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
+  "sums": {
+    "type": "data",
+    "tm_scope": "text.checksums",
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ],
+    "ace_mode": "text",
+    "language_id": 372063053
+  },
   "chuck": {
     "type": "programming",
+    "color": "#3f8000",
     "extensions": [
       ".ck"
     ],
@@ -1432,6 +1838,16 @@
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-java",
     "language_id": 57
+  },
+  "circom": {
+    "type": "programming",
+    "ace_mode": "text",
+    "extensions": [
+      ".circom"
+    ],
+    "color": "#707575",
+    "tm_scope": "source.circom",
+    "language_id": 1042332086
   },
   "cirru": {
     "type": "programming",
@@ -1452,6 +1868,16 @@
     ],
     "tm_scope": "source.clarion",
     "language_id": 59
+  },
+  "clarity": {
+    "type": "programming",
+    "color": "#5546ff",
+    "ace_mode": "lisp",
+    "extensions": [
+      ".clar"
+    ],
+    "tm_scope": "source.clar",
+    "language_id": 91493841
   },
   "classic asp": {
     "type": "programming",
@@ -1503,6 +1929,7 @@
     "color": "#db5855",
     "extensions": [
       ".clj",
+      ".bb",
       ".boot",
       ".cl2",
       ".cljc",
@@ -1514,6 +1941,9 @@
     ],
     "filenames": [
       "riemann.config"
+    ],
+    "interpreters": [
+      "bb"
     ],
     "language_id": 62
   },
@@ -1543,6 +1973,7 @@
   },
   "cloud firestore security rules": {
     "type": "data",
+    "color": "#FFA000",
     "ace_mode": "less",
     "codemirror_mode": "css",
     "codemirror_mime_type": "text/css",
@@ -1584,6 +2015,7 @@
   },
   "codeql": {
     "type": "programming",
+    "color": "#140f46",
     "extensions": [
       ".ql",
       ".qll"
@@ -1594,6 +2026,7 @@
   },
   "ql": {
     "type": "programming",
+    "color": "#140f46",
     "extensions": [
       ".ql",
       ".qll"
@@ -1840,6 +2273,7 @@
   },
   "coq": {
     "type": "programming",
+    "color": "#d0b68c",
     "extensions": [
       ".coq",
       ".v"
@@ -1901,6 +2335,7 @@
   },
   "csound": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".orc",
       ".udo"
@@ -1911,6 +2346,7 @@
   },
   "csound-orc": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".orc",
       ".udo"
@@ -1921,6 +2357,7 @@
   },
   "csound document": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".csd"
     ],
@@ -1930,6 +2367,7 @@
   },
   "csound-csd": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".csd"
     ],
@@ -1939,6 +2377,7 @@
   },
   "csound score": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".sco"
     ],
@@ -1948,6 +2387,7 @@
   },
   "csound-sco": {
     "type": "programming",
+    "color": "#1a1a1a",
     "extensions": [
       ".sco"
     ],
@@ -1977,6 +2417,16 @@
     "ace_mode": "text",
     "language_id": 942714150
   },
+  "curry": {
+    "type": "programming",
+    "color": "#531242",
+    "extensions": [
+      ".curry"
+    ],
+    "tm_scope": "source.curry",
+    "ace_mode": "haskell",
+    "language_id": 439829048
+  },
   "cycript": {
     "type": "programming",
     "extensions": [
@@ -1988,9 +2438,20 @@
     "codemirror_mime_type": "text/javascript",
     "language_id": 78
   },
+  "cypher": {
+    "type": "programming",
+    "color": "#34c0eb",
+    "extensions": [
+      ".cyp",
+      ".cypher"
+    ],
+    "tm_scope": "source.cypher",
+    "ace_mode": "text",
+    "language_id": 850806976
+  },
   "cython": {
     "type": "programming",
-    "group": "Python",
+    "color": "#fedf5b",
     "extensions": [
       ".pyx",
       ".pxd",
@@ -2004,7 +2465,7 @@
   },
   "pyrex": {
     "type": "programming",
-    "group": "Python",
+    "color": "#fedf5b",
     "extensions": [
       ".pyx",
       ".pxd",
@@ -2050,6 +2511,26 @@
     "tm_scope": "objdump.x86asm",
     "ace_mode": "assembly_x86",
     "language_id": 81
+  },
+  "d2": {
+    "type": "markup",
+    "color": "#526ee8",
+    "extensions": [
+      ".d2"
+    ],
+    "tm_scope": "source.d2",
+    "ace_mode": "text",
+    "language_id": 37531557
+  },
+  "d2lang": {
+    "type": "markup",
+    "color": "#526ee8",
+    "extensions": [
+      ".d2"
+    ],
+    "tm_scope": "source.d2",
+    "ace_mode": "text",
+    "language_id": 37531557
   },
   "digital command language": {
     "type": "programming",
@@ -2142,6 +2623,7 @@
   },
   "darcs patch": {
     "type": "data",
+    "color": "#8eff23",
     "extensions": [
       ".darcspatch",
       ".dpatch"
@@ -2152,6 +2634,7 @@
   },
   "dpatch": {
     "type": "data",
+    "color": "#8eff23",
     "extensions": [
       ".darcspatch",
       ".dpatch"
@@ -2184,6 +2667,28 @@
     "ace_mode": "text",
     "tm_scope": "source.data-weave",
     "language_id": 974514097
+  },
+  "debian package control file": {
+    "type": "data",
+    "color": "#D70751",
+    "extensions": [
+      ".dsc"
+    ],
+    "tm_scope": "source.deb-control",
+    "ace_mode": "text",
+    "language_id": 527438264
+  },
+  "denizenscript": {
+    "type": "programming",
+    "color": "#FBEE96",
+    "ace_mode": "yaml",
+    "codemirror_mode": "yaml",
+    "codemirror_mime_type": "text/x-yaml",
+    "extensions": [
+      ".dsc"
+    ],
+    "tm_scope": "source.denizenscript",
+    "language_id": 435000929
   },
   "dhall": {
     "type": "programming",
@@ -2223,6 +2728,7 @@
   },
   "directx 3d file": {
     "type": "data",
+    "color": "#aace60",
     "extensions": [
       ".x"
     ],
@@ -2238,6 +2744,23 @@
       ".dockerfile"
     ],
     "filenames": [
+      "Containerfile",
+      "Dockerfile"
+    ],
+    "ace_mode": "dockerfile",
+    "codemirror_mode": "dockerfile",
+    "codemirror_mime_type": "text/x-dockerfile",
+    "language_id": 89
+  },
+  "Containerfile": {
+    "type": "programming",
+    "color": "#384d54",
+    "tm_scope": "source.dockerfile",
+    "extensions": [
+      ".dockerfile"
+    ],
+    "filenames": [
+      "Containerfile",
       "Dockerfile"
     ],
     "ace_mode": "dockerfile",
@@ -2254,6 +2777,30 @@
     "tm_scope": "none",
     "ace_mode": "text",
     "language_id": 90
+  },
+  "dotenv": {
+    "type": "data",
+    "color": "#e5d559",
+    "extensions": [
+      ".env"
+    ],
+    "filenames": [
+      ".env",
+      ".env.ci",
+      ".env.dev",
+      ".env.development",
+      ".env.development.local",
+      ".env.example",
+      ".env.local",
+      ".env.prod",
+      ".env.production",
+      ".env.staging",
+      ".env.test",
+      ".env.testing"
+    ],
+    "tm_scope": "source.dotenv",
+    "ace_mode": "text",
+    "language_id": 111148035
   },
   "dylan": {
     "type": "programming",
@@ -2274,7 +2821,7 @@
     "type": "programming",
     "color": "#ccce35",
     "extensions": [
-      ".E"
+      ".e"
     ],
     "interpreters": [
       "rune"
@@ -2282,6 +2829,66 @@
     "tm_scope": "none",
     "ace_mode": "text",
     "language_id": 92
+  },
+  "e-mail": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
+  "email": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
+  "eml": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
+  "mail": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
+  },
+  "mbox": {
+    "type": "data",
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ],
+    "tm_scope": "text.eml.basic",
+    "ace_mode": "text",
+    "codemirror_mode": "mbox",
+    "codemirror_mime_type": "application/mbox",
+    "language_id": 529653389
   },
   "ebnf": {
     "type": "data",
@@ -2301,7 +2908,7 @@
       ".ecl",
       ".eclxml"
     ],
-    "tm_scope": "none",
+    "tm_scope": "source.ecl",
     "ace_mode": "text",
     "codemirror_mode": "ecl",
     "codemirror_mime_type": "text/x-ecl",
@@ -2309,6 +2916,7 @@
   },
   "eclipse": {
     "type": "programming",
+    "color": "#001d9d",
     "group": "prolog",
     "extensions": [
       ".ecl"
@@ -2323,21 +2931,12 @@
     "extensions": [
       ".ejs",
       ".ect",
+      ".ejs.t",
       ".jst"
     ],
     "tm_scope": "text.html.js",
     "ace_mode": "ejs",
     "language_id": 95
-  },
-  "eml": {
-    "type": "data",
-    "extensions": [
-      ".eml",
-      ".mbox"
-    ],
-    "tm_scope": "text.eml.basic",
-    "ace_mode": "text",
-    "language_id": 529653389
   },
   "eq": {
     "type": "programming",
@@ -2363,8 +2962,29 @@
     "codemirror_mime_type": "text/xml",
     "language_id": 97
   },
+  "earthly": {
+    "type": "programming",
+    "color": "#2af0ff",
+    "tm_scope": "source.earthfile",
+    "ace_mode": "text",
+    "filenames": [
+      "Earthfile"
+    ],
+    "language_id": 963512632
+  },
+  "Earthfile": {
+    "type": "programming",
+    "color": "#2af0ff",
+    "tm_scope": "source.earthfile",
+    "ace_mode": "text",
+    "filenames": [
+      "Earthfile"
+    ],
+    "language_id": 963512632
+  },
   "easybuild": {
     "type": "data",
+    "color": "#069406",
     "group": "Python",
     "ace_mode": "python",
     "codemirror_mode": "python",
@@ -2377,6 +2997,7 @@
   },
   "ecere projects": {
     "type": "data",
+    "color": "#913960",
     "group": "JavaScript",
     "extensions": [
       ".epj"
@@ -2387,9 +3008,39 @@
     "codemirror_mime_type": "application/json",
     "language_id": 98
   },
+  "ecmarkup": {
+    "type": "markup",
+    "color": "#eb8131",
+    "group": "HTML",
+    "extensions": [
+      ".html"
+    ],
+    "tm_scope": "text.html.ecmarkup",
+    "ace_mode": "html",
+    "codemirror_mode": "htmlmixed",
+    "codemirror_mime_type": "text/html",
+    "language_id": 844766630
+  },
+  "ecmarkdown": {
+    "type": "markup",
+    "color": "#eb8131",
+    "group": "HTML",
+    "extensions": [
+      ".html"
+    ],
+    "tm_scope": "text.html.ecmarkup",
+    "ace_mode": "html",
+    "codemirror_mode": "htmlmixed",
+    "codemirror_mime_type": "text/html",
+    "language_id": 844766630
+  },
   "editorconfig": {
     "type": "data",
+    "color": "#fff1f2",
     "group": "INI",
+    "extensions": [
+      ".editorconfig"
+    ],
     "filenames": [
       ".editorconfig"
     ],
@@ -2401,7 +3052,11 @@
   },
   "editor-config": {
     "type": "data",
+    "color": "#fff1f2",
     "group": "INI",
+    "extensions": [
+      ".editorconfig"
+    ],
     "filenames": [
       ".editorconfig"
     ],
@@ -2462,6 +3117,27 @@
     "codemirror_mode": "elm",
     "codemirror_mime_type": "text/x-elm",
     "language_id": 101
+  },
+  "elvish": {
+    "type": "programming",
+    "ace_mode": "text",
+    "extensions": [
+      ".elv"
+    ],
+    "interpreters": [
+      "elvish"
+    ],
+    "tm_scope": "source.elvish",
+    "color": "#55BB55",
+    "language_id": 570996448
+  },
+  "elvish transcript": {
+    "type": "programming",
+    "group": "Elvish",
+    "ace_mode": "text",
+    "tm_scope": "source.elvish-transcript",
+    "color": "#55BB55",
+    "language_id": 452025714
   },
   "emacs lisp": {
     "type": "programming",
@@ -2559,6 +3235,7 @@
     "color": "#B83998",
     "extensions": [
       ".erl",
+      ".app",
       ".app.src",
       ".es",
       ".escript",
@@ -2580,6 +3257,21 @@
       "escript"
     ],
     "language_id": 104
+  },
+  "euphoria": {
+    "type": "programming",
+    "color": "#FF790B",
+    "extensions": [
+      ".e",
+      ".ex"
+    ],
+    "interpreters": [
+      "eui",
+      "euiw"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.euphoria",
+    "language_id": 880693982
   },
   "f#": {
     "type": "programming",
@@ -2614,7 +3306,8 @@
     "type": "programming",
     "color": "#572e30",
     "extensions": [
-      ".fst"
+      ".fst",
+      ".fsti"
     ],
     "tm_scope": "source.fstar",
     "ace_mode": "text",
@@ -2625,7 +3318,8 @@
     "type": "programming",
     "color": "#572e30",
     "extensions": [
-      ".fst"
+      ".fst",
+      ".fsti"
     ],
     "tm_scope": "source.fstar",
     "ace_mode": "text",
@@ -2633,6 +3327,7 @@
   },
   "figlet font": {
     "type": "data",
+    "color": "#FFDDBB",
     "extensions": [
       ".flf"
     ],
@@ -2642,6 +3337,7 @@
   },
   "FIGfont": {
     "type": "data",
+    "color": "#FFDDBB",
     "extensions": [
       ".flf"
     ],
@@ -2710,8 +3406,22 @@
     "ace_mode": "text",
     "language_id": 622529198
   },
+  "fennel": {
+    "type": "programming",
+    "tm_scope": "source.fnl",
+    "ace_mode": "text",
+    "color": "#fff3d7",
+    "interpreters": [
+      "fennel"
+    ],
+    "extensions": [
+      ".fnl"
+    ],
+    "language_id": 239946126
+  },
   "filebench wml": {
     "type": "programming",
+    "color": "#F6B900",
     "extensions": [
       ".f"
     ],
@@ -2786,6 +3496,7 @@
   },
   "fortran free form": {
     "group": "Fortran",
+    "color": "#4d41b1",
     "type": "programming",
     "extensions": [
       ".f90",
@@ -2801,7 +3512,7 @@
   },
   "freebasic": {
     "type": "programming",
-    "color": "#867db1",
+    "color": "#141AC9",
     "extensions": [
       ".bi",
       ".bas"
@@ -2814,7 +3525,7 @@
   },
   "fb": {
     "type": "programming",
-    "color": "#867db1",
+    "color": "#141AC9",
     "extensions": [
       ".bi",
       ".bas"
@@ -2890,6 +3601,7 @@
   },
   "gams": {
     "type": "programming",
+    "color": "#f49a22",
     "extensions": [
       ".gms"
     ],
@@ -2899,6 +3611,7 @@
   },
   "gap": {
     "type": "programming",
+    "color": "#0000cc",
     "extensions": [
       ".g",
       ".gap",
@@ -2912,6 +3625,7 @@
   },
   "gcc machine description": {
     "type": "programming",
+    "color": "#FFCFAB",
     "extensions": [
       ".md"
     ],
@@ -2943,6 +3657,7 @@
   },
   "gedcom": {
     "type": "data",
+    "color": "#003058",
     "ace_mode": "text",
     "extensions": [
       ".ged"
@@ -2952,6 +3667,7 @@
   },
   "glsl": {
     "type": "programming",
+    "color": "#5686a5",
     "extensions": [
       ".glsl",
       ".fp",
@@ -2966,6 +3682,8 @@
       ".glslv",
       ".gs",
       ".gshader",
+      ".rchit",
+      ".rmiss",
       ".shader",
       ".tesc",
       ".tese",
@@ -2996,6 +3714,20 @@
     "codemirror_mime_type": "text/x-python",
     "language_id": 302957008
   },
+  "gsc": {
+    "type": "programming",
+    "color": "#FF6800",
+    "extensions": [
+      ".gsc",
+      ".csc",
+      ".gsh"
+    ],
+    "tm_scope": "source.gsc",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 257856279
+  },
   "game maker language": {
     "type": "programming",
     "color": "#71b417",
@@ -3019,6 +3751,48 @@
     ],
     "language_id": 907065713
   },
+  "gemini": {
+    "type": "prose",
+    "color": "#ff6900",
+    "ace_mode": "text",
+    "extensions": [
+      ".gmi"
+    ],
+    "wrap": true,
+    "tm_scope": "source.gemini",
+    "language_id": 310828396
+  },
+  "gemtext": {
+    "type": "prose",
+    "color": "#ff6900",
+    "ace_mode": "text",
+    "extensions": [
+      ".gmi"
+    ],
+    "wrap": true,
+    "tm_scope": "source.gemini",
+    "language_id": 310828396
+  },
+  "genero": {
+    "type": "programming",
+    "color": "#63408e",
+    "extensions": [
+      ".4gl"
+    ],
+    "tm_scope": "source.genero",
+    "ace_mode": "text",
+    "language_id": 986054050
+  },
+  "genero forms": {
+    "type": "markup",
+    "color": "#d8df39",
+    "extensions": [
+      ".per"
+    ],
+    "tm_scope": "source.genero-forms",
+    "ace_mode": "text",
+    "language_id": 902995658
+  },
   "genie": {
     "type": "programming",
     "ace_mode": "text",
@@ -3031,6 +3805,7 @@
   },
   "genshi": {
     "type": "programming",
+    "color": "#951531",
     "extensions": [
       ".kid"
     ],
@@ -3042,6 +3817,7 @@
   },
   "xml+genshi": {
     "type": "programming",
+    "color": "#951531",
     "extensions": [
       ".kid"
     ],
@@ -3053,6 +3829,7 @@
   },
   "xml+kid": {
     "type": "programming",
+    "color": "#951531",
     "extensions": [
       ".kid"
     ],
@@ -3064,6 +3841,7 @@
   },
   "gentoo ebuild": {
     "type": "programming",
+    "color": "#9400ff",
     "group": "Shell",
     "extensions": [
       ".ebuild"
@@ -3076,6 +3854,7 @@
   },
   "gentoo eclass": {
     "type": "programming",
+    "color": "#9400ff",
     "group": "Shell",
     "extensions": [
       ".eclass"
@@ -3088,6 +3867,7 @@
   },
   "gerber image": {
     "type": "data",
+    "color": "#d20b00",
     "extensions": [
       ".gbr",
       ".cmp",
@@ -3116,6 +3896,7 @@
   },
   "rs-274x": {
     "type": "data",
+    "color": "#d20b00",
     "extensions": [
       ".gbr",
       ".cmp",
@@ -3186,6 +3967,7 @@
   },
   "git attributes": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "filenames": [
       ".gitattributes"
@@ -3198,6 +3980,7 @@
   },
   "gitattributes": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "filenames": [
       ".gitattributes"
@@ -3210,6 +3993,7 @@
   },
   "git config": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "extensions": [
       ".gitconfig"
@@ -3226,6 +4010,7 @@
   },
   "gitconfig": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "extensions": [
       ".gitconfig"
@@ -3242,6 +4027,7 @@
   },
   "gitmodules": {
     "type": "data",
+    "color": "#F44D27",
     "group": "INI",
     "extensions": [
       ".gitconfig"
@@ -3255,6 +4041,36 @@
     "codemirror_mime_type": "text/x-properties",
     "tm_scope": "source.gitconfig",
     "language_id": 807968997
+  },
+  "git revision list": {
+    "type": "data",
+    "color": "#F44D27",
+    "filenames": [
+      ".git-blame-ignore-revs"
+    ],
+    "tm_scope": "source.git-revlist",
+    "ace_mode": "text",
+    "language_id": 461881235
+  },
+  "Git Blame Ignore Revs": {
+    "type": "data",
+    "color": "#F44D27",
+    "filenames": [
+      ".git-blame-ignore-revs"
+    ],
+    "tm_scope": "source.git-revlist",
+    "ace_mode": "text",
+    "language_id": 461881235
+  },
+  "gleam": {
+    "type": "programming",
+    "color": "#ffaff3",
+    "ace_mode": "text",
+    "extensions": [
+      ".gleam"
+    ],
+    "tm_scope": "source.gleam",
+    "language_id": 1054258749
   },
   "glyph": {
     "type": "programming",
@@ -3319,6 +4135,137 @@
     "codemirror_mime_type": "text/x-go",
     "language_id": 132
   },
+  "go checksums": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum",
+      "go.work.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go.sum": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum",
+      "go.work.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go sum": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum",
+      "go.work.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go.work.sum": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum",
+      "go.work.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go work sum": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.sum",
+      "go.work.sum"
+    ],
+    "tm_scope": "go.sum",
+    "ace_mode": "text",
+    "language_id": 1054391671
+  },
+  "go module": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.mod"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 947461016
+  },
+  "go.mod": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.mod"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 947461016
+  },
+  "go mod": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.mod"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 947461016
+  },
+  "go workspace": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.work"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 934546256
+  },
+  "go.work": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.work"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 934546256
+  },
+  "go work": {
+    "type": "data",
+    "color": "#00ADD8",
+    "filenames": [
+      "go.work"
+    ],
+    "tm_scope": "go.mod",
+    "ace_mode": "text",
+    "language_id": 934546256
+  },
+  "godot resource": {
+    "type": "data",
+    "color": "#355570",
+    "extensions": [
+      ".gdnlib",
+      ".gdns",
+      ".tres",
+      ".tscn"
+    ],
+    "filenames": [
+      "project.godot"
+    ],
+    "tm_scope": "source.gdresource",
+    "ace_mode": "text",
+    "language_id": 738107771
+  },
   "golo": {
     "type": "programming",
     "color": "#88562A",
@@ -3344,6 +4291,7 @@
   },
   "grace": {
     "type": "programming",
+    "color": "#615f8b",
     "extensions": [
       ".grace"
     ],
@@ -3353,6 +4301,7 @@
   },
   "gradle": {
     "type": "data",
+    "color": "#02303a",
     "extensions": [
       ".gradle"
     ],
@@ -3407,6 +4356,7 @@
   },
   "graphviz (dot)": {
     "type": "data",
+    "color": "#2596be",
     "tm_scope": "source.dot",
     "extensions": [
       ".dot",
@@ -3421,7 +4371,7 @@
     "ace_mode": "groovy",
     "codemirror_mode": "groovy",
     "codemirror_mime_type": "text/x-groovy",
-    "color": "#e69f56",
+    "color": "#4298b8",
     "extensions": [
       ".groovy",
       ".grt",
@@ -3438,6 +4388,7 @@
   },
   "groovy server pages": {
     "type": "programming",
+    "color": "#4298b8",
     "group": "Groovy",
     "extensions": [
       ".gsp"
@@ -3450,6 +4401,7 @@
   },
   "gsp": {
     "type": "programming",
+    "color": "#4298b8",
     "group": "Groovy",
     "extensions": [
       ".gsp"
@@ -3462,6 +4414,7 @@
   },
   "java server page": {
     "type": "programming",
+    "color": "#4298b8",
     "group": "Groovy",
     "extensions": [
       ".gsp"
@@ -3474,6 +4427,7 @@
   },
   "haproxy": {
     "type": "data",
+    "color": "#106da9",
     "extensions": [
       ".cfg"
     ],
@@ -3486,6 +4440,7 @@
   },
   "hcl": {
     "type": "programming",
+    "color": "#844FBA",
     "extensions": [
       ".hcl",
       ".nomad",
@@ -3501,6 +4456,7 @@
   },
   "HashiCorp Configuration Language": {
     "type": "programming",
+    "color": "#844FBA",
     "extensions": [
       ".hcl",
       ".nomad",
@@ -3516,6 +4472,7 @@
   },
   "terraform": {
     "type": "programming",
+    "color": "#844FBA",
     "extensions": [
       ".hcl",
       ".nomad",
@@ -3531,6 +4488,7 @@
   },
   "hlsl": {
     "type": "programming",
+    "color": "#aace60",
     "extensions": [
       ".hlsl",
       ".cginc",
@@ -3542,6 +4500,20 @@
     "tm_scope": "source.hlsl",
     "language_id": 145
   },
+  "hocon": {
+    "type": "data",
+    "color": "#9ff8ee",
+    "extensions": [
+      ".hocon"
+    ],
+    "filenames": [
+      ".scalafix.conf",
+      ".scalafmt.conf"
+    ],
+    "tm_scope": "source.hocon",
+    "ace_mode": "text",
+    "language_id": 679725279
+  },
   "html": {
     "type": "markup",
     "tm_scope": "text.html.basic",
@@ -3551,6 +4523,7 @@
     "color": "#e34c26",
     "extensions": [
       ".html",
+      ".hta",
       ".htm",
       ".html.hl",
       ".inc",
@@ -3568,6 +4541,7 @@
     "color": "#e34c26",
     "extensions": [
       ".html",
+      ".hta",
       ".htm",
       ".html.hl",
       ".inc",
@@ -3578,6 +4552,7 @@
   },
   "html+ecr": {
     "type": "markup",
+    "color": "#2e1052",
     "tm_scope": "text.html.ecr",
     "group": "HTML",
     "extensions": [
@@ -3590,6 +4565,7 @@
   },
   "ecr": {
     "type": "markup",
+    "color": "#2e1052",
     "tm_scope": "text.html.ecr",
     "group": "HTML",
     "extensions": [
@@ -3602,10 +4578,12 @@
   },
   "html+eex": {
     "type": "markup",
+    "color": "#6e4a7e",
     "tm_scope": "text.html.elixir",
     "group": "HTML",
     "extensions": [
       ".eex",
+      ".html.heex",
       ".html.leex"
     ],
     "ace_mode": "text",
@@ -3615,10 +4593,27 @@
   },
   "eex": {
     "type": "markup",
+    "color": "#6e4a7e",
     "tm_scope": "text.html.elixir",
     "group": "HTML",
     "extensions": [
       ".eex",
+      ".html.heex",
+      ".html.leex"
+    ],
+    "ace_mode": "text",
+    "codemirror_mode": "htmlmixed",
+    "codemirror_mime_type": "text/html",
+    "language_id": 149
+  },
+  "heex": {
+    "type": "markup",
+    "color": "#6e4a7e",
+    "tm_scope": "text.html.elixir",
+    "group": "HTML",
+    "extensions": [
+      ".eex",
+      ".html.heex",
       ".html.leex"
     ],
     "ace_mode": "text",
@@ -3628,10 +4623,12 @@
   },
   "leex": {
     "type": "markup",
+    "color": "#6e4a7e",
     "tm_scope": "text.html.elixir",
     "group": "HTML",
     "extensions": [
       ".eex",
+      ".html.heex",
       ".html.leex"
     ],
     "ace_mode": "text",
@@ -3641,6 +4638,7 @@
   },
   "html+erb": {
     "type": "markup",
+    "color": "#701516",
     "tm_scope": "text.html.erb",
     "group": "HTML",
     "extensions": [
@@ -3655,6 +4653,7 @@
   },
   "erb": {
     "type": "markup",
+    "color": "#701516",
     "tm_scope": "text.html.erb",
     "group": "HTML",
     "extensions": [
@@ -3669,6 +4668,7 @@
   },
   "rhtml": {
     "type": "markup",
+    "color": "#701516",
     "tm_scope": "text.html.erb",
     "group": "HTML",
     "extensions": [
@@ -3683,6 +4683,7 @@
   },
   "html+ruby": {
     "type": "markup",
+    "color": "#701516",
     "tm_scope": "text.html.erb",
     "group": "HTML",
     "extensions": [
@@ -3697,6 +4698,7 @@
   },
   "html+php": {
     "type": "markup",
+    "color": "#4f5d95",
     "tm_scope": "text.html.php",
     "group": "HTML",
     "extensions": [
@@ -3709,6 +4711,7 @@
   },
   "html+razor": {
     "type": "markup",
+    "color": "#512be4",
     "tm_scope": "text.html.cshtml",
     "group": "HTML",
     "extensions": [
@@ -3722,6 +4725,7 @@
   },
   "razor": {
     "type": "markup",
+    "color": "#512be4",
     "tm_scope": "text.html.cshtml",
     "group": "HTML",
     "extensions": [
@@ -3735,6 +4739,7 @@
   },
   "http": {
     "type": "data",
+    "color": "#005C9C",
     "extensions": [
       ".http"
     ],
@@ -3746,6 +4751,7 @@
   },
   "hxml": {
     "type": "data",
+    "color": "#f68712",
     "ace_mode": "text",
     "extensions": [
       ".hxml"
@@ -3879,6 +4885,17 @@
     "codemirror_mime_type": "text/x-csrc",
     "language_id": 928121743
   },
+  "hosts file": {
+    "type": "data",
+    "color": "#308888",
+    "filenames": [
+      "HOSTS",
+      "hosts"
+    ],
+    "tm_scope": "source.hosts",
+    "ace_mode": "text",
+    "language_id": 231021894
+  },
   "hy": {
     "type": "programming",
     "ace_mode": "text",
@@ -3959,17 +4976,27 @@
   },
   "ini": {
     "type": "data",
+    "color": "#d1dbe0",
     "extensions": [
       ".ini",
       ".cfg",
+      ".cnf",
       ".dof",
       ".lektorproject",
       ".prefs",
       ".pro",
-      ".properties"
+      ".properties",
+      ".url"
     ],
     "filenames": [
-      "buildozer.spec"
+      ".coveragerc",
+      ".flake8",
+      ".pylintrc",
+      "HOSTS",
+      "buildozer.spec",
+      "hosts",
+      "pylintrc",
+      "vlcrc"
     ],
     "tm_scope": "source.ini",
     "ace_mode": "ini",
@@ -3979,17 +5006,27 @@
   },
   "dosini": {
     "type": "data",
+    "color": "#d1dbe0",
     "extensions": [
       ".ini",
       ".cfg",
+      ".cnf",
       ".dof",
       ".lektorproject",
       ".prefs",
       ".pro",
-      ".properties"
+      ".properties",
+      ".url"
     ],
     "filenames": [
-      "buildozer.spec"
+      ".coveragerc",
+      ".flake8",
+      ".pylintrc",
+      "HOSTS",
+      "buildozer.spec",
+      "hosts",
+      "pylintrc",
+      "vlcrc"
     ],
     "tm_scope": "source.ini",
     "ace_mode": "ini",
@@ -4046,6 +5083,7 @@
   },
   "ignore list": {
     "type": "data",
+    "color": "#000000",
     "group": "INI",
     "extensions": [
       ".gitignore"
@@ -4060,10 +5098,12 @@
       ".eleventyignore",
       ".eslintignore",
       ".gitignore",
+      ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
       ".stylelintignore",
+      ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
@@ -4076,6 +5116,7 @@
   },
   "ignore": {
     "type": "data",
+    "color": "#000000",
     "group": "INI",
     "extensions": [
       ".gitignore"
@@ -4090,10 +5131,12 @@
       ".eleventyignore",
       ".eslintignore",
       ".gitignore",
+      ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
       ".stylelintignore",
+      ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
@@ -4106,6 +5149,7 @@
   },
   "gitignore": {
     "type": "data",
+    "color": "#000000",
     "group": "INI",
     "extensions": [
       ".gitignore"
@@ -4120,10 +5164,12 @@
       ".eleventyignore",
       ".eslintignore",
       ".gitignore",
+      ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
       ".stylelintignore",
+      ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
@@ -4136,6 +5182,7 @@
   },
   "git-ignore": {
     "type": "data",
+    "color": "#000000",
     "group": "INI",
     "extensions": [
       ".gitignore"
@@ -4150,10 +5197,12 @@
       ".eleventyignore",
       ".eslintignore",
       ".gitignore",
+      ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
       ".stylelintignore",
+      ".vercelignore",
       ".vscodeignore",
       "gitignore-global",
       "gitignore_global"
@@ -4183,6 +5232,16 @@
     "ace_mode": "text",
     "tm_scope": "none",
     "language_id": 575143428
+  },
+  "imba": {
+    "type": "programming",
+    "color": "#16cec6",
+    "extensions": [
+      ".imba"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.imba",
+    "language_id": 1057618448
   },
   "inform 7": {
     "type": "programming",
@@ -4217,8 +5276,19 @@
     "ace_mode": "text",
     "language_id": 166
   },
+  "ink": {
+    "type": "programming",
+    "wrap": true,
+    "extensions": [
+      ".ink"
+    ],
+    "tm_scope": "source.ink",
+    "ace_mode": "text",
+    "language_id": 838252715
+  },
   "inno setup": {
     "type": "programming",
+    "color": "#264b99",
     "extensions": [
       ".iss",
       ".isl"
@@ -4265,6 +5335,7 @@
   },
   "isabelle root": {
     "type": "programming",
+    "color": "#FEFE00",
     "group": "Isabelle",
     "filenames": [
       "ROOT"
@@ -4286,6 +5357,26 @@
     "ace_mode": "text",
     "language_id": 172
   },
+  "jar manifest": {
+    "type": "data",
+    "color": "#b07219",
+    "filenames": [
+      "MANIFEST.MF"
+    ],
+    "tm_scope": "source.yaml",
+    "ace_mode": "text",
+    "language_id": 447261135
+  },
+  "jcl": {
+    "type": "programming",
+    "color": "#d90e09",
+    "extensions": [
+      ".jcl"
+    ],
+    "tm_scope": "source.jcl",
+    "ace_mode": "text",
+    "language_id": 316620079
+  },
   "jflex": {
     "type": "programming",
     "color": "#DBCA00",
@@ -4300,12 +5391,15 @@
   },
   "json": {
     "type": "data",
+    "color": "#292929",
     "tm_scope": "source.json",
     "ace_mode": "json",
     "codemirror_mode": "javascript",
     "codemirror_mime_type": "application/json",
     "extensions": [
       ".json",
+      ".4DForm",
+      ".4DProject",
       ".avsc",
       ".geojson",
       ".gltf",
@@ -4323,20 +5417,161 @@
       ".yyp"
     ],
     "filenames": [
+      ".all-contributorsrc",
       ".arcconfig",
+      ".auto-changelog",
+      ".c8rc",
       ".htmlhintrc",
       ".imgbotconfig",
+      ".nycrc",
       ".tern-config",
       ".tern-project",
       ".watchmanconfig",
       "Pipfile.lock",
       "composer.lock",
+      "flake.lock",
+      "mcmod.info"
+    ],
+    "language_id": 174
+  },
+  "geojson": {
+    "type": "data",
+    "color": "#292929",
+    "tm_scope": "source.json",
+    "ace_mode": "json",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/json",
+    "extensions": [
+      ".json",
+      ".4DForm",
+      ".4DProject",
+      ".avsc",
+      ".geojson",
+      ".gltf",
+      ".har",
+      ".ice",
+      ".JSON-tmLanguage",
+      ".jsonl",
+      ".mcmeta",
+      ".tfstate",
+      ".tfstate.backup",
+      ".topojson",
+      ".webapp",
+      ".webmanifest",
+      ".yy",
+      ".yyp"
+    ],
+    "filenames": [
+      ".all-contributorsrc",
+      ".arcconfig",
+      ".auto-changelog",
+      ".c8rc",
+      ".htmlhintrc",
+      ".imgbotconfig",
+      ".nycrc",
+      ".tern-config",
+      ".tern-project",
+      ".watchmanconfig",
+      "Pipfile.lock",
+      "composer.lock",
+      "flake.lock",
+      "mcmod.info"
+    ],
+    "language_id": 174
+  },
+  "jsonl": {
+    "type": "data",
+    "color": "#292929",
+    "tm_scope": "source.json",
+    "ace_mode": "json",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/json",
+    "extensions": [
+      ".json",
+      ".4DForm",
+      ".4DProject",
+      ".avsc",
+      ".geojson",
+      ".gltf",
+      ".har",
+      ".ice",
+      ".JSON-tmLanguage",
+      ".jsonl",
+      ".mcmeta",
+      ".tfstate",
+      ".tfstate.backup",
+      ".topojson",
+      ".webapp",
+      ".webmanifest",
+      ".yy",
+      ".yyp"
+    ],
+    "filenames": [
+      ".all-contributorsrc",
+      ".arcconfig",
+      ".auto-changelog",
+      ".c8rc",
+      ".htmlhintrc",
+      ".imgbotconfig",
+      ".nycrc",
+      ".tern-config",
+      ".tern-project",
+      ".watchmanconfig",
+      "Pipfile.lock",
+      "composer.lock",
+      "flake.lock",
+      "mcmod.info"
+    ],
+    "language_id": 174
+  },
+  "topojson": {
+    "type": "data",
+    "color": "#292929",
+    "tm_scope": "source.json",
+    "ace_mode": "json",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/json",
+    "extensions": [
+      ".json",
+      ".4DForm",
+      ".4DProject",
+      ".avsc",
+      ".geojson",
+      ".gltf",
+      ".har",
+      ".ice",
+      ".JSON-tmLanguage",
+      ".jsonl",
+      ".mcmeta",
+      ".tfstate",
+      ".tfstate.backup",
+      ".topojson",
+      ".webapp",
+      ".webmanifest",
+      ".yy",
+      ".yyp"
+    ],
+    "filenames": [
+      ".all-contributorsrc",
+      ".arcconfig",
+      ".auto-changelog",
+      ".c8rc",
+      ".htmlhintrc",
+      ".imgbotconfig",
+      ".nycrc",
+      ".tern-config",
+      ".tern-project",
+      ".watchmanconfig",
+      "Pipfile.lock",
+      "composer.lock",
+      "flake.lock",
       "mcmod.info"
     ],
     "language_id": 174
   },
   "json with comments": {
     "type": "data",
+    "color": "#292929",
     "group": "JSON",
     "tm_scope": "source.js",
     "ace_mode": "javascript",
@@ -4344,6 +5579,7 @@
     "codemirror_mime_type": "text/javascript",
     "extensions": [
       ".jsonc",
+      ".code-snippets",
       ".sublime-build",
       ".sublime-commands",
       ".sublime-completions",
@@ -4360,10 +5596,12 @@
     ],
     "filenames": [
       ".babelrc",
+      ".devcontainer.json",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      ".swcrc",
       "api-extractor.json",
       "devcontainer.json",
       "jsconfig.json",
@@ -4375,6 +5613,7 @@
   },
   "jsonc": {
     "type": "data",
+    "color": "#292929",
     "group": "JSON",
     "tm_scope": "source.js",
     "ace_mode": "javascript",
@@ -4382,6 +5621,7 @@
     "codemirror_mime_type": "text/javascript",
     "extensions": [
       ".jsonc",
+      ".code-snippets",
       ".sublime-build",
       ".sublime-commands",
       ".sublime-completions",
@@ -4398,10 +5638,12 @@
     ],
     "filenames": [
       ".babelrc",
+      ".devcontainer.json",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      ".swcrc",
       "api-extractor.json",
       "devcontainer.json",
       "jsconfig.json",
@@ -4413,6 +5655,7 @@
   },
   "json5": {
     "type": "data",
+    "color": "#267CB9",
     "extensions": [
       ".json5"
     ],
@@ -4424,6 +5667,7 @@
   },
   "jsonld": {
     "type": "data",
+    "color": "#0c479c",
     "extensions": [
       ".jsonld"
     ],
@@ -4445,8 +5689,24 @@
     "tm_scope": "source.jsoniq",
     "language_id": 177
   },
+  "janet": {
+    "type": "programming",
+    "color": "#0886a5",
+    "extensions": [
+      ".janet"
+    ],
+    "tm_scope": "source.janet",
+    "ace_mode": "scheme",
+    "codemirror_mode": "scheme",
+    "codemirror_mime_type": "text/x-scheme",
+    "interpreters": [
+      "janet"
+    ],
+    "language_id": 1028705371
+  },
   "jasmin": {
     "type": "programming",
+    "color": "#d03600",
     "ace_mode": "java",
     "extensions": [
       ".j"
@@ -4462,12 +5722,15 @@
     "codemirror_mime_type": "text/x-java",
     "color": "#b07219",
     "extensions": [
-      ".java"
+      ".java",
+      ".jav",
+      ".jsh"
     ],
     "language_id": 181
   },
   "java properties": {
     "type": "data",
+    "color": "#2A6277",
     "extensions": [
       ".properties"
     ],
@@ -4479,9 +5742,11 @@
   },
   "java server pages": {
     "type": "programming",
+    "color": "#2A6277",
     "group": "Java",
     "extensions": [
-      ".jsp"
+      ".jsp",
+      ".tag"
     ],
     "tm_scope": "text.html.jsp",
     "ace_mode": "jsp",
@@ -4491,9 +5756,11 @@
   },
   "jsp": {
     "type": "programming",
+    "color": "#2A6277",
     "group": "Java",
     "extensions": [
-      ".jsp"
+      ".jsp",
+      ".tag"
     ],
     "tm_scope": "text.html.jsp",
     "ace_mode": "jsp",
@@ -4518,10 +5785,13 @@
       ".frag",
       ".gs",
       ".jake",
+      ".javascript",
       ".jsb",
       ".jscad",
       ".jsfl",
+      ".jslib",
       ".jsm",
+      ".jspre",
       ".jss",
       ".jsx",
       ".mjs",
@@ -4566,10 +5836,13 @@
       ".frag",
       ".gs",
       ".jake",
+      ".javascript",
       ".jsb",
       ".jscad",
       ".jsfl",
+      ".jslib",
       ".jsm",
+      ".jspre",
       ".jss",
       ".jsx",
       ".mjs",
@@ -4614,10 +5887,13 @@
       ".frag",
       ".gs",
       ".jake",
+      ".javascript",
       ".jsb",
       ".jscad",
       ".jsfl",
+      ".jslib",
       ".jsm",
+      ".jspre",
       ".jss",
       ".jsx",
       ".mjs",
@@ -4647,6 +5923,7 @@
   },
   "javascript+erb": {
     "type": "programming",
+    "color": "#f1e05a",
     "tm_scope": "source.js",
     "group": "JavaScript",
     "extensions": [
@@ -4656,6 +5933,46 @@
     "codemirror_mode": "javascript",
     "codemirror_mime_type": "application/javascript",
     "language_id": 914318960
+  },
+  "jest snapshot": {
+    "type": "data",
+    "color": "#15c213",
+    "tm_scope": "source.jest.snap",
+    "extensions": [
+      ".snap"
+    ],
+    "ace_mode": "javascript",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/javascript",
+    "language_id": 774635084
+  },
+  "jetbrains mps": {
+    "type": "programming",
+    "color": "#21D789",
+    "extensions": [
+      ".mps",
+      ".mpl",
+      ".msd"
+    ],
+    "ace_mode": "xml",
+    "codemirror_mode": "xml",
+    "codemirror_mime_type": "text/xml",
+    "tm_scope": "none",
+    "language_id": 465165328
+  },
+  "mps": {
+    "type": "programming",
+    "color": "#21D789",
+    "extensions": [
+      ".mps",
+      ".mpl",
+      ".msd"
+    ],
+    "ace_mode": "xml",
+    "codemirror_mode": "xml",
+    "codemirror_mime_type": "text/xml",
+    "tm_scope": "none",
+    "language_id": 465165328
   },
   "jinja": {
     "type": "markup",
@@ -4729,6 +6046,7 @@
   },
   "jison": {
     "type": "programming",
+    "color": "#56b3cb",
     "group": "Yacc",
     "extensions": [
       ".jison"
@@ -4739,6 +6057,7 @@
   },
   "jison lex": {
     "type": "programming",
+    "color": "#56b3cb",
     "group": "Lex",
     "extensions": [
       ".jisonlex"
@@ -4817,6 +6136,30 @@
     ],
     "language_id": 185
   },
+  "just": {
+    "type": "programming",
+    "color": "#384d54",
+    "tm_scope": "source.just",
+    "filenames": [
+      "JUSTFILE",
+      "Justfile",
+      "justfile"
+    ],
+    "ace_mode": "text",
+    "language_id": 128447695
+  },
+  "Justfile": {
+    "type": "programming",
+    "color": "#384d54",
+    "tm_scope": "source.just",
+    "filenames": [
+      "JUSTFILE",
+      "Justfile",
+      "justfile"
+    ],
+    "ace_mode": "text",
+    "language_id": 128447695
+  },
   "krl": {
     "type": "programming",
     "color": "#28430A",
@@ -4851,8 +6194,58 @@
     "tm_scope": "source.yaml",
     "language_id": 818804755
   },
+  "kakounescript": {
+    "type": "programming",
+    "color": "#6f8042",
+    "tm_scope": "source.kakscript",
+    "extensions": [
+      ".kak"
+    ],
+    "filenames": [
+      "kakrc"
+    ],
+    "ace_mode": "text",
+    "language_id": 603336474
+  },
+  "kak": {
+    "type": "programming",
+    "color": "#6f8042",
+    "tm_scope": "source.kakscript",
+    "extensions": [
+      ".kak"
+    ],
+    "filenames": [
+      "kakrc"
+    ],
+    "ace_mode": "text",
+    "language_id": 603336474
+  },
+  "kakscript": {
+    "type": "programming",
+    "color": "#6f8042",
+    "tm_scope": "source.kakscript",
+    "extensions": [
+      ".kak"
+    ],
+    "filenames": [
+      "kakrc"
+    ],
+    "ace_mode": "text",
+    "language_id": 603336474
+  },
+  "kerboscript": {
+    "type": "programming",
+    "ace_mode": "text",
+    "extensions": [
+      ".ks"
+    ],
+    "color": "#41adf0",
+    "tm_scope": "source.kerboscript",
+    "language_id": 59716426
+  },
   "kicad layout": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
       ".kicad_pcb",
       ".kicad_mod",
@@ -4869,6 +6262,7 @@
   },
   "pcbnew": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
       ".kicad_pcb",
       ".kicad_mod",
@@ -4885,6 +6279,7 @@
   },
   "kicad legacy layout": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
       ".brd"
     ],
@@ -4894,7 +6289,9 @@
   },
   "kicad schematic": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
+      ".kicad_sch",
       ".sch"
     ],
     "tm_scope": "source.pcb.schematic",
@@ -4903,12 +6300,23 @@
   },
   "eeschema schematic": {
     "type": "data",
+    "color": "#2f4aab",
     "extensions": [
+      ".kicad_sch",
       ".sch"
     ],
     "tm_scope": "source.pcb.schematic",
     "ace_mode": "text",
     "language_id": 622447435
+  },
+  "kickstart": {
+    "type": "data",
+    "ace_mode": "text",
+    "extensions": [
+      ".ks"
+    ],
+    "tm_scope": "source.kickstart",
+    "language_id": 692635484
   },
   "kit": {
     "type": "markup",
@@ -4938,7 +6346,8 @@
   "kusto": {
     "type": "data",
     "extensions": [
-      ".csl"
+      ".csl",
+      ".kql"
     ],
     "tm_scope": "source.kusto",
     "ace_mode": "text",
@@ -4972,7 +6381,7 @@
       ".lol"
     ],
     "color": "#cc9900",
-    "tm_scope": "none",
+    "tm_scope": "source.lolcode",
     "ace_mode": "text",
     "language_id": 192
   },
@@ -5003,8 +6412,10 @@
   },
   "labview": {
     "type": "programming",
+    "color": "#fede06",
     "extensions": [
       ".lvproj",
+      ".lvclass",
       ".lvlib"
     ],
     "tm_scope": "text.xml",
@@ -5085,6 +6496,18 @@
     "codemirror_mime_type": "text/css",
     "language_id": 198
   },
+  "less-css": {
+    "type": "markup",
+    "color": "#1d365d",
+    "extensions": [
+      ".less"
+    ],
+    "tm_scope": "source.css.less",
+    "ace_mode": "less",
+    "codemirror_mode": "css",
+    "codemirror_mime_type": "text/css",
+    "language_id": 198
+  },
   "lex": {
     "type": "programming",
     "color": "#DBCA00",
@@ -5114,6 +6537,19 @@
     "tm_scope": "source.lex",
     "ace_mode": "text",
     "language_id": 199
+  },
+  "ligolang": {
+    "type": "programming",
+    "color": "#0e74ff",
+    "extensions": [
+      ".ligo"
+    ],
+    "tm_scope": "source.ligo",
+    "ace_mode": "pascal",
+    "codemirror_mode": "pascal",
+    "codemirror_mime_type": "text/x-pascal",
+    "group": "LigoLANG",
+    "language_id": 1040646257
   },
   "lilypond": {
     "type": "programming",
@@ -5171,6 +6607,7 @@
   },
   "literate agda": {
     "type": "programming",
+    "color": "#315665",
     "group": "Agda",
     "extensions": [
       ".lagda"
@@ -5181,6 +6618,7 @@
   },
   "literate coffeescript": {
     "type": "programming",
+    "color": "#244776",
     "tm_scope": "source.litcoffee",
     "group": "CoffeeScript",
     "ace_mode": "text",
@@ -5193,6 +6631,7 @@
   },
   "litcoffee": {
     "type": "programming",
+    "color": "#244776",
     "tm_scope": "source.litcoffee",
     "group": "CoffeeScript",
     "ace_mode": "text",
@@ -5205,6 +6644,7 @@
   },
   "literate haskell": {
     "type": "programming",
+    "color": "#5e5086",
     "group": "Haskell",
     "extensions": [
       ".lhs"
@@ -5217,6 +6657,7 @@
   },
   "lhaskell": {
     "type": "programming",
+    "color": "#5e5086",
     "group": "Haskell",
     "extensions": [
       ".lhs"
@@ -5229,6 +6670,7 @@
   },
   "lhs": {
     "type": "programming",
+    "color": "#5e5086",
     "group": "Haskell",
     "extensions": [
       ".lhs"
@@ -5300,6 +6742,7 @@
   },
   "logtalk": {
     "type": "programming",
+    "color": "#295b9a",
     "extensions": [
       ".lgt",
       ".logtalk"
@@ -5315,9 +6758,8 @@
     "codemirror_mime_type": "text/x-yaml",
     "color": "#652B81",
     "extensions": [
-      ".lookml",
-      ".model.lkml",
-      ".view.lkml"
+      ".lkml",
+      ".lookml"
     ],
     "tm_scope": "source.yaml",
     "language_id": 211
@@ -5383,7 +6825,8 @@
   "m4": {
     "type": "programming",
     "extensions": [
-      ".m4"
+      ".m4",
+      ".mc"
     ],
     "tm_scope": "source.m4",
     "ace_mode": "text",
@@ -5451,6 +6894,19 @@
     "tm_scope": "source.maxscript",
     "ace_mode": "text",
     "language_id": 217
+  },
+  "mdx": {
+    "type": "markup",
+    "color": "#fcb32c",
+    "ace_mode": "markdown",
+    "codemirror_mode": "gfm",
+    "codemirror_mime_type": "text/x-gfm",
+    "wrap": true,
+    "extensions": [
+      ".mdx"
+    ],
+    "tm_scope": "source.mdx",
+    "language_id": 512838272
   },
   "mlir": {
     "type": "programming",
@@ -5542,6 +6998,7 @@
       ".mak",
       ".d",
       ".make",
+      ".makefile",
       ".mk",
       ".mkfile"
     ],
@@ -5576,6 +7033,7 @@
       ".mak",
       ".d",
       ".make",
+      ".makefile",
       ".mk",
       ".mkfile"
     ],
@@ -5610,6 +7068,7 @@
       ".mak",
       ".d",
       ".make",
+      ".makefile",
       ".mk",
       ".mkfile"
     ],
@@ -5644,6 +7103,7 @@
       ".mak",
       ".d",
       ".make",
+      ".makefile",
       ".mk",
       ".mkfile"
     ],
@@ -5673,6 +7133,7 @@
   },
   "mako": {
     "type": "programming",
+    "color": "#7e858d",
     "extensions": [
       ".mako",
       ".mao"
@@ -5690,10 +7151,10 @@
     "wrap": true,
     "extensions": [
       ".md",
+      ".livemd",
       ".markdown",
       ".mdown",
       ".mdwn",
-      ".mdx",
       ".mkd",
       ".mkdn",
       ".mkdown",
@@ -5704,7 +7165,33 @@
     "filenames": [
       "contents.lr"
     ],
-    "tm_scope": "source.gfm",
+    "tm_scope": "text.md",
+    "language_id": 222
+  },
+  "md": {
+    "type": "prose",
+    "color": "#083fa1",
+    "ace_mode": "markdown",
+    "codemirror_mode": "gfm",
+    "codemirror_mime_type": "text/x-gfm",
+    "wrap": true,
+    "extensions": [
+      ".md",
+      ".livemd",
+      ".markdown",
+      ".mdown",
+      ".mdwn",
+      ".mkd",
+      ".mkdn",
+      ".mkdown",
+      ".ronn",
+      ".scd",
+      ".workbook"
+    ],
+    "filenames": [
+      "contents.lr"
+    ],
+    "tm_scope": "text.md",
     "language_id": 222
   },
   "pandoc": {
@@ -5716,10 +7203,10 @@
     "wrap": true,
     "extensions": [
       ".md",
+      ".livemd",
       ".markdown",
       ".mdown",
       ".mdwn",
-      ".mdx",
       ".mkd",
       ".mkdn",
       ".mkdown",
@@ -5730,7 +7217,7 @@
     "filenames": [
       "contents.lr"
     ],
-    "tm_scope": "source.gfm",
+    "tm_scope": "text.md",
     "language_id": 222
   },
   "marko": {
@@ -5769,6 +7256,7 @@
   },
   "mathematica": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5788,6 +7276,7 @@
   },
   "mma": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5807,6 +7296,7 @@
   },
   "wolfram": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5826,6 +7316,7 @@
   },
   "wolfram language": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5845,6 +7336,7 @@
   },
   "wolfram lang": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5864,6 +7356,7 @@
   },
   "wl": {
     "type": "programming",
+    "color": "#dd1100",
     "extensions": [
       ".mathematica",
       ".cdf",
@@ -5955,6 +7448,28 @@
     "tm_scope": "source.mercury",
     "language_id": 229
   },
+  "mermaid": {
+    "type": "markup",
+    "color": "#ff3670",
+    "extensions": [
+      ".mmd",
+      ".mermaid"
+    ],
+    "tm_scope": "source.mermaid",
+    "ace_mode": "text",
+    "language_id": 385992043
+  },
+  "mermaid example": {
+    "type": "markup",
+    "color": "#ff3670",
+    "extensions": [
+      ".mmd",
+      ".mermaid"
+    ],
+    "tm_scope": "source.mermaid",
+    "ace_mode": "text",
+    "language_id": 385992043
+  },
   "meson": {
     "type": "programming",
     "color": "#007800",
@@ -6005,6 +7520,29 @@
     "ace_mode": "text",
     "language_id": 231
   },
+  "miniyaml": {
+    "type": "data",
+    "color": "#ff1111",
+    "tm_scope": "source.miniyaml",
+    "extensions": [
+      ".yaml",
+      ".yml"
+    ],
+    "ace_mode": "yaml",
+    "codemirror_mode": "yaml",
+    "codemirror_mime_type": "text/x-yaml",
+    "language_id": 4896465
+  },
+  "mint": {
+    "type": "programming",
+    "extensions": [
+      ".mint"
+    ],
+    "ace_mode": "text",
+    "color": "#02b046",
+    "tm_scope": "source.mint",
+    "language_id": 968740319
+  },
   "mirah": {
     "type": "programming",
     "color": "#c7a938",
@@ -6021,6 +7559,7 @@
   },
   "modelica": {
     "type": "programming",
+    "color": "#de1d31",
     "extensions": [
       ".mo"
     ],
@@ -6032,6 +7571,7 @@
   },
   "modula-2": {
     "type": "programming",
+    "color": "#10253f",
     "extensions": [
       ".mod"
     ],
@@ -6076,6 +7616,18 @@
     "tm_scope": "source.monkey",
     "language_id": 236
   },
+  "monkey c": {
+    "type": "programming",
+    "color": "#8D6747",
+    "extensions": [
+      ".mc"
+    ],
+    "tm_scope": "source.mc",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 231751931
+  },
   "moocode": {
     "type": "programming",
     "extensions": [
@@ -6087,6 +7639,7 @@
   },
   "moonscript": {
     "type": "programming",
+    "color": "#ff4585",
     "extensions": [
       ".moon"
     ],
@@ -6097,8 +7650,19 @@
     "ace_mode": "text",
     "language_id": 238
   },
+  "motoko": {
+    "type": "programming",
+    "color": "#fbb03b",
+    "extensions": [
+      ".mo"
+    ],
+    "tm_scope": "source.mo",
+    "ace_mode": "text",
+    "language_id": 202937027
+  },
   "motorola 68k assembly": {
     "type": "programming",
+    "color": "#005daa",
     "group": "Assembly",
     "extensions": [
       ".asm",
@@ -6113,6 +7677,7 @@
   },
   "m68k": {
     "type": "programming",
+    "color": "#005daa",
     "group": "Assembly",
     "extensions": [
       ".asm",
@@ -6124,6 +7689,16 @@
     "tm_scope": "source.m68k",
     "ace_mode": "assembly_x86",
     "language_id": 477582706
+  },
+  "move": {
+    "type": "programming",
+    "color": "#4a137a",
+    "extensions": [
+      ".move"
+    ],
+    "tm_scope": "source.move",
+    "ace_mode": "text",
+    "language_id": 638334599
   },
   "muse": {
     "type": "prose",
@@ -6234,6 +7809,7 @@
   },
   "npm config": {
     "type": "data",
+    "color": "#cb3837",
     "group": "INI",
     "filenames": [
       ".npmrc"
@@ -6244,6 +7820,7 @@
   },
   "npmrc": {
     "type": "data",
+    "color": "#cb3837",
     "group": "INI",
     "filenames": [
       ".npmrc"
@@ -6275,6 +7852,16 @@
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-csrc",
     "language_id": 731233819
+  },
+  "nasal": {
+    "type": "programming",
+    "color": "#1d2c4e",
+    "extensions": [
+      ".nas"
+    ],
+    "tm_scope": "source.nasal",
+    "ace_mode": "text",
+    "language_id": 178322513
   },
   "nearley": {
     "type": "programming",
@@ -6366,6 +7953,7 @@
   },
   "nginx": {
     "type": "data",
+    "color": "#009639",
     "extensions": [
       ".nginx",
       ".nginxconf",
@@ -6382,6 +7970,7 @@
   },
   "nginx configuration file": {
     "type": "data",
+    "color": "#009639",
     "extensions": [
       ".nginx",
       ".nginxconf",
@@ -6523,12 +8112,111 @@
     "ace_mode": "nunjucks",
     "language_id": 461856962
   },
+  "nushell": {
+    "type": "programming",
+    "color": "#4E9906",
+    "extensions": [
+      ".nu"
+    ],
+    "interpreters": [
+      "nu"
+    ],
+    "tm_scope": "source.nushell",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 446573572
+  },
+  "nu-script": {
+    "type": "programming",
+    "color": "#4E9906",
+    "extensions": [
+      ".nu"
+    ],
+    "interpreters": [
+      "nu"
+    ],
+    "tm_scope": "source.nushell",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 446573572
+  },
+  "nushell-script": {
+    "type": "programming",
+    "color": "#4E9906",
+    "extensions": [
+      ".nu"
+    ],
+    "interpreters": [
+      "nu"
+    ],
+    "tm_scope": "source.nushell",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 446573572
+  },
+  "oasv2-json": {
+    "type": "data",
+    "color": "#85ea2d",
+    "extensions": [
+      ".json"
+    ],
+    "group": "OpenAPI Specification v2",
+    "tm_scope": "source.json",
+    "ace_mode": "json",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/json",
+    "language_id": 834374816
+  },
+  "oasv2-yaml": {
+    "type": "data",
+    "color": "#85ea2d",
+    "extensions": [
+      ".yaml",
+      ".yml"
+    ],
+    "group": "OpenAPI Specification v2",
+    "tm_scope": "source.yaml",
+    "ace_mode": "yaml",
+    "codemirror_mode": "yaml",
+    "codemirror_mime_type": "text/x-yaml",
+    "language_id": 105187618
+  },
+  "oasv3-json": {
+    "type": "data",
+    "color": "#85ea2d",
+    "extensions": [
+      ".json"
+    ],
+    "group": "OpenAPI Specification v3",
+    "tm_scope": "source.json",
+    "ace_mode": "json",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/json",
+    "language_id": 980062566
+  },
+  "oasv3-yaml": {
+    "type": "data",
+    "color": "#85ea2d",
+    "extensions": [
+      ".yaml",
+      ".yml"
+    ],
+    "group": "OpenAPI Specification v3",
+    "tm_scope": "source.yaml",
+    "ace_mode": "yaml",
+    "codemirror_mode": "yaml",
+    "codemirror_mime_type": "text/x-yaml",
+    "language_id": 51239111
+  },
   "ocaml": {
     "type": "programming",
     "ace_mode": "ocaml",
     "codemirror_mode": "mllike",
     "codemirror_mime_type": "text/x-ocaml",
-    "color": "#3be133",
+    "color": "#ef7a08",
     "extensions": [
       ".ml",
       ".eliom",
@@ -6779,6 +8467,7 @@
   },
   "open policy agent": {
     "type": "programming",
+    "color": "#7d9199",
     "ace_mode": "text",
     "extensions": [
       ".rego"
@@ -6786,8 +8475,37 @@
     "language_id": 840483232,
     "tm_scope": "source.rego"
   },
+  "openapi specification v2": {
+    "type": "data",
+    "color": "#85ea2d",
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "language_id": 848295328
+  },
+  "oasv2": {
+    "type": "data",
+    "color": "#85ea2d",
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "language_id": 848295328
+  },
+  "openapi specification v3": {
+    "type": "data",
+    "color": "#85ea2d",
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "language_id": 557959099
+  },
+  "oasv3": {
+    "type": "data",
+    "color": "#85ea2d",
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "language_id": 557959099
+  },
   "opencl": {
     "type": "programming",
+    "color": "#ed2e2d",
     "group": "C",
     "extensions": [
       ".cl",
@@ -6801,6 +8519,7 @@
   },
   "openedge abl": {
     "type": "programming",
+    "color": "#5ce600",
     "extensions": [
       ".p",
       ".cls",
@@ -6812,6 +8531,7 @@
   },
   "progress": {
     "type": "programming",
+    "color": "#5ce600",
     "extensions": [
       ".p",
       ".cls",
@@ -6823,6 +8543,7 @@
   },
   "openedge": {
     "type": "programming",
+    "color": "#5ce600",
     "extensions": [
       ".p",
       ".cls",
@@ -6834,6 +8555,7 @@
   },
   "abl": {
     "type": "programming",
+    "color": "#5ce600",
     "extensions": [
       ".p",
       ".cls",
@@ -6879,6 +8601,7 @@
   },
   "openscad": {
     "type": "programming",
+    "color": "#e5cd45",
     "extensions": [
       ".scad"
     ],
@@ -6913,6 +8636,48 @@
     "tm_scope": "source.opentype",
     "ace_mode": "text",
     "language_id": 374317347
+  },
+  "option list": {
+    "type": "data",
+    "color": "#476732",
+    "filenames": [
+      ".ackrc",
+      "ackrc",
+      "mocha.opts"
+    ],
+    "tm_scope": "source.opts",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 723589315
+  },
+  "opts": {
+    "type": "data",
+    "color": "#476732",
+    "filenames": [
+      ".ackrc",
+      "ackrc",
+      "mocha.opts"
+    ],
+    "tm_scope": "source.opts",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 723589315
+  },
+  "ackrc": {
+    "type": "data",
+    "color": "#476732",
+    "filenames": [
+      ".ackrc",
+      "ackrc",
+      "mocha.opts"
+    ],
+    "tm_scope": "source.opts",
+    "ace_mode": "sh",
+    "codemirror_mode": "shell",
+    "codemirror_mime_type": "text/x-sh",
+    "language_id": 723589315
   },
   "org": {
     "type": "prose",
@@ -6967,6 +8732,16 @@
     "tm_scope": "source.p4",
     "ace_mode": "text",
     "language_id": 348895984
+  },
+  "pddl": {
+    "type": "programming",
+    "color": "#0d00ff",
+    "extensions": [
+      ".pddl"
+    ],
+    "tm_scope": "source.pddl",
+    "ace_mode": "text",
+    "language_id": 736235603
   },
   "peg.js": {
     "type": "programming",
@@ -7069,6 +8844,7 @@
   },
   "plpgsql": {
     "type": "programming",
+    "color": "#336790",
     "ace_mode": "pgsql",
     "codemirror_mode": "sql",
     "codemirror_mime_type": "text/x-sql",
@@ -7081,6 +8857,7 @@
   },
   "pov-ray sdl": {
     "type": "programming",
+    "color": "#6bac65",
     "extensions": [
       ".pov",
       ".inc"
@@ -7091,6 +8868,7 @@
   },
   "pov-ray": {
     "type": "programming",
+    "color": "#6bac65",
     "extensions": [
       ".pov",
       ".inc"
@@ -7101,6 +8879,7 @@
   },
   "povray": {
     "type": "programming",
+    "color": "#6bac65",
     "extensions": [
       ".pov",
       ".inc"
@@ -7108,6 +8887,16 @@
     "tm_scope": "source.pov-ray sdl",
     "ace_mode": "text",
     "language_id": 275
+  },
+  "pact": {
+    "type": "programming",
+    "color": "#F7A8B8",
+    "ace_mode": "text",
+    "tm_scope": "source.pact",
+    "extensions": [
+      ".pact"
+    ],
+    "language_id": 756774415
   },
   "pan": {
     "type": "programming",
@@ -7296,10 +9085,12 @@
       ".t"
     ],
     "filenames": [
+      ".latexmkrc",
       "Makefile.PL",
       "Rexfile",
       "ack",
-      "cpanfile"
+      "cpanfile",
+      "latexmkrc"
     ],
     "interpreters": [
       "cperl",
@@ -7327,10 +9118,12 @@
       ".t"
     ],
     "filenames": [
+      ".latexmkrc",
       "Makefile.PL",
       "Rexfile",
       "ack",
-      "cpanfile"
+      "cpanfile",
+      "latexmkrc"
     ],
     "interpreters": [
       "cperl",
@@ -7362,6 +9155,7 @@
   },
   "picolisp": {
     "type": "programming",
+    "color": "#6067af",
     "extensions": [
       ".l"
     ],
@@ -7399,6 +9193,7 @@
   },
   "plantuml": {
     "type": "data",
+    "color": "#fbbd16",
     "extensions": [
       ".puml",
       ".iuml",
@@ -7447,6 +9242,16 @@
     "ace_mode": "text",
     "language_id": 289
   },
+  "polar": {
+    "type": "programming",
+    "color": "#ae81ff",
+    "extensions": [
+      ".polar"
+    ],
+    "tm_scope": "source.polar",
+    "ace_mode": "text",
+    "language_id": 839112914
+  },
   "pony": {
     "type": "programming",
     "extensions": [
@@ -7456,8 +9261,19 @@
     "ace_mode": "text",
     "language_id": 290
   },
+  "portugol": {
+    "type": "programming",
+    "color": "#f8bd00",
+    "extensions": [
+      ".por"
+    ],
+    "tm_scope": "source.portugol",
+    "ace_mode": "text",
+    "language_id": 832391833
+  },
   "postcss": {
     "type": "markup",
+    "color": "#dc3a0c",
     "tm_scope": "source.postcss",
     "group": "CSS",
     "extensions": [
@@ -7577,6 +9393,16 @@
     "ace_mode": "text",
     "language_id": 294
   },
+  "procfile": {
+    "type": "programming",
+    "color": "#3B2F63",
+    "filenames": [
+      "Procfile"
+    ],
+    "tm_scope": "source.procfile",
+    "ace_mode": "batchfile",
+    "language_id": 305313959
+  },
   "proguard": {
     "type": "data",
     "extensions": [
@@ -7591,6 +9417,7 @@
     "color": "#74283c",
     "extensions": [
       ".pl",
+      ".plt",
       ".pro",
       ".prolog",
       ".yap"
@@ -7603,6 +9430,16 @@
     "ace_mode": "prolog",
     "language_id": 295
   },
+  "promela": {
+    "type": "programming",
+    "color": "#de0000",
+    "tm_scope": "source.promela",
+    "ace_mode": "text",
+    "extensions": [
+      ".pml"
+    ],
+    "language_id": 441858312
+  },
   "propeller spin": {
     "type": "programming",
     "color": "#7fa2a7",
@@ -7614,6 +9451,17 @@
     "language_id": 296
   },
   "protocol buffer": {
+    "type": "data",
+    "extensions": [
+      ".proto"
+    ],
+    "tm_scope": "source.proto",
+    "ace_mode": "protobuf",
+    "codemirror_mode": "protobuf",
+    "codemirror_mime_type": "text/x-protobuf",
+    "language_id": 297
+  },
+  "proto": {
     "type": "data",
     "extensions": [
       ".proto"
@@ -7645,6 +9493,39 @@
     "codemirror_mode": "protobuf",
     "codemirror_mime_type": "text/x-protobuf",
     "language_id": 297
+  },
+  "protocol buffer text format": {
+    "type": "data",
+    "extensions": [
+      ".textproto",
+      ".pbt",
+      ".pbtxt"
+    ],
+    "tm_scope": "source.textproto",
+    "ace_mode": "text",
+    "language_id": 436568854
+  },
+  "text proto": {
+    "type": "data",
+    "extensions": [
+      ".textproto",
+      ".pbt",
+      ".pbtxt"
+    ],
+    "tm_scope": "source.textproto",
+    "ace_mode": "text",
+    "language_id": 436568854
+  },
+  "protobuf text format": {
+    "type": "data",
+    "extensions": [
+      ".textproto",
+      ".pbt",
+      ".pbtxt"
+    ],
+    "tm_scope": "source.textproto",
+    "ace_mode": "text",
+    "language_id": 436568854
   },
   "public key": {
     "type": "data",
@@ -7718,6 +9599,16 @@
     "codemirror_mime_type": "text/x-haskell",
     "language_id": 302
   },
+  "pyret": {
+    "type": "programming",
+    "color": "#ee1e10",
+    "extensions": [
+      ".arr"
+    ],
+    "ace_mode": "python",
+    "tm_scope": "source.arr",
+    "language_id": 252961827
+  },
   "python": {
     "type": "programming",
     "tm_scope": "source.python",
@@ -7739,7 +9630,6 @@
       ".pyt",
       ".pyw",
       ".rpy",
-      ".smk",
       ".spec",
       ".tac",
       ".wsgi",
@@ -7750,13 +9640,15 @@
       "DEPS",
       "SConscript",
       "SConstruct",
-      "Snakefile",
       "wscript"
     ],
     "interpreters": [
       "python",
       "python2",
-      "python3"
+      "python3",
+      "py",
+      "pypy",
+      "pypy3"
     ],
     "language_id": 303
   },
@@ -7781,7 +9673,6 @@
       ".pyt",
       ".pyw",
       ".rpy",
-      ".smk",
       ".spec",
       ".tac",
       ".wsgi",
@@ -7792,13 +9683,15 @@
       "DEPS",
       "SConscript",
       "SConstruct",
-      "Snakefile",
       "wscript"
     ],
     "interpreters": [
       "python",
       "python2",
-      "python3"
+      "python3",
+      "py",
+      "pypy",
+      "pypy3"
     ],
     "language_id": 303
   },
@@ -7823,7 +9716,6 @@
       ".pyt",
       ".pyw",
       ".rpy",
-      ".smk",
       ".spec",
       ".tac",
       ".wsgi",
@@ -7834,18 +9726,21 @@
       "DEPS",
       "SConscript",
       "SConstruct",
-      "Snakefile",
       "wscript"
     ],
     "interpreters": [
       "python",
       "python2",
-      "python3"
+      "python3",
+      "py",
+      "pypy",
+      "pypy3"
     ],
     "language_id": 303
   },
   "python console": {
     "type": "programming",
+    "color": "#3572A5",
     "group": "Python",
     "tm_scope": "text.python.console",
     "ace_mode": "text",
@@ -7853,6 +9748,7 @@
   },
   "pycon": {
     "type": "programming",
+    "color": "#3572A5",
     "group": "Python",
     "tm_scope": "text.python.console",
     "ace_mode": "text",
@@ -7860,6 +9756,7 @@
   },
   "python traceback": {
     "type": "data",
+    "color": "#3572A5",
     "group": "Python",
     "extensions": [
       ".pytb"
@@ -8035,8 +9932,22 @@
     ],
     "language_id": 308
   },
+  "rbs": {
+    "type": "data",
+    "ace_mode": "ruby",
+    "codemirror_mode": "ruby",
+    "codemirror_mime_type": "text/x-ruby",
+    "extensions": [
+      ".rbs"
+    ],
+    "color": "#701516",
+    "tm_scope": "source.rbs",
+    "group": "Ruby",
+    "language_id": 899227493
+  },
   "rdoc": {
     "type": "prose",
+    "color": "#701516",
     "ace_mode": "rdoc",
     "wrap": true,
     "extensions": [
@@ -8061,6 +9972,7 @@
   },
   "rexx": {
     "type": "programming",
+    "color": "#d90e09",
     "extensions": [
       ".rexx",
       ".pprx",
@@ -8076,6 +9988,7 @@
   },
   "arexx": {
     "type": "programming",
+    "color": "#d90e09",
     "extensions": [
       ".rexx",
       ".pprx",
@@ -8091,14 +10004,16 @@
   },
   "rmarkdown": {
     "type": "prose",
+    "color": "#198ce7",
     "wrap": true,
     "ace_mode": "markdown",
     "codemirror_mode": "gfm",
     "codemirror_mime_type": "text/x-gfm",
     "extensions": [
+      ".qmd",
       ".rmd"
     ],
-    "tm_scope": "source.gfm",
+    "tm_scope": "text.md",
     "language_id": 313
   },
   "rpc": {
@@ -8136,6 +10051,39 @@
     ],
     "tm_scope": "source.c",
     "language_id": 1031374237
+  },
+  "rpgle": {
+    "type": "programming",
+    "ace_mode": "text",
+    "color": "#2BDE21",
+    "extensions": [
+      ".rpgle",
+      ".sqlrpgle"
+    ],
+    "tm_scope": "source.rpgle",
+    "language_id": 609977990
+  },
+  "ile rpg": {
+    "type": "programming",
+    "ace_mode": "text",
+    "color": "#2BDE21",
+    "extensions": [
+      ".rpgle",
+      ".sqlrpgle"
+    ],
+    "tm_scope": "source.rpgle",
+    "language_id": 609977990
+  },
+  "sqlrpgle": {
+    "type": "programming",
+    "ace_mode": "text",
+    "color": "#2BDE21",
+    "extensions": [
+      ".rpgle",
+      ".sqlrpgle"
+    ],
+    "tm_scope": "source.rpgle",
+    "language_id": 609977990
   },
   "rpm spec": {
     "type": "data",
@@ -8393,6 +10341,19 @@
     "tm_scope": "source.reason",
     "language_id": 869538413
   },
+  "reasonligo": {
+    "type": "programming",
+    "color": "#ff5847",
+    "ace_mode": "rust",
+    "codemirror_mode": "rust",
+    "codemirror_mime_type": "text/x-rustsrc",
+    "group": "LigoLANG",
+    "extensions": [
+      ".religo"
+    ],
+    "tm_scope": "source.religo",
+    "language_id": 319002153
+  },
   "rebol": {
     "type": "programming",
     "color": "#358a5b",
@@ -8562,6 +10523,7 @@
   },
   "robotframework": {
     "type": "programming",
+    "color": "#00c0b5",
     "extensions": [
       ".robot"
     ],
@@ -8994,6 +10956,7 @@
   },
   "roff manpage": {
     "type": "markup",
+    "color": "#ecdebe",
     "group": "Roff",
     "extensions": [
       ".1",
@@ -9035,6 +10998,19 @@
     ],
     "tm_scope": "source.clojure",
     "language_id": 325
+  },
+  "routeros script": {
+    "type": "programming",
+    "ace_mode": "text",
+    "extensions": [
+      ".rsc"
+    ],
+    "interpreters": [
+      "RouterOS"
+    ],
+    "color": "#DE3941",
+    "tm_scope": "none",
+    "language_id": 592853203
   },
   "ruby": {
     "type": "programming",
@@ -9094,6 +11070,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9158,6 +11135,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9222,6 +11200,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9286,6 +11265,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9350,6 +11330,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9414,6 +11395,7 @@
       "Puppetfile",
       "Rakefile",
       "Snapfile",
+      "Steepfile",
       "Thorfile",
       "Vagrantfile",
       "buildfile"
@@ -9431,6 +11413,9 @@
     "ace_mode": "rust",
     "codemirror_mode": "rust",
     "codemirror_mime_type": "text/x-rustsrc",
+    "interpreters": [
+      "rust-script"
+    ],
     "language_id": 327
   },
   "rs": {
@@ -9444,6 +11429,9 @@
     "ace_mode": "rust",
     "codemirror_mode": "rust",
     "codemirror_mime_type": "text/x-rustsrc",
+    "interpreters": [
+      "rust-script"
+    ],
     "language_id": 327
   },
   "sas": {
@@ -9542,6 +11530,7 @@
   },
   "sparql": {
     "type": "data",
+    "color": "#0C4597",
     "tm_scope": "source.sparql",
     "ace_mode": "text",
     "codemirror_mode": "sparql",
@@ -9565,6 +11554,7 @@
   },
   "sql": {
     "type": "data",
+    "color": "#e38c00",
     "tm_scope": "source.sql",
     "ace_mode": "sql",
     "codemirror_mode": "sql",
@@ -9584,6 +11574,7 @@
   },
   "sqlpl": {
     "type": "programming",
+    "color": "#e38c00",
     "ace_mode": "sql",
     "codemirror_mode": "sql",
     "codemirror_mime_type": "text/x-sql",
@@ -9620,6 +11611,45 @@
     "ace_mode": "text",
     "tm_scope": "source.ssh-config",
     "language_id": 554920715
+  },
+  "star": {
+    "type": "data",
+    "extensions": [
+      ".star"
+    ],
+    "tm_scope": "source.star",
+    "ace_mode": "text",
+    "language_id": 424510560
+  },
+  "stl": {
+    "type": "data",
+    "color": "#373b5e",
+    "extensions": [
+      ".stl"
+    ],
+    "tm_scope": "source.stl",
+    "ace_mode": "text",
+    "language_id": 455361735
+  },
+  "ascii stl": {
+    "type": "data",
+    "color": "#373b5e",
+    "extensions": [
+      ".stl"
+    ],
+    "tm_scope": "source.stl",
+    "ace_mode": "text",
+    "language_id": 455361735
+  },
+  "stla": {
+    "type": "data",
+    "color": "#373b5e",
+    "extensions": [
+      ".stl"
+    ],
+    "tm_scope": "source.stl",
+    "ace_mode": "text",
+    "language_id": 455361735
   },
   "ston": {
     "type": "data",
@@ -9742,6 +11772,19 @@
     "ace_mode": "text",
     "language_id": 342
   },
+  "scenic": {
+    "type": "programming",
+    "color": "#fdc700",
+    "extensions": [
+      ".scenic"
+    ],
+    "tm_scope": "source.scenic",
+    "ace_mode": "text",
+    "interpreters": [
+      "scenic"
+    ],
+    "language_id": 619814037
+  },
   "scheme": {
     "type": "programming",
     "color": "#1e4aec",
@@ -9770,6 +11813,7 @@
   },
   "scilab": {
     "type": "programming",
+    "color": "#ca0f21",
     "extensions": [
       ".sci",
       ".sce",
@@ -9791,6 +11835,7 @@
   },
   "shaderlab": {
     "type": "programming",
+    "color": "#222c37",
     "extensions": [
       ".shader"
     ],
@@ -9807,24 +11852,25 @@
       ".bats",
       ".cgi",
       ".command",
-      ".env",
       ".fcgi",
       ".ksh",
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".trigger",
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
+      ".bash_functions",
       ".bash_history",
       ".bash_logout",
       ".bash_profile",
       ".bashrc",
       ".cshrc",
-      ".env",
-      ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -9840,6 +11886,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -9875,24 +11922,25 @@
       ".bats",
       ".cgi",
       ".command",
-      ".env",
       ".fcgi",
       ".ksh",
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".trigger",
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
+      ".bash_functions",
       ".bash_history",
       ".bash_logout",
       ".bash_profile",
       ".bashrc",
       ".cshrc",
-      ".env",
-      ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -9908,6 +11956,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -9943,24 +11992,25 @@
       ".bats",
       ".cgi",
       ".command",
-      ".env",
       ".fcgi",
       ".ksh",
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".trigger",
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
+      ".bash_functions",
       ".bash_history",
       ".bash_logout",
       ".bash_profile",
       ".bashrc",
       ".cshrc",
-      ".env",
-      ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -9976,6 +12026,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -10011,24 +12062,25 @@
       ".bats",
       ".cgi",
       ".command",
-      ".env",
       ".fcgi",
       ".ksh",
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".trigger",
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
+      ".bash_functions",
       ".bash_history",
       ".bash_logout",
       ".bash_profile",
       ".bashrc",
       ".cshrc",
-      ".env",
-      ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -10044,6 +12096,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -10079,24 +12132,25 @@
       ".bats",
       ".cgi",
       ".command",
-      ".env",
       ".fcgi",
       ".ksh",
       ".sh.in",
       ".tmux",
       ".tool",
-      ".zsh"
+      ".trigger",
+      ".zsh",
+      ".zsh-theme"
     ],
     "filenames": [
       ".bash_aliases",
+      ".bash_functions",
       ".bash_history",
       ".bash_logout",
       ".bash_profile",
       ".bashrc",
       ".cshrc",
-      ".env",
-      ".env.example",
       ".flaskenv",
+      ".kshrc",
       ".login",
       ".profile",
       ".zlogin",
@@ -10112,6 +12166,7 @@
       "bashrc",
       "cshrc",
       "gradlew",
+      "kshrc",
       "login",
       "man",
       "profile",
@@ -10137,6 +12192,30 @@
     "codemirror_mode": "shell",
     "codemirror_mime_type": "text/x-sh",
     "language_id": 346
+  },
+  "shellcheck config": {
+    "type": "data",
+    "color": "#cecfcb",
+    "filenames": [
+      ".shellcheckrc"
+    ],
+    "tm_scope": "source.shellcheckrc",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 687511714
+  },
+  "shellcheckrc": {
+    "type": "data",
+    "color": "#cecfcb",
+    "filenames": [
+      ".shellcheckrc"
+    ],
+    "tm_scope": "source.shellcheckrc",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 687511714
   },
   "shellsession": {
     "type": "programming",
@@ -10191,6 +12270,32 @@
     "codemirror_mode": "sieve",
     "codemirror_mime_type": "application/sieve",
     "language_id": 208976687
+  },
+  "simple file verification": {
+    "type": "data",
+    "group": "Checksums",
+    "color": "#C9BFED",
+    "extensions": [
+      ".sfv"
+    ],
+    "tm_scope": "source.sfv",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 735623761
+  },
+  "sfv": {
+    "type": "data",
+    "group": "Checksums",
+    "color": "#C9BFED",
+    "extensions": [
+      ".sfv"
+    ],
+    "tm_scope": "source.sfv",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 735623761
   },
   "singularity": {
     "type": "programming",
@@ -10291,6 +12396,7 @@
   },
   "smarty": {
     "type": "programming",
+    "color": "#f0c040",
     "extensions": [
       ".tpl"
     ],
@@ -10299,6 +12405,52 @@
     "codemirror_mime_type": "text/x-smarty",
     "tm_scope": "text.html.smarty",
     "language_id": 353
+  },
+  "smithy": {
+    "type": "programming",
+    "ace_mode": "text",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "tm_scope": "source.smithy",
+    "color": "#c44536",
+    "extensions": [
+      ".smithy"
+    ],
+    "language_id": 1027892786
+  },
+  "snakemake": {
+    "type": "programming",
+    "group": "Python",
+    "tm_scope": "source.python",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "color": "#419179",
+    "extensions": [
+      ".smk",
+      ".snakefile"
+    ],
+    "filenames": [
+      "Snakefile"
+    ],
+    "language_id": 151241392
+  },
+  "snakefile": {
+    "type": "programming",
+    "group": "Python",
+    "tm_scope": "source.python",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "color": "#419179",
+    "extensions": [
+      ".smk",
+      ".snakefile"
+    ],
+    "filenames": [
+      "Snakefile"
+    ],
+    "language_id": 151241392
   },
   "solidity": {
     "type": "programming",
@@ -10356,7 +12508,7 @@
     "extensions": [
       ".nut"
     ],
-    "tm_scope": "source.c++",
+    "tm_scope": "source.nut",
     "ace_mode": "c_cpp",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-c++src",
@@ -10410,14 +12562,17 @@
     "codemirror_mime_type": "text/x-python",
     "color": "#76d275",
     "extensions": [
-      ".bzl"
+      ".bzl",
+      ".star"
     ],
     "filenames": [
       "BUCK",
       "BUILD",
       "BUILD.bazel",
+      "MODULE.bazel",
       "Tiltfile",
-      "WORKSPACE"
+      "WORKSPACE",
+      "WORKSPACE.bazel"
     ],
     "language_id": 960266174
   },
@@ -10429,14 +12584,17 @@
     "codemirror_mime_type": "text/x-python",
     "color": "#76d275",
     "extensions": [
-      ".bzl"
+      ".bzl",
+      ".star"
     ],
     "filenames": [
       "BUCK",
       "BUILD",
       "BUILD.bazel",
+      "MODULE.bazel",
       "Tiltfile",
-      "WORKSPACE"
+      "WORKSPACE",
+      "WORKSPACE.bazel"
     ],
     "language_id": 960266174
   },
@@ -10448,19 +12606,23 @@
     "codemirror_mime_type": "text/x-python",
     "color": "#76d275",
     "extensions": [
-      ".bzl"
+      ".bzl",
+      ".star"
     ],
     "filenames": [
       "BUCK",
       "BUILD",
       "BUILD.bazel",
+      "MODULE.bazel",
       "Tiltfile",
-      "WORKSPACE"
+      "WORKSPACE",
+      "WORKSPACE.bazel"
     ],
     "language_id": 960266174
   },
   "stata": {
     "type": "programming",
+    "color": "#1a5f91",
     "extensions": [
       ".do",
       ".ado",
@@ -10498,6 +12660,7 @@
   },
   "subrip text": {
     "type": "data",
+    "color": "#9e0101",
     "extensions": [
       ".srt"
     ],
@@ -10507,8 +12670,8 @@
   },
   "sugarss": {
     "type": "markup",
+    "color": "#2fcc9f",
     "tm_scope": "source.css.postcss.sugarss",
-    "group": "CSS",
     "extensions": [
       ".sss"
     ],
@@ -10542,9 +12705,21 @@
     ],
     "language_id": 928734530
   },
+  "sway": {
+    "type": "programming",
+    "color": "#dea584",
+    "extensions": [
+      ".sw"
+    ],
+    "tm_scope": "source.sway",
+    "ace_mode": "rust",
+    "codemirror_mode": "rust",
+    "codemirror_mime_type": "text/x-rustsrc",
+    "language_id": 271471144
+  },
   "swift": {
     "type": "programming",
-    "color": "#ffac45",
+    "color": "#F05138",
     "extensions": [
       ".swift"
     ],
@@ -10581,8 +12756,19 @@
     "language_id": 422,
     "tm_scope": "none"
   },
+  "tl-verilog": {
+    "type": "programming",
+    "extensions": [
+      ".tlv"
+    ],
+    "tm_scope": "source.tlverilog",
+    "ace_mode": "verilog",
+    "color": "#C40023",
+    "language_id": 118656070
+  },
   "tla": {
     "type": "programming",
+    "color": "#4b0079",
     "extensions": [
       ".tla"
     ],
@@ -10592,6 +12778,7 @@
   },
   "toml": {
     "type": "data",
+    "color": "#9c4221",
     "extensions": [
       ".toml"
     ],
@@ -10599,6 +12786,7 @@
       "Cargo.lock",
       "Gopkg.lock",
       "Pipfile",
+      "pdm.lock",
       "poetry.lock"
     ],
     "tm_scope": "source.toml",
@@ -10609,6 +12797,7 @@
   },
   "tsql": {
     "type": "programming",
+    "color": "#e38c00",
     "extensions": [
       ".sql"
     ],
@@ -10618,6 +12807,7 @@
   },
   "tsv": {
     "type": "data",
+    "color": "#237346",
     "ace_mode": "text",
     "tm_scope": "source.generic-db",
     "extensions": [
@@ -10627,6 +12817,7 @@
   },
   "tsx": {
     "type": "programming",
+    "color": "#3178c6",
     "group": "TypeScript",
     "extensions": [
       ".tsx"
@@ -10639,6 +12830,7 @@
   },
   "txl": {
     "type": "programming",
+    "color": "#0178b8",
     "extensions": [
       ".txl"
     ],
@@ -10646,13 +12838,76 @@
     "ace_mode": "text",
     "language_id": 366
   },
+  "talon": {
+    "type": "programming",
+    "ace_mode": "text",
+    "color": "#333333",
+    "extensions": [
+      ".talon"
+    ],
+    "tm_scope": "source.talon",
+    "language_id": 959889508
+  },
   "tcl": {
     "type": "programming",
     "color": "#e4cc98",
     "extensions": [
       ".tcl",
       ".adp",
-      ".tm"
+      ".sdc",
+      ".tcl.in",
+      ".tm",
+      ".xdc"
+    ],
+    "filenames": [
+      "owh",
+      "starfield"
+    ],
+    "interpreters": [
+      "tclsh",
+      "wish"
+    ],
+    "tm_scope": "source.tcl",
+    "ace_mode": "tcl",
+    "codemirror_mode": "tcl",
+    "codemirror_mime_type": "text/x-tcl",
+    "language_id": 367
+  },
+  "sdc": {
+    "type": "programming",
+    "color": "#e4cc98",
+    "extensions": [
+      ".tcl",
+      ".adp",
+      ".sdc",
+      ".tcl.in",
+      ".tm",
+      ".xdc"
+    ],
+    "filenames": [
+      "owh",
+      "starfield"
+    ],
+    "interpreters": [
+      "tclsh",
+      "wish"
+    ],
+    "tm_scope": "source.tcl",
+    "ace_mode": "tcl",
+    "codemirror_mode": "tcl",
+    "codemirror_mime_type": "text/x-tcl",
+    "language_id": 367
+  },
+  "xdc": {
+    "type": "programming",
+    "color": "#e4cc98",
+    "extensions": [
+      ".tcl",
+      ".adp",
+      ".sdc",
+      ".tcl.in",
+      ".tm",
+      ".xdc"
     ],
     "filenames": [
       "owh",
@@ -10787,6 +13042,8 @@
       ".no"
     ],
     "filenames": [
+      "CITATION",
+      "CITATIONS",
       "COPYING",
       "COPYING.regex",
       "COPYRIGHT.regex",
@@ -10796,14 +13053,11 @@
       "LICENSE",
       "LICENSE.mysql",
       "NEWS",
-      "README.1ST",
       "README.me",
       "README.mysql",
       "README.nss",
       "click.me",
       "delete.me",
-      "go.mod",
-      "go.sum",
       "keep.me",
       "package.mask",
       "package.use.mask",
@@ -10829,6 +13083,8 @@
       ".no"
     ],
     "filenames": [
+      "CITATION",
+      "CITATIONS",
       "COPYING",
       "COPYING.regex",
       "COPYRIGHT.regex",
@@ -10838,14 +13094,11 @@
       "LICENSE",
       "LICENSE.mysql",
       "NEWS",
-      "README.1ST",
       "README.me",
       "README.mysql",
       "README.nss",
       "click.me",
       "delete.me",
-      "go.mod",
-      "go.sum",
       "keep.me",
       "package.mask",
       "package.use.mask",
@@ -10871,6 +13124,8 @@
       ".no"
     ],
     "filenames": [
+      "CITATION",
+      "CITATIONS",
       "COPYING",
       "COPYING.regex",
       "COPYRIGHT.regex",
@@ -10880,14 +13135,11 @@
       "LICENSE",
       "LICENSE.mysql",
       "NEWS",
-      "README.1ST",
       "README.me",
       "README.mysql",
       "README.nss",
       "click.me",
       "delete.me",
-      "go.mod",
-      "go.sum",
       "keep.me",
       "package.mask",
       "package.use.mask",
@@ -10928,6 +13180,7 @@
   },
   "textile": {
     "type": "prose",
+    "color": "#ffe7ac",
     "ace_mode": "textile",
     "codemirror_mode": "textile",
     "codemirror_mime_type": "text/x-textile",
@@ -10940,6 +13193,7 @@
   },
   "thrift": {
     "type": "programming",
+    "color": "#D12127",
     "tm_scope": "source.thrift",
     "extensions": [
       ".thrift"
@@ -11001,13 +13255,15 @@
   },
   "typescript": {
     "type": "programming",
-    "color": "#2b7489",
+    "color": "#3178c6",
     "interpreters": [
       "deno",
       "ts-node"
     ],
     "extensions": [
-      ".ts"
+      ".ts",
+      ".cts",
+      ".mts"
     ],
     "tm_scope": "source.ts",
     "ace_mode": "typescript",
@@ -11017,13 +13273,15 @@
   },
   "ts": {
     "type": "programming",
-    "color": "#2b7489",
+    "color": "#3178c6",
     "interpreters": [
       "deno",
       "ts-node"
     ],
     "extensions": [
-      ".ts"
+      ".ts",
+      ".cts",
+      ".mts"
     ],
     "tm_scope": "source.ts",
     "ace_mode": "typescript",
@@ -11046,6 +13304,7 @@
   },
   "unity3d asset": {
     "type": "data",
+    "color": "#222c37",
     "ace_mode": "yaml",
     "codemirror_mode": "yaml",
     "codemirror_mime_type": "text/x-yaml",
@@ -11062,6 +13321,39 @@
     "language_id": 380
   },
   "unix assembly": {
+    "type": "programming",
+    "group": "Assembly",
+    "extensions": [
+      ".s",
+      ".ms"
+    ],
+    "tm_scope": "source.x86",
+    "ace_mode": "assembly_x86",
+    "language_id": 120
+  },
+  "gas": {
+    "type": "programming",
+    "group": "Assembly",
+    "extensions": [
+      ".s",
+      ".ms"
+    ],
+    "tm_scope": "source.x86",
+    "ace_mode": "assembly_x86",
+    "language_id": 120
+  },
+  "gnu asm": {
+    "type": "programming",
+    "group": "Assembly",
+    "extensions": [
+      ".s",
+      ".ms"
+    ],
+    "tm_scope": "source.x86",
+    "ace_mode": "assembly_x86",
+    "language_id": 120
+  },
+  "unix asm": {
     "type": "programming",
     "group": "Assembly",
     "extensions": [
@@ -11098,6 +13390,7 @@
   },
   "urweb": {
     "type": "programming",
+    "color": "#ccccee",
     "extensions": [
       ".ur",
       ".urs"
@@ -11108,6 +13401,7 @@
   },
   "Ur/Web": {
     "type": "programming",
+    "color": "#ccccee",
     "extensions": [
       ".ur",
       ".urs"
@@ -11118,6 +13412,7 @@
   },
   "Ur": {
     "type": "programming",
+    "color": "#ccccee",
     "extensions": [
       ".ur",
       ".urs"
@@ -11157,42 +13452,9 @@
       ".bas",
       ".cls",
       ".frm",
-      ".frx",
       ".vba"
     ],
-    "tm_scope": "source.vbnet",
-    "ace_mode": "text",
-    "codemirror_mode": "vb",
-    "codemirror_mime_type": "text/x-vb",
-    "language_id": 399230729
-  },
-  "vb6": {
-    "type": "programming",
-    "color": "#867db1",
-    "extensions": [
-      ".bas",
-      ".cls",
-      ".frm",
-      ".frx",
-      ".vba"
-    ],
-    "tm_scope": "source.vbnet",
-    "ace_mode": "text",
-    "codemirror_mode": "vb",
-    "codemirror_mime_type": "text/x-vb",
-    "language_id": 399230729
-  },
-  "visual basic 6": {
-    "type": "programming",
-    "color": "#867db1",
-    "extensions": [
-      ".bas",
-      ".cls",
-      ".frm",
-      ".frx",
-      ".vba"
-    ],
-    "tm_scope": "source.vbnet",
+    "tm_scope": "source.vba",
     "ace_mode": "text",
     "codemirror_mode": "vb",
     "codemirror_mime_type": "text/x-vb",
@@ -11205,10 +13467,9 @@
       ".bas",
       ".cls",
       ".frm",
-      ".frx",
       ".vba"
     ],
-    "tm_scope": "source.vbnet",
+    "tm_scope": "source.vba",
     "ace_mode": "text",
     "codemirror_mode": "vb",
     "codemirror_mime_type": "text/x-vb",
@@ -11257,7 +13518,7 @@
   },
   "vala": {
     "type": "programming",
-    "color": "#fbe5cd",
+    "color": "#a56de2",
     "extensions": [
       ".vala",
       ".vapi"
@@ -11296,6 +13557,42 @@
     "tm_scope": "source.keyvalues",
     "language_id": 544060961
   },
+  "velocity template language": {
+    "type": "markup",
+    "color": "#507cff",
+    "extensions": [
+      ".vtl"
+    ],
+    "ace_mode": "velocity",
+    "tm_scope": "source.velocity",
+    "codemirror_mode": "velocity",
+    "codemirror_mime_type": "text/velocity",
+    "language_id": 292377326
+  },
+  "vtl": {
+    "type": "markup",
+    "color": "#507cff",
+    "extensions": [
+      ".vtl"
+    ],
+    "ace_mode": "velocity",
+    "tm_scope": "source.velocity",
+    "codemirror_mode": "velocity",
+    "codemirror_mime_type": "text/velocity",
+    "language_id": 292377326
+  },
+  "velocity": {
+    "type": "markup",
+    "color": "#507cff",
+    "extensions": [
+      ".vtl"
+    ],
+    "ace_mode": "velocity",
+    "tm_scope": "source.velocity",
+    "codemirror_mode": "velocity",
+    "codemirror_mime_type": "text/velocity",
+    "language_id": 292377326
+  },
   "verilog": {
     "type": "programming",
     "color": "#b2b7f8",
@@ -11311,6 +13608,7 @@
   },
   "vim help file": {
     "type": "prose",
+    "color": "#199f4b",
     "extensions": [
       ".txt"
     ],
@@ -11320,6 +13618,7 @@
   },
   "help": {
     "type": "prose",
+    "color": "#199f4b",
     "extensions": [
       ".txt"
     ],
@@ -11329,67 +13628,13 @@
   },
   "vimhelp": {
     "type": "prose",
+    "color": "#199f4b",
     "extensions": [
       ".txt"
     ],
     "tm_scope": "text.vim-help",
     "ace_mode": "text",
     "language_id": 508563686
-  },
-  "vim snippet": {
-    "type": "markup",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
-  },
-  "SnipMate": {
-    "type": "markup",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
-  },
-  "UltiSnip": {
-    "type": "markup",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
-  },
-  "UltiSnips": {
-    "type": "markup",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
-  },
-  "NeoSnippet": {
-    "type": "markup",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
   },
   "vim script": {
     "type": "programming",
@@ -11398,6 +13643,7 @@
     "extensions": [
       ".vim",
       ".vba",
+      ".vimrc",
       ".vmb"
     ],
     "filenames": [
@@ -11420,6 +13666,7 @@
     "extensions": [
       ".vim",
       ".vba",
+      ".vimrc",
       ".vmb"
     ],
     "filenames": [
@@ -11442,6 +13689,7 @@
     "extensions": [
       ".vim",
       ".vba",
+      ".vimrc",
       ".vmb"
     ],
     "filenames": [
@@ -11464,6 +13712,7 @@
     "extensions": [
       ".vim",
       ".vba",
+      ".vimrc",
       ".vmb"
     ],
     "filenames": [
@@ -11478,6 +13727,66 @@
     ],
     "ace_mode": "text",
     "language_id": 388
+  },
+  "vim snippet": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
+  "SnipMate": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
+  "UltiSnip": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
+  "UltiSnips": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
+  "NeoSnippet": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
   },
   "visual basic .net": {
     "type": "programming",
@@ -11544,6 +13853,102 @@
     "codemirror_mime_type": "text/x-vb",
     "language_id": 389
   },
+  "visual basic 6.0": {
+    "type": "programming",
+    "color": "#2c6353",
+    "extensions": [
+      ".bas",
+      ".cls",
+      ".ctl",
+      ".Dsr",
+      ".frm"
+    ],
+    "tm_scope": "source.vbnet",
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 679594952
+  },
+  "vb6": {
+    "type": "programming",
+    "color": "#2c6353",
+    "extensions": [
+      ".bas",
+      ".cls",
+      ".ctl",
+      ".Dsr",
+      ".frm"
+    ],
+    "tm_scope": "source.vbnet",
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 679594952
+  },
+  "vb 6": {
+    "type": "programming",
+    "color": "#2c6353",
+    "extensions": [
+      ".bas",
+      ".cls",
+      ".ctl",
+      ".Dsr",
+      ".frm"
+    ],
+    "tm_scope": "source.vbnet",
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 679594952
+  },
+  "visual basic 6": {
+    "type": "programming",
+    "color": "#2c6353",
+    "extensions": [
+      ".bas",
+      ".cls",
+      ".ctl",
+      ".Dsr",
+      ".frm"
+    ],
+    "tm_scope": "source.vbnet",
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 679594952
+  },
+  "visual basic classic": {
+    "type": "programming",
+    "color": "#2c6353",
+    "extensions": [
+      ".bas",
+      ".cls",
+      ".ctl",
+      ".Dsr",
+      ".frm"
+    ],
+    "tm_scope": "source.vbnet",
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 679594952
+  },
+  "classic visual basic": {
+    "type": "programming",
+    "color": "#2c6353",
+    "extensions": [
+      ".bas",
+      ".cls",
+      ".ctl",
+      ".Dsr",
+      ".frm"
+    ],
+    "tm_scope": "source.vbnet",
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 679594952
+  },
   "volt": {
     "type": "programming",
     "color": "#1F1F1F",
@@ -11566,6 +13971,46 @@
     "ace_mode": "html",
     "language_id": 391
   },
+  "vyper": {
+    "type": "programming",
+    "extensions": [
+      ".vy"
+    ],
+    "color": "#2980b9",
+    "ace_mode": "text",
+    "tm_scope": "source.vyper",
+    "language_id": 1055641948
+  },
+  "wdl": {
+    "type": "programming",
+    "color": "#42f1f4",
+    "extensions": [
+      ".wdl"
+    ],
+    "tm_scope": "source.wdl",
+    "ace_mode": "text",
+    "language_id": 374521672
+  },
+  "Workflow Description Language": {
+    "type": "programming",
+    "color": "#42f1f4",
+    "extensions": [
+      ".wdl"
+    ],
+    "tm_scope": "source.wdl",
+    "ace_mode": "text",
+    "language_id": 374521672
+  },
+  "wgsl": {
+    "type": "programming",
+    "color": "#1a5e9a",
+    "extensions": [
+      ".wgsl"
+    ],
+    "tm_scope": "source.wgsl",
+    "ace_mode": "text",
+    "language_id": 836605993
+  },
   "wavefront material": {
     "type": "data",
     "extensions": [
@@ -11586,6 +14031,7 @@
   },
   "web ontology language": {
     "type": "data",
+    "color": "#5b70bd",
     "extensions": [
       ".owl"
     ],
@@ -11632,6 +14078,30 @@
     "codemirror_mime_type": "text/x-common-lisp",
     "language_id": 956556503
   },
+  "webassembly interface type": {
+    "type": "data",
+    "color": "#6250e7",
+    "extensions": [
+      ".wit"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.wit",
+    "codemirror_mode": "webidl",
+    "codemirror_mime_type": "text/x-webidl",
+    "language_id": 134534086
+  },
+  "wit": {
+    "type": "data",
+    "color": "#6250e7",
+    "extensions": [
+      ".wit"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.wit",
+    "codemirror_mode": "webidl",
+    "codemirror_mime_type": "text/x-webidl",
+    "language_id": 134534086
+  },
   "webidl": {
     "type": "programming",
     "extensions": [
@@ -11649,7 +14119,17 @@
     "extensions": [
       ".vtt"
     ],
-    "tm_scope": "source.vtt",
+    "tm_scope": "text.vtt",
+    "ace_mode": "text",
+    "language_id": 658679714
+  },
+  "vtt": {
+    "type": "data",
+    "wrap": true,
+    "extensions": [
+      ".vtt"
+    ],
+    "tm_scope": "text.vtt",
     "ace_mode": "text",
     "language_id": 658679714
   },
@@ -11673,8 +14153,19 @@
     "ace_mode": "text",
     "language_id": 668457123
   },
+  "whiley": {
+    "type": "programming",
+    "color": "#d5c397",
+    "extensions": [
+      ".whiley"
+    ],
+    "tm_scope": "source.whiley",
+    "ace_mode": "text",
+    "language_id": 888779559
+  },
   "wikitext": {
     "type": "prose",
+    "color": "#fc5757",
     "wrap": true,
     "extensions": [
       ".mediawiki",
@@ -11687,6 +14178,7 @@
   },
   "mediawiki": {
     "type": "prose",
+    "color": "#fc5757",
     "wrap": true,
     "extensions": [
       ".mediawiki",
@@ -11699,6 +14191,7 @@
   },
   "wiki": {
     "type": "prose",
+    "color": "#fc5757",
     "wrap": true,
     "extensions": [
       ".mediawiki",
@@ -11709,8 +14202,20 @@
     "ace_mode": "text",
     "language_id": 228
   },
+  "win32 message file": {
+    "type": "data",
+    "extensions": [
+      ".mc"
+    ],
+    "tm_scope": "source.win32-messages",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 950967261
+  },
   "windows registry entries": {
     "type": "data",
+    "color": "#52d5ff",
     "extensions": [
       ".reg"
     ],
@@ -11719,6 +14224,16 @@
     "codemirror_mode": "properties",
     "codemirror_mime_type": "text/x-properties",
     "language_id": 969674868
+  },
+  "witcher script": {
+    "type": "programming",
+    "color": "#ff0000",
+    "extensions": [
+      ".ws"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.witcherscript",
+    "language_id": 686821385
   },
   "wollok": {
     "type": "programming",
@@ -11732,12 +14247,33 @@
   },
   "world of warcraft addon data": {
     "type": "data",
+    "color": "#f7e43f",
     "extensions": [
       ".toc"
     ],
     "tm_scope": "source.toc",
     "ace_mode": "text",
     "language_id": 396
+  },
+  "wren": {
+    "type": "programming",
+    "color": "#383838",
+    "extensions": [
+      ".wren"
+    ],
+    "tm_scope": "source.wren",
+    "ace_mode": "text",
+    "language_id": 713580619
+  },
+  "wrenlang": {
+    "type": "programming",
+    "color": "#383838",
+    "extensions": [
+      ".wren"
+    ],
+    "tm_scope": "source.wren",
+    "ace_mode": "text",
+    "language_id": 713580619
   },
   "x bitmap": {
     "type": "data",
@@ -11846,6 +14382,7 @@
   },
   "xml": {
     "type": "data",
+    "color": "#0060ac",
     "tm_scope": "text.xml",
     "ace_mode": "xml",
     "codemirror_mode": "xml",
@@ -11855,6 +14392,7 @@
       ".adml",
       ".admx",
       ".ant",
+      ".axaml",
       ".axml",
       ".builds",
       ".ccproj",
@@ -11880,6 +14418,7 @@
       ".gmx",
       ".grxml",
       ".gst",
+      ".hzp",
       ".iml",
       ".ivy",
       ".jelly",
@@ -11905,6 +14444,7 @@
       ".ps1xml",
       ".psc1",
       ".pt",
+      ".qhelp",
       ".rdf",
       ".res",
       ".resx",
@@ -11917,6 +14457,7 @@
       ".srdf",
       ".storyboard",
       ".sublime-snippet",
+      ".sw",
       ".targets",
       ".tml",
       ".ts",
@@ -11968,6 +14509,7 @@
   },
   "rss": {
     "type": "data",
+    "color": "#0060ac",
     "tm_scope": "text.xml",
     "ace_mode": "xml",
     "codemirror_mode": "xml",
@@ -11977,6 +14519,7 @@
       ".adml",
       ".admx",
       ".ant",
+      ".axaml",
       ".axml",
       ".builds",
       ".ccproj",
@@ -12002,6 +14545,7 @@
       ".gmx",
       ".grxml",
       ".gst",
+      ".hzp",
       ".iml",
       ".ivy",
       ".jelly",
@@ -12027,6 +14571,7 @@
       ".ps1xml",
       ".psc1",
       ".pt",
+      ".qhelp",
       ".rdf",
       ".res",
       ".resx",
@@ -12039,6 +14584,7 @@
       ".srdf",
       ".storyboard",
       ".sublime-snippet",
+      ".sw",
       ".targets",
       ".tml",
       ".ts",
@@ -12090,6 +14636,7 @@
   },
   "xsd": {
     "type": "data",
+    "color": "#0060ac",
     "tm_scope": "text.xml",
     "ace_mode": "xml",
     "codemirror_mode": "xml",
@@ -12099,6 +14646,7 @@
       ".adml",
       ".admx",
       ".ant",
+      ".axaml",
       ".axml",
       ".builds",
       ".ccproj",
@@ -12124,6 +14672,7 @@
       ".gmx",
       ".grxml",
       ".gst",
+      ".hzp",
       ".iml",
       ".ivy",
       ".jelly",
@@ -12149,6 +14698,7 @@
       ".ps1xml",
       ".psc1",
       ".pt",
+      ".qhelp",
       ".rdf",
       ".res",
       ".resx",
@@ -12161,6 +14711,7 @@
       ".srdf",
       ".storyboard",
       ".sublime-snippet",
+      ".sw",
       ".targets",
       ".tml",
       ".ts",
@@ -12212,6 +14763,7 @@
   },
   "wsdl": {
     "type": "data",
+    "color": "#0060ac",
     "tm_scope": "text.xml",
     "ace_mode": "xml",
     "codemirror_mode": "xml",
@@ -12221,6 +14773,7 @@
       ".adml",
       ".admx",
       ".ant",
+      ".axaml",
       ".axml",
       ".builds",
       ".ccproj",
@@ -12246,6 +14799,7 @@
       ".gmx",
       ".grxml",
       ".gst",
+      ".hzp",
       ".iml",
       ".ivy",
       ".jelly",
@@ -12271,6 +14825,7 @@
       ".ps1xml",
       ".psc1",
       ".pt",
+      ".qhelp",
       ".rdf",
       ".res",
       ".resx",
@@ -12283,6 +14838,7 @@
       ".srdf",
       ".storyboard",
       ".sublime-snippet",
+      ".sw",
       ".targets",
       ".tml",
       ".ts",
@@ -12334,6 +14890,7 @@
   },
   "xml property list": {
     "type": "data",
+    "color": "#0060ac",
     "group": "XML",
     "extensions": [
       ".plist",
@@ -12429,6 +14986,7 @@
   },
   "xojo": {
     "type": "programming",
+    "color": "#81bd41",
     "extensions": [
       ".xojo_code",
       ".xojo_menu",
@@ -12455,6 +15013,7 @@
   },
   "xtend": {
     "type": "programming",
+    "color": "#24255d",
     "extensions": [
       ".xtend"
     ],
@@ -12482,6 +15041,7 @@
       ".clang-format",
       ".clang-tidy",
       ".gemrc",
+      "CITATION.cff",
       "glide.lock",
       "yarn.lock"
     ],
@@ -12510,6 +15070,7 @@
       ".clang-format",
       ".clang-tidy",
       ".gemrc",
+      "CITATION.cff",
       "glide.lock",
       "yarn.lock"
     ],
@@ -12579,6 +15140,16 @@
     "ace_mode": "text",
     "color": "#4B6C4B",
     "language_id": 409
+  },
+  "yul": {
+    "type": "programming",
+    "color": "#794932",
+    "ace_mode": "text",
+    "tm_scope": "source.yul",
+    "extensions": [
+      ".yul"
+    ],
+    "language_id": 237469033
   },
   "zap": {
     "type": "programming",
@@ -12654,6 +15225,7 @@
   },
   "zimpl": {
     "type": "programming",
+    "color": "#d67711",
     "extensions": [
       ".zimpl",
       ".zmpl",
@@ -12689,7 +15261,8 @@
     "type": "data",
     "extensions": [
       ".desktop",
-      ".desktop.in"
+      ".desktop.in",
+      ".service"
     ],
     "tm_scope": "source.desktop",
     "ace_mode": "text",
@@ -12736,6 +15309,7 @@
   },
   "fish": {
     "type": "programming",
+    "color": "#4aae47",
     "group": "Shell",
     "interpreters": [
       "fish"
@@ -12747,6 +15321,16 @@
     "ace_mode": "text",
     "language_id": 415
   },
+  "hoon": {
+    "type": "programming",
+    "color": "#00b171",
+    "tm_scope": "source.hoon",
+    "ace_mode": "text",
+    "extensions": [
+      ".hoon"
+    ],
+    "language_id": 560883276
+  },
   "jq": {
     "color": "#c7254e",
     "ace_mode": "text",
@@ -12756,6 +15340,16 @@
     ],
     "tm_scope": "source.jq",
     "language_id": 905371884
+  },
+  "kvlang": {
+    "type": "markup",
+    "ace_mode": "text",
+    "extensions": [
+      ".kv"
+    ],
+    "color": "#1da6e0",
+    "tm_scope": "source.python.kivy",
+    "language_id": 970675279
   },
   "mirc script": {
     "type": "programming",
@@ -12779,6 +15373,7 @@
   },
   "mupad": {
     "type": "programming",
+    "color": "#244963",
     "extensions": [
       ".mu"
     ],
@@ -12788,6 +15383,7 @@
   },
   "nanorc": {
     "type": "data",
+    "color": "#2d004d",
     "group": "INI",
     "extensions": [
       ".nanorc"
@@ -12832,6 +15428,7 @@
   },
   "restructuredtext": {
     "type": "prose",
+    "color": "#141414",
     "wrap": true,
     "extensions": [
       ".rst",
@@ -12847,6 +15444,7 @@
   },
   "rst": {
     "type": "prose",
+    "color": "#141414",
     "wrap": true,
     "extensions": [
       ".rst",
@@ -12902,16 +15500,6 @@
     "ace_mode": "text",
     "tm_scope": "source.sed",
     "language_id": 847830017
-  },
-  "wdl": {
-    "type": "programming",
-    "color": "#42f1f4",
-    "extensions": [
-      ".wdl"
-    ],
-    "tm_scope": "source.wdl",
-    "ace_mode": "text",
-    "language_id": 374521672
   },
   "wisp": {
     "type": "programming",

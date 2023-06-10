@@ -59,13 +59,29 @@ def drizzle_spec(spec: dict) -> dict:
     return alias_spec
 
 
+def to_css_file(filename: str, spec: dict, classname: str, property: str):
+    with open(filename, 'w', encoding="utf-8") as f:
+        for k, v in spec.items():
+            color = v.get("color")
+            if not color:
+                continue
+            f.write(f".{classname}[srclang=\"{k}\"]"
+                    f"{{{property}:{color}}}\n")
+
+
 def generate_static_files(spec: dict, checksum: str):
     languages = '/languages.json'
     languages_minified = '/languages.minified.json'
+    languages_bg_css = '/languages.bg.css'
+    languages_fg_css = '/languages.fg.css'
     checksums = '/checksums.json'
 
     to_json_file(f'{OUTPUT_DIR}{languages}', spec, minified=False)
     to_json_file(f'{OUTPUT_DIR}{languages_minified}', spec, minified=True)
+    to_css_file(f'{OUTPUT_DIR}{languages_bg_css}',
+                spec, 'lang-color-bg', 'background-color')
+    to_css_file(f'{OUTPUT_DIR}{languages_fg_css}',
+                spec, 'lang-color-fg', 'color')
 
     content = f"""
     <html>
@@ -73,6 +89,7 @@ def generate_static_files(spec: dict, checksum: str):
         </head>
         <body>
             <h1>Endpoints</h1>
+            <h2>JSON</h2>
             <ul>
                 <li>
                     <a href="{languages}">{languages}</a>
@@ -82,6 +99,15 @@ def generate_static_files(spec: dict, checksum: str):
                 </li>
                 <li>
                     <a href="{checksums}">{checksums}</a>
+                </li>
+            </ul>
+            <h2>CSS</h2>
+            <ul>
+                <li>
+                    <a href="{languages_bg_css}">{languages_bg_css}</a>
+                </li>
+                <li>
+                    <a href="{languages_fg_css}">{languages_fg_css}</a>
                 </li>
             </ul>
             <hr />
