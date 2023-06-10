@@ -1,0 +1,14 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - task: generate
+
+  generate:
+    aliases: [build]
+    cmds:
+      - rm -f data/checksums.json
+      - py generate.py
