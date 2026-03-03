@@ -52,6 +52,7 @@
 .lang-color-bg[srclang="apex"]{background-color:#1797c0;}
 .lang-color-bg[srclang="apollo guidance computer"]{background-color:#0B3D91;}
 .lang-color-bg[srclang="applescript"]{background-color:#101F1F;}
+.lang-color-bg[srclang="apples"]{background-color:#101F1F;}
 .lang-color-bg[srclang="osascript"]{background-color:#101F1F;}
 .lang-color-bg[srclang="arc"]{background-color:#aa2afe;}
 .lang-color-bg[srclang="asciidoc"]{background-color:#73a0c5;}
@@ -232,6 +233,8 @@
 .lang-color-bg[srclang="elvish"]{background-color:#55BB55;}
 .lang-color-bg[srclang="elvish transcript"]{background-color:#55BB55;}
 .lang-color-bg[srclang="emacs lisp"]{background-color:#c065db;}
+.lang-color-bg[srclang="cask"]{background-color:#c065db;}
+.lang-color-bg[srclang="eask"]{background-color:#c065db;}
 .lang-color-bg[srclang="elisp"]{background-color:#c065db;}
 .lang-color-bg[srclang="emacs"]{background-color:#c065db;}
 .lang-color-bg[srclang="emberscript"]{background-color:#FFF4F3;}
@@ -519,6 +522,7 @@
 .lang-color-bg[srclang="max"]{background-color:#c4a79c;}
 .lang-color-bg[srclang="max/msp"]{background-color:#c4a79c;}
 .lang-color-bg[srclang="maxmsp"]{background-color:#c4a79c;}
+.lang-color-bg[srclang="metta"]{background-color:#6a5acd;}
 .lang-color-bg[srclang="mercury"]{background-color:#ff2b2b;}
 .lang-color-bg[srclang="mermaid"]{background-color:#ff3670;}
 .lang-color-bg[srclang="mermaid example"]{background-color:#ff3670;}
@@ -666,6 +670,8 @@
 .lang-color-bg[srclang="purescript"]{background-color:#1D222D;}
 .lang-color-bg[srclang="pyret"]{background-color:#ee1e10;}
 .lang-color-bg[srclang="python"]{background-color:#3572A5;}
+.lang-color-bg[srclang="py"]{background-color:#3572A5;}
+.lang-color-bg[srclang="py3"]{background-color:#3572A5;}
 .lang-color-bg[srclang="python3"]{background-color:#3572A5;}
 .lang-color-bg[srclang="rusthon"]{background-color:#3572A5;}
 .lang-color-bg[srclang="python console"]{background-color:#3572A5;}
@@ -830,6 +836,7 @@
 .lang-color-bg[srclang="tsv"]{background-color:#237346;}
 .lang-color-bg[srclang="tab-seperated values"]{background-color:#237346;}
 .lang-color-bg[srclang="tsx"]{background-color:#3178c6;}
+.lang-color-bg[srclang="typescriptreact"]{background-color:#3178c6;}
 .lang-color-bg[srclang="txl"]{background-color:#0178b8;}
 .lang-color-bg[srclang="tact"]{background-color:#48b5ff;}
 .lang-color-bg[srclang="talon"]{background-color:#333333;}

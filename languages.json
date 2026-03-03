@@ -675,6 +675,20 @@
     "color": "#101F1F",
     "language_id": 19
   },
+  "apples": {
+    "type": "programming",
+    "extensions": [
+      ".applescript",
+      ".scpt"
+    ],
+    "interpreters": [
+      "osascript"
+    ],
+    "tm_scope": "source.applescript",
+    "ace_mode": "applescript",
+    "color": "#101F1F",
+    "language_id": 19
+  },
   "osascript": {
     "type": "programming",
     "extensions": [
@@ -3525,6 +3539,61 @@
       ".spacemacs",
       ".viper",
       "Cask",
+      "Eask",
+      "Project.ede",
+      "_emacs",
+      "abbrev_defs"
+    ],
+    "extensions": [
+      ".el",
+      ".emacs",
+      ".emacs.desktop"
+    ],
+    "ace_mode": "lisp",
+    "codemirror_mode": "commonlisp",
+    "codemirror_mime_type": "text/x-common-lisp",
+    "language_id": 102
+  },
+  "cask": {
+    "type": "programming",
+    "tm_scope": "source.emacs.lisp",
+    "color": "#c065db",
+    "filenames": [
+      ".abbrev_defs",
+      ".emacs",
+      ".emacs.desktop",
+      ".gnus",
+      ".spacemacs",
+      ".viper",
+      "Cask",
+      "Eask",
+      "Project.ede",
+      "_emacs",
+      "abbrev_defs"
+    ],
+    "extensions": [
+      ".el",
+      ".emacs",
+      ".emacs.desktop"
+    ],
+    "ace_mode": "lisp",
+    "codemirror_mode": "commonlisp",
+    "codemirror_mime_type": "text/x-common-lisp",
+    "language_id": 102
+  },
+  "eask": {
+    "type": "programming",
+    "tm_scope": "source.emacs.lisp",
+    "color": "#c065db",
+    "filenames": [
+      ".abbrev_defs",
+      ".emacs",
+      ".emacs.desktop",
+      ".gnus",
+      ".spacemacs",
+      ".viper",
+      "Cask",
+      "Eask",
       "Project.ede",
       "_emacs",
       "abbrev_defs"
@@ -3551,6 +3620,7 @@
       ".spacemacs",
       ".viper",
       "Cask",
+      "Eask",
       "Project.ede",
       "_emacs",
       "abbrev_defs"
@@ -3577,6 +3647,7 @@
       ".spacemacs",
       ".viper",
       "Cask",
+      "Eask",
       "Project.ede",
       "_emacs",
       "abbrev_defs"
@@ -8262,6 +8333,16 @@
     "codemirror_mime_type": "application/json",
     "language_id": 227
   },
+  "metta": {
+    "type": "programming",
+    "color": "#6a5acd",
+    "extensions": [
+      ".metta"
+    ],
+    "tm_scope": "source.metta",
+    "ace_mode": "text",
+    "language_id": 1037612668
+  },
   "mercury": {
     "type": "programming",
     "color": "#ff2b2b",
@@ -10641,6 +10722,94 @@
     "language_id": 252961827
   },
   "python": {
+    "type": "programming",
+    "tm_scope": "source.python",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "color": "#3572A5",
+    "extensions": [
+      ".py",
+      ".cgi",
+      ".fcgi",
+      ".gyp",
+      ".gypi",
+      ".lmi",
+      ".py3",
+      ".pyde",
+      ".pyi",
+      ".pyp",
+      ".pyt",
+      ".pyw",
+      ".rpy",
+      ".spec",
+      ".tac",
+      ".wsgi",
+      ".xpy"
+    ],
+    "filenames": [
+      ".gclient",
+      "DEPS",
+      "SConscript",
+      "SConstruct",
+      "wscript"
+    ],
+    "interpreters": [
+      "python",
+      "python2",
+      "python3",
+      "py",
+      "pypy",
+      "pypy3",
+      "uv"
+    ],
+    "language_id": 303
+  },
+  "py": {
+    "type": "programming",
+    "tm_scope": "source.python",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "color": "#3572A5",
+    "extensions": [
+      ".py",
+      ".cgi",
+      ".fcgi",
+      ".gyp",
+      ".gypi",
+      ".lmi",
+      ".py3",
+      ".pyde",
+      ".pyi",
+      ".pyp",
+      ".pyt",
+      ".pyw",
+      ".rpy",
+      ".spec",
+      ".tac",
+      ".wsgi",
+      ".xpy"
+    ],
+    "filenames": [
+      ".gclient",
+      "DEPS",
+      "SConscript",
+      "SConstruct",
+      "wscript"
+    ],
+    "interpreters": [
+      "python",
+      "python2",
+      "python3",
+      "py",
+      "pypy",
+      "pypy3",
+      "uv"
+    ],
+    "language_id": 303
+  },
+  "py3": {
     "type": "programming",
     "tm_scope": "source.python",
     "ace_mode": "python",
@@ -14343,6 +14512,19 @@
     "language_id": 1035892117
   },
   "tsx": {
+    "type": "programming",
+    "color": "#3178c6",
+    "group": "TypeScript",
+    "extensions": [
+      ".tsx"
+    ],
+    "tm_scope": "source.tsx",
+    "ace_mode": "tsx",
+    "codemirror_mode": "jsx",
+    "codemirror_mime_type": "text/typescript-jsx",
+    "language_id": 94901924
+  },
+  "typescriptreact": {
     "type": "programming",
     "color": "#3178c6",
     "group": "TypeScript",

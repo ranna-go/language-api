@@ -52,6 +52,7 @@
 .lang-color-fg[srclang="apex"]{color:#1797c0;}
 .lang-color-fg[srclang="apollo guidance computer"]{color:#0B3D91;}
 .lang-color-fg[srclang="applescript"]{color:#101F1F;}
+.lang-color-fg[srclang="apples"]{color:#101F1F;}
 .lang-color-fg[srclang="osascript"]{color:#101F1F;}
 .lang-color-fg[srclang="arc"]{color:#aa2afe;}
 .lang-color-fg[srclang="asciidoc"]{color:#73a0c5;}
@@ -232,6 +233,8 @@
 .lang-color-fg[srclang="elvish"]{color:#55BB55;}
 .lang-color-fg[srclang="elvish transcript"]{color:#55BB55;}
 .lang-color-fg[srclang="emacs lisp"]{color:#c065db;}
+.lang-color-fg[srclang="cask"]{color:#c065db;}
+.lang-color-fg[srclang="eask"]{color:#c065db;}
 .lang-color-fg[srclang="elisp"]{color:#c065db;}
 .lang-color-fg[srclang="emacs"]{color:#c065db;}
 .lang-color-fg[srclang="emberscript"]{color:#FFF4F3;}
@@ -519,6 +522,7 @@
 .lang-color-fg[srclang="max"]{color:#c4a79c;}
 .lang-color-fg[srclang="max/msp"]{color:#c4a79c;}
 .lang-color-fg[srclang="maxmsp"]{color:#c4a79c;}
+.lang-color-fg[srclang="metta"]{color:#6a5acd;}
 .lang-color-fg[srclang="mercury"]{color:#ff2b2b;}
 .lang-color-fg[srclang="mermaid"]{color:#ff3670;}
 .lang-color-fg[srclang="mermaid example"]{color:#ff3670;}
@@ -666,6 +670,8 @@
 .lang-color-fg[srclang="purescript"]{color:#1D222D;}
 .lang-color-fg[srclang="pyret"]{color:#ee1e10;}
 .lang-color-fg[srclang="python"]{color:#3572A5;}
+.lang-color-fg[srclang="py"]{color:#3572A5;}
+.lang-color-fg[srclang="py3"]{color:#3572A5;}
 .lang-color-fg[srclang="python3"]{color:#3572A5;}
 .lang-color-fg[srclang="rusthon"]{color:#3572A5;}
 .lang-color-fg[srclang="python console"]{color:#3572A5;}
@@ -830,6 +836,7 @@
 .lang-color-fg[srclang="tsv"]{color:#237346;}
 .lang-color-fg[srclang="tab-seperated values"]{color:#237346;}
 .lang-color-fg[srclang="tsx"]{color:#3178c6;}
+.lang-color-fg[srclang="typescriptreact"]{color:#3178c6;}
 .lang-color-fg[srclang="txl"]{color:#0178b8;}
 .lang-color-fg[srclang="tact"]{color:#48b5ff;}
 .lang-color-fg[srclang="talon"]{color:#333333;}
