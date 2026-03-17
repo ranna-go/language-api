@@ -10631,7 +10631,8 @@
     "extensions": [
       ".textproto",
       ".pbt",
-      ".pbtxt"
+      ".pbtxt",
+      ".txtpb"
     ],
     "tm_scope": "source.textproto",
     "ace_mode": "text",
@@ -10642,7 +10643,8 @@
     "extensions": [
       ".textproto",
       ".pbt",
-      ".pbtxt"
+      ".pbtxt",
+      ".txtpb"
     ],
     "tm_scope": "source.textproto",
     "ace_mode": "text",
@@ -10653,7 +10655,8 @@
     "extensions": [
       ".textproto",
       ".pbt",
-      ".pbtxt"
+      ".pbtxt",
+      ".txtpb"
     ],
     "tm_scope": "source.textproto",
     "ace_mode": "text",
@@ -16522,6 +16525,7 @@
       ".grxml",
       ".gst",
       ".hzp",
+      ".icls",
       ".iml",
       ".ivy",
       ".jelly",
@@ -16654,6 +16658,7 @@
       ".grxml",
       ".gst",
       ".hzp",
+      ".icls",
       ".iml",
       ".ivy",
       ".jelly",
@@ -16786,6 +16791,7 @@
       ".grxml",
       ".gst",
       ".hzp",
+      ".icls",
       ".iml",
       ".ivy",
       ".jelly",
@@ -16918,6 +16924,7 @@
       ".grxml",
       ".gst",
       ".hzp",
+      ".icls",
       ".iml",
       ".ivy",
       ".jelly",
