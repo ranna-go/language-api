@@ -5643,6 +5643,36 @@
     "ace_mode": "text",
     "language_id": 162
   },
+  "il assembly": {
+    "type": "programming",
+    "color": "#512BD4",
+    "extensions": [
+      ".il"
+    ],
+    "tm_scope": "source.il",
+    "ace_mode": "text",
+    "language_id": 592065806
+  },
+  "ilasm": {
+    "type": "programming",
+    "color": "#512BD4",
+    "extensions": [
+      ".il"
+    ],
+    "tm_scope": "source.il",
+    "ace_mode": "text",
+    "language_id": 592065806
+  },
+  "msil": {
+    "type": "programming",
+    "color": "#512BD4",
+    "extensions": [
+      ".il"
+    ],
+    "tm_scope": "source.il",
+    "ace_mode": "text",
+    "language_id": 592065806
+  },
   "ini": {
     "type": "data",
     "color": "#d1dbe0",
