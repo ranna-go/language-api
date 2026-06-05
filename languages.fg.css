@@ -74,6 +74,7 @@
 .lang-color-fg[srclang="b (formal method)"]{color:#8aa8c5;}
 .lang-color-fg[srclang="b4x"]{color:#00e4ff;}
 .lang-color-fg[srclang="basic for android"]{color:#00e4ff;}
+.lang-color-fg[srclang="baml"]{color:#a855f7;}
 .lang-color-fg[srclang="basic"]{color:#ff0000;}
 .lang-color-fg[srclang="bqn"]{color:#2b7067;}
 .lang-color-fg[srclang="ballerina"]{color:#FF5000;}
@@ -386,6 +387,7 @@
 .lang-color-fg[srclang="ilasm"]{color:#512BD4;}
 .lang-color-fg[srclang="msil"]{color:#512BD4;}
 .lang-color-fg[srclang="ini"]{color:#d1dbe0;}
+.lang-color-fg[srclang="conf"]{color:#d1dbe0;}
 .lang-color-fg[srclang="dosini"]{color:#d1dbe0;}
 .lang-color-fg[srclang="ispc"]{color:#2D68B1;}
 .lang-color-fg[srclang="idris"]{color:#b30000;}
@@ -622,6 +624,8 @@
 .lang-color-fg[srclang="opts"]{color:#476732;}
 .lang-color-fg[srclang="ackrc"]{color:#476732;}
 .lang-color-fg[srclang="org"]{color:#77aa99;}
+.lang-color-fg[srclang="overpy"]{color:#78b355;}
+.lang-color-fg[srclang="opy"]{color:#78b355;}
 .lang-color-fg[srclang="overpassql"]{color:#cce2aa;}
 .lang-color-fg[srclang="oxygene"]{color:#cdd0e3;}
 .lang-color-fg[srclang="oz"]{color:#fab738;}
@@ -664,6 +668,7 @@
 .lang-color-fg[srclang="pwsh"]{color:#012456;}
 .lang-color-fg[srclang="praat"]{color:#c8506d;}
 .lang-color-fg[srclang="prisma"]{color:#0c344b;}
+.lang-color-fg[srclang="pro*c"]{color:#bb8368;}
 .lang-color-fg[srclang="processing"]{color:#0096D8;}
 .lang-color-fg[srclang="procfile"]{color:#3B2F63;}
 .lang-color-fg[srclang="prolog"]{color:#74283c;}
@@ -727,6 +732,7 @@
 .lang-color-fg[srclang="record jar"]{color:#0673ba;}
 .lang-color-fg[srclang="red"]{color:#f50000;}
 .lang-color-fg[srclang="red/system"]{color:#f50000;}
+.lang-color-fg[srclang="redscript"]{color:#f44336;}
 .lang-color-fg[srclang="regular expression"]{color:#009a00;}
 .lang-color-fg[srclang="regexp"]{color:#009a00;}
 .lang-color-fg[srclang="regex"]{color:#009a00;}
@@ -996,6 +1002,8 @@
 .lang-color-fg[srclang="nanorc"]{color:#2d004d;}
 .lang-color-fg[srclang="nesc"]{color:#94B0C7;}
 .lang-color-fg[srclang="ooc"]{color:#b0b77e;}
+.lang-color-fg[srclang="pkg-config"]{color:#2b5e82;}
+.lang-color-fg[srclang="pkgconf"]{color:#2b5e82;}
 .lang-color-fg[srclang="q"]{color:#0040cd;}
 .lang-color-fg[srclang="restructuredtext"]{color:#141414;}
 .lang-color-fg[srclang="rst"]{color:#141414;}

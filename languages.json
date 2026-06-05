@@ -947,6 +947,18 @@
     "codemirror_mime_type": "text/x-vb",
     "language_id": 96642275
   },
+  "baml": {
+    "type": "programming",
+    "color": "#a855f7",
+    "extensions": [
+      ".baml"
+    ],
+    "tm_scope": "source.baml",
+    "ace_mode": "io",
+    "codemirror_mode": "stylus",
+    "codemirror_mime_type": "text/x-styl",
+    "language_id": 502521509
+  },
   "basic": {
     "type": "programming",
     "extensions": [
@@ -5680,12 +5692,58 @@
       ".ini",
       ".cfg",
       ".cnf",
+      ".container",
       ".dof",
       ".frm",
       ".lektorproject",
+      ".mount",
+      ".network",
       ".prefs",
       ".pro",
       ".properties",
+      ".service",
+      ".socket",
+      ".target",
+      ".timer",
+      ".url"
+    ],
+    "filenames": [
+      ".buckconfig",
+      ".coveragerc",
+      ".flake8",
+      ".pylintrc",
+      "HOSTS",
+      "buildozer.spec",
+      "hosts",
+      "pylintrc",
+      "vlcrc"
+    ],
+    "tm_scope": "source.ini",
+    "ace_mode": "ini",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 163
+  },
+  "conf": {
+    "type": "data",
+    "color": "#d1dbe0",
+    "extensions": [
+      ".ini",
+      ".cfg",
+      ".cnf",
+      ".container",
+      ".dof",
+      ".frm",
+      ".lektorproject",
+      ".mount",
+      ".network",
+      ".prefs",
+      ".pro",
+      ".properties",
+      ".service",
+      ".socket",
+      ".target",
+      ".timer",
       ".url"
     ],
     "filenames": [
@@ -5712,12 +5770,19 @@
       ".ini",
       ".cfg",
       ".cnf",
+      ".container",
       ".dof",
       ".frm",
       ".lektorproject",
+      ".mount",
+      ".network",
       ".prefs",
       ".pro",
       ".properties",
+      ".service",
+      ".socket",
+      ".target",
+      ".timer",
       ".url"
     ],
     "filenames": [
@@ -5811,6 +5876,7 @@
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
       ".ignore",
@@ -5845,6 +5911,7 @@
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
       ".ignore",
@@ -5879,6 +5946,7 @@
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
       ".ignore",
@@ -5913,6 +5981,7 @@
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
       ".ignore",
@@ -6129,6 +6198,7 @@
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".slnlaunch",
       ".tact",
       ".tfstate",
       ".tfstate.backup",
@@ -6181,6 +6251,7 @@
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".slnlaunch",
       ".tact",
       ".tfstate",
       ".tfstate.backup",
@@ -6233,6 +6304,7 @@
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".slnlaunch",
       ".tact",
       ".tfstate",
       ".tfstate.backup",
@@ -6285,6 +6357,7 @@
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".slnlaunch",
       ".tact",
       ".tfstate",
       ".tfstate.backup",
@@ -6337,6 +6410,7 @@
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".slnlaunch",
       ".tact",
       ".tfstate",
       ".tfstate.backup",
@@ -6655,8 +6729,10 @@
       "Jakefile"
     ],
     "interpreters": [
+      "bun",
       "chakra",
       "d8",
+      "deno",
       "gjs",
       "js",
       "node",
@@ -6706,8 +6782,10 @@
       "Jakefile"
     ],
     "interpreters": [
+      "bun",
       "chakra",
       "d8",
+      "deno",
       "gjs",
       "js",
       "node",
@@ -6757,8 +6835,10 @@
       "Jakefile"
     ],
     "interpreters": [
+      "bun",
       "chakra",
       "d8",
+      "deno",
       "gjs",
       "js",
       "node",
@@ -8071,6 +8151,7 @@
       "Makefile.frag",
       "Makefile.in",
       "Makefile.inc",
+      "Makefile.pc",
       "Makefile.wat",
       "makefile",
       "makefile.sco",
@@ -8106,6 +8187,7 @@
       "Makefile.frag",
       "Makefile.in",
       "Makefile.inc",
+      "Makefile.pc",
       "Makefile.wat",
       "makefile",
       "makefile.sco",
@@ -8141,6 +8223,7 @@
       "Makefile.frag",
       "Makefile.in",
       "Makefile.inc",
+      "Makefile.pc",
       "Makefile.wat",
       "makefile",
       "makefile.sco",
@@ -8176,6 +8259,7 @@
       "Makefile.frag",
       "Makefile.in",
       "Makefile.inc",
+      "Makefile.pc",
       "Makefile.wat",
       "makefile",
       "makefile.sco",
@@ -9789,6 +9873,32 @@
     "ace_mode": "text",
     "language_id": 267
   },
+  "overpy": {
+    "type": "programming",
+    "color": "#78b355",
+    "wrap": true,
+    "extensions": [
+      ".opy"
+    ],
+    "tm_scope": "source.opy",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "language_id": 492781155
+  },
+  "opy": {
+    "type": "programming",
+    "color": "#78b355",
+    "wrap": true,
+    "extensions": [
+      ".opy"
+    ],
+    "tm_scope": "source.opy",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "language_id": 492781155
+  },
   "overpassql": {
     "type": "programming",
     "color": "#cce2aa",
@@ -10544,6 +10654,19 @@
     "tm_scope": "source.prisma",
     "ace_mode": "prisma",
     "language_id": 499933428
+  },
+  "pro*c": {
+    "fs_name": "ProC",
+    "color": "#bb8368",
+    "type": "programming",
+    "extensions": [
+      ".pc"
+    ],
+    "tm_scope": "source.c",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 991047534
   },
   "processing": {
     "type": "programming",
@@ -11807,6 +11930,16 @@
     "ace_mode": "text",
     "language_id": 1020148948
   },
+  "redscript": {
+    "type": "programming",
+    "color": "#f44336",
+    "extensions": [
+      ".reds"
+    ],
+    "tm_scope": "source.redscript",
+    "ace_mode": "text",
+    "language_id": 686691365
+  },
   "regular expression": {
     "type": "data",
     "color": "#009a00",
@@ -11919,6 +12052,42 @@
     "tm_scope": "text.robot",
     "ace_mode": "robot",
     "language_id": 324
+  },
+  "robots exclusion rules": {
+    "type": "data",
+    "filenames": [
+      "robots.txt"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "text.robots-txt",
+    "language_id": 674736065
+  },
+  "robots": {
+    "type": "data",
+    "filenames": [
+      "robots.txt"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "text.robots-txt",
+    "language_id": 674736065
+  },
+  "robots txt": {
+    "type": "data",
+    "filenames": [
+      "robots.txt"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "text.robots-txt",
+    "language_id": 674736065
+  },
+  "robotx.txt": {
+    "type": "data",
+    "filenames": [
+      "robots.txt"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "text.robots-txt",
+    "language_id": 674736065
   },
   "roc": {
     "type": "programming",
@@ -14878,6 +15047,7 @@
       "README.me",
       "README.mysql",
       "README.nss",
+      "README.pc",
       "click.me",
       "delete.me",
       "keep.me",
@@ -14919,6 +15089,7 @@
       "README.me",
       "README.mysql",
       "README.nss",
+      "README.pc",
       "click.me",
       "delete.me",
       "keep.me",
@@ -14960,6 +15131,7 @@
       "README.me",
       "README.mysql",
       "README.nss",
+      "README.pc",
       "click.me",
       "delete.me",
       "keep.me",
@@ -15467,7 +15639,8 @@
     "type": "data",
     "color": "#f26025",
     "extensions": [
-      ".vdf"
+      ".vdf",
+      ".vmf"
     ],
     "ace_mode": "text",
     "tm_scope": "source.keyvalues",
@@ -15477,7 +15650,8 @@
     "type": "data",
     "color": "#f26025",
     "extensions": [
-      ".vdf"
+      ".vdf",
+      ".vmf"
     ],
     "ace_mode": "text",
     "tm_scope": "source.keyvalues",
@@ -15487,7 +15661,8 @@
     "type": "data",
     "color": "#f26025",
     "extensions": [
-      ".vdf"
+      ".vdf",
+      ".vmf"
     ],
     "ace_mode": "text",
     "tm_scope": "source.keyvalues",
@@ -17494,11 +17669,11 @@
     "language_id": 705203557
   },
   "desktop": {
+    "group": "INI",
     "type": "data",
     "extensions": [
       ".desktop",
-      ".desktop.in",
-      ".service"
+      ".desktop.in"
     ],
     "tm_scope": "source.desktop",
     "ace_mode": "text",
@@ -17699,6 +17874,32 @@
     "ace_mode": "text",
     "language_id": 418
   },
+  "pkg-config": {
+    "type": "data",
+    "color": "#2b5e82",
+    "extensions": [
+      ".pc",
+      ".pc.in"
+    ],
+    "tm_scope": "source.pkgconf",
+    "ace_mode": "properties",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 925023573
+  },
+  "pkgconf": {
+    "type": "data",
+    "color": "#2b5e82",
+    "extensions": [
+      ".pc",
+      ".pc.in"
+    ],
+    "tm_scope": "source.pkgconf",
+    "ace_mode": "properties",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 925023573
+  },
   "q": {
     "type": "programming",
     "extensions": [
@@ -17742,33 +17943,6 @@
     "codemirror_mode": "rst",
     "codemirror_mime_type": "text/x-rst",
     "language_id": 419
-  },
-  "robots.txt": {
-    "type": "data",
-    "filenames": [
-      "robots.txt"
-    ],
-    "ace_mode": "text",
-    "tm_scope": "text.robots-txt",
-    "language_id": 674736065
-  },
-  "robots": {
-    "type": "data",
-    "filenames": [
-      "robots.txt"
-    ],
-    "ace_mode": "text",
-    "tm_scope": "text.robots-txt",
-    "language_id": 674736065
-  },
-  "robots txt": {
-    "type": "data",
-    "filenames": [
-      "robots.txt"
-    ],
-    "ace_mode": "text",
-    "tm_scope": "text.robots-txt",
-    "language_id": 674736065
   },
   "sed": {
     "type": "programming",

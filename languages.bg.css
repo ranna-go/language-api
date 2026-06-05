@@ -74,6 +74,7 @@
 .lang-color-bg[srclang="b (formal method)"]{background-color:#8aa8c5;}
 .lang-color-bg[srclang="b4x"]{background-color:#00e4ff;}
 .lang-color-bg[srclang="basic for android"]{background-color:#00e4ff;}
+.lang-color-bg[srclang="baml"]{background-color:#a855f7;}
 .lang-color-bg[srclang="basic"]{background-color:#ff0000;}
 .lang-color-bg[srclang="bqn"]{background-color:#2b7067;}
 .lang-color-bg[srclang="ballerina"]{background-color:#FF5000;}
@@ -386,6 +387,7 @@
 .lang-color-bg[srclang="ilasm"]{background-color:#512BD4;}
 .lang-color-bg[srclang="msil"]{background-color:#512BD4;}
 .lang-color-bg[srclang="ini"]{background-color:#d1dbe0;}
+.lang-color-bg[srclang="conf"]{background-color:#d1dbe0;}
 .lang-color-bg[srclang="dosini"]{background-color:#d1dbe0;}
 .lang-color-bg[srclang="ispc"]{background-color:#2D68B1;}
 .lang-color-bg[srclang="idris"]{background-color:#b30000;}
@@ -622,6 +624,8 @@
 .lang-color-bg[srclang="opts"]{background-color:#476732;}
 .lang-color-bg[srclang="ackrc"]{background-color:#476732;}
 .lang-color-bg[srclang="org"]{background-color:#77aa99;}
+.lang-color-bg[srclang="overpy"]{background-color:#78b355;}
+.lang-color-bg[srclang="opy"]{background-color:#78b355;}
 .lang-color-bg[srclang="overpassql"]{background-color:#cce2aa;}
 .lang-color-bg[srclang="oxygene"]{background-color:#cdd0e3;}
 .lang-color-bg[srclang="oz"]{background-color:#fab738;}
@@ -664,6 +668,7 @@
 .lang-color-bg[srclang="pwsh"]{background-color:#012456;}
 .lang-color-bg[srclang="praat"]{background-color:#c8506d;}
 .lang-color-bg[srclang="prisma"]{background-color:#0c344b;}
+.lang-color-bg[srclang="pro*c"]{background-color:#bb8368;}
 .lang-color-bg[srclang="processing"]{background-color:#0096D8;}
 .lang-color-bg[srclang="procfile"]{background-color:#3B2F63;}
 .lang-color-bg[srclang="prolog"]{background-color:#74283c;}
@@ -727,6 +732,7 @@
 .lang-color-bg[srclang="record jar"]{background-color:#0673ba;}
 .lang-color-bg[srclang="red"]{background-color:#f50000;}
 .lang-color-bg[srclang="red/system"]{background-color:#f50000;}
+.lang-color-bg[srclang="redscript"]{background-color:#f44336;}
 .lang-color-bg[srclang="regular expression"]{background-color:#009a00;}
 .lang-color-bg[srclang="regexp"]{background-color:#009a00;}
 .lang-color-bg[srclang="regex"]{background-color:#009a00;}
@@ -996,6 +1002,8 @@
 .lang-color-bg[srclang="nanorc"]{background-color:#2d004d;}
 .lang-color-bg[srclang="nesc"]{background-color:#94B0C7;}
 .lang-color-bg[srclang="ooc"]{background-color:#b0b77e;}
+.lang-color-bg[srclang="pkg-config"]{background-color:#2b5e82;}
+.lang-color-bg[srclang="pkgconf"]{background-color:#2b5e82;}
 .lang-color-bg[srclang="q"]{background-color:#0040cd;}
 .lang-color-bg[srclang="restructuredtext"]{background-color:#141414;}
 .lang-color-bg[srclang="rst"]{background-color:#141414;}
