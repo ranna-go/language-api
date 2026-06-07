@@ -10571,6 +10571,26 @@
     "ace_mode": "text",
     "language_id": 291
   },
+  "power query": {
+    "type": "programming",
+    "extensions": [
+      ".pq"
+    ],
+    "tm_scope": "source.powerquery",
+    "ace_mode": "text",
+    "color": "#d38e0d",
+    "language_id": 37496382
+  },
+  "powerquery": {
+    "type": "programming",
+    "extensions": [
+      ".pq"
+    ],
+    "tm_scope": "source.powerquery",
+    "ace_mode": "text",
+    "color": "#d38e0d",
+    "language_id": 37496382
+  },
   "powerbuilder": {
     "type": "programming",
     "color": "#8f0f8d",
