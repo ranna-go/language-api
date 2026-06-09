@@ -5039,6 +5039,70 @@
     "codemirror_mime_type": "application/x-jsp",
     "language_id": 143
   },
+  "gtkrc": {
+    "type": "data",
+    "color": "#7fe719",
+    "extensions": [
+      ".gtkrc"
+    ],
+    "filenames": [
+      "gtkrc",
+      "gtkrc-2.0"
+    ],
+    "tm_scope": "source.gtkrc",
+    "ace_mode": "ruby",
+    "codemirror_mode": "ruby",
+    "codemirror_mime_type": "text/x-ruby",
+    "language_id": 876401352
+  },
+  "gtk": {
+    "type": "data",
+    "color": "#7fe719",
+    "extensions": [
+      ".gtkrc"
+    ],
+    "filenames": [
+      "gtkrc",
+      "gtkrc-2.0"
+    ],
+    "tm_scope": "source.gtkrc",
+    "ace_mode": "ruby",
+    "codemirror_mode": "ruby",
+    "codemirror_mime_type": "text/x-ruby",
+    "language_id": 876401352
+  },
+  "gtk 1": {
+    "type": "data",
+    "color": "#7fe719",
+    "extensions": [
+      ".gtkrc"
+    ],
+    "filenames": [
+      "gtkrc",
+      "gtkrc-2.0"
+    ],
+    "tm_scope": "source.gtkrc",
+    "ace_mode": "ruby",
+    "codemirror_mode": "ruby",
+    "codemirror_mime_type": "text/x-ruby",
+    "language_id": 876401352
+  },
+  "gtk 2": {
+    "type": "data",
+    "color": "#7fe719",
+    "extensions": [
+      ".gtkrc"
+    ],
+    "filenames": [
+      "gtkrc",
+      "gtkrc-2.0"
+    ],
+    "tm_scope": "source.gtkrc",
+    "ace_mode": "ruby",
+    "codemirror_mode": "ruby",
+    "codemirror_mime_type": "text/x-ruby",
+    "language_id": 876401352
+  },
   "haproxy": {
     "type": "data",
     "color": "#106da9",
