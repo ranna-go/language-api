@@ -4525,7 +4525,9 @@
     ],
     "filenames": [
       ".gitconfig",
-      ".gitmodules"
+      ".gitmodules",
+      ".tgitconfig",
+      "config.worktree"
     ],
     "ace_mode": "ini",
     "codemirror_mode": "properties",
@@ -4542,7 +4544,9 @@
     ],
     "filenames": [
       ".gitconfig",
-      ".gitmodules"
+      ".gitmodules",
+      ".tgitconfig",
+      "config.worktree"
     ],
     "ace_mode": "ini",
     "codemirror_mode": "properties",
@@ -4559,7 +4563,9 @@
     ],
     "filenames": [
       ".gitconfig",
-      ".gitmodules"
+      ".gitmodules",
+      ".tgitconfig",
+      "config.worktree"
     ],
     "ace_mode": "ini",
     "codemirror_mode": "properties",
@@ -5935,6 +5941,7 @@
       ".atomignore",
       ".babelignore",
       ".bzrignore",
+      ".ckignore",
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
@@ -5948,6 +5955,7 @@
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
+      ".rgignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
@@ -5970,6 +5978,7 @@
       ".atomignore",
       ".babelignore",
       ".bzrignore",
+      ".ckignore",
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
@@ -5983,6 +5992,7 @@
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
+      ".rgignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
@@ -6005,6 +6015,7 @@
       ".atomignore",
       ".babelignore",
       ".bzrignore",
+      ".ckignore",
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
@@ -6018,6 +6029,7 @@
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
+      ".rgignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
@@ -6040,6 +6052,7 @@
       ".atomignore",
       ".babelignore",
       ".bzrignore",
+      ".ckignore",
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
@@ -6053,6 +6066,7 @@
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
+      ".rgignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
