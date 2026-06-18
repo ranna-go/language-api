@@ -1262,6 +1262,26 @@
     "ace_mode": "text",
     "language_id": 35
   },
+  "blueprint": {
+    "type": "markup",
+    "color": "#3584E4",
+    "extensions": [
+      ".blp"
+    ],
+    "tm_scope": "source.blueprint",
+    "ace_mode": "text",
+    "language_id": 765545512
+  },
+  "blp": {
+    "type": "markup",
+    "color": "#3584E4",
+    "extensions": [
+      ".blp"
+    ],
+    "tm_scope": "source.blueprint",
+    "ace_mode": "text",
+    "language_id": 765545512
+  },
   "bluespec": {
     "type": "programming",
     "color": "#12223c",
