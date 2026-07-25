@@ -4688,7 +4688,7 @@
   },
   "gno": {
     "type": "programming",
-    "color": "#530c04",
+    "color": "#226c57",
     "extensions": [
       ".gno"
     ],
@@ -4700,7 +4700,7 @@
   },
   "gnolang": {
     "type": "programming",
-    "color": "#530c04",
+    "color": "#226c57",
     "extensions": [
       ".gno"
     ],
