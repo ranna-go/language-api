@@ -36,6 +36,7 @@
 .lang-color-bg[srclang="amfm"]{background-color:#fa0f00;}
 .lang-color-bg[srclang="agda"]{background-color:#315665;}
 .lang-color-bg[srclang="aiken"]{background-color:#640ff8;}
+.lang-color-bg[srclang="aleo"]{background-color:#154BF9;}
 .lang-color-bg[srclang="alloy"]{background-color:#64C800;}
 .lang-color-bg[srclang="alpine abuild"]{background-color:#0D597F;}
 .lang-color-bg[srclang="abuild"]{background-color:#0D597F;}
@@ -76,6 +77,10 @@
 .lang-color-bg[srclang="basic for android"]{background-color:#00e4ff;}
 .lang-color-bg[srclang="baml"]{background-color:#a855f7;}
 .lang-color-bg[srclang="basic"]{background-color:#ff0000;}
+.lang-color-bg[srclang="bbcode"]{background-color:#CAFF42;}
+.lang-color-bg[srclang="bird2"]{background-color:#b6d7e4;}
+.lang-color-bg[srclang="bird"]{background-color:#b6d7e4;}
+.lang-color-bg[srclang="bird3"]{background-color:#b6d7e4;}
 .lang-color-bg[srclang="bqn"]{background-color:#2b7067;}
 .lang-color-bg[srclang="ballerina"]{background-color:#FF5000;}
 .lang-color-bg[srclang="batchfile"]{background-color:#C1F12E;}
@@ -413,6 +418,8 @@
 .lang-color-bg[srclang="isabelle root"]{background-color:#FEFE00;}
 .lang-color-bg[srclang="j"]{background-color:#9EEDFF;}
 .lang-color-bg[srclang="jar manifest"]{background-color:#b07219;}
+.lang-color-bg[srclang="jass"]{background-color:#FF0303;}
+.lang-color-bg[srclang="jass2"]{background-color:#FF0303;}
 .lang-color-bg[srclang="jcl"]{background-color:#d90e09;}
 .lang-color-bg[srclang="jflex"]{background-color:#DBCA00;}
 .lang-color-bg[srclang="json"]{background-color:#292929;}
@@ -505,6 +512,7 @@
 .lang-color-bg[srclang="livescript"]{background-color:#499886;}
 .lang-color-bg[srclang="live-script"]{background-color:#499886;}
 .lang-color-bg[srclang="ls"]{background-color:#499886;}
+.lang-color-bg[srclang="lobster"]{background-color:#f95428;}
 .lang-color-bg[srclang="logtalk"]{background-color:#295b9a;}
 .lang-color-bg[srclang="lookml"]{background-color:#652B81;}
 .lang-color-bg[srclang="lua"]{background-color:#000080;}
@@ -543,6 +551,7 @@
 .lang-color-bg[srclang="mermaid example"]{background-color:#ff3670;}
 .lang-color-bg[srclang="meson"]{background-color:#007800;}
 .lang-color-bg[srclang="metal"]{background-color:#8f14e9;}
+.lang-color-bg[srclang="miniscript"]{background-color:#4B4A56;}
 .lang-color-bg[srclang="miniyaml"]{background-color:#ff1111;}
 .lang-color-bg[srclang="minizinc"]{background-color:#06a9e6;}
 .lang-color-bg[srclang="mint"]{background-color:#02b046;}
@@ -788,9 +797,9 @@
 .lang-color-bg[srclang="stla"]{background-color:#373b5e;}
 .lang-color-bg[srclang="svg"]{background-color:#ff9900;}
 .lang-color-bg[srclang="sail"]{background-color:#259dd5;}
-.lang-color-bg[srclang="saltstack"]{background-color:#646464;}
-.lang-color-bg[srclang="saltstate"]{background-color:#646464;}
-.lang-color-bg[srclang="salt"]{background-color:#646464;}
+.lang-color-bg[srclang="salt"]{background-color:#57bcad;}
+.lang-color-bg[srclang="saltstack"]{background-color:#57bcad;}
+.lang-color-bg[srclang="saltstate"]{background-color:#57bcad;}
 .lang-color-bg[srclang="sass"]{background-color:#a53b70;}
 .lang-color-bg[srclang="scala"]{background-color:#c22d40;}
 .lang-color-bg[srclang="scaml"]{background-color:#bd181a;}
@@ -877,6 +886,7 @@
 .lang-color-bg[srclang="textile"]{background-color:#ffe7ac;}
 .lang-color-bg[srclang="thrift"]{background-color:#D12127;}
 .lang-color-bg[srclang="toit"]{background-color:#c2c9fb;}
+.lang-color-bg[srclang="tolk"]{background-color:#30A1F5;}
 .lang-color-bg[srclang="tor config"]{background-color:#59316b;}
 .lang-color-bg[srclang="torrc"]{background-color:#59316b;}
 .lang-color-bg[srclang="tree-sitter query"]{background-color:#8ea64c;}
@@ -913,6 +923,7 @@
 .lang-color-bg[srclang="velocity"]{background-color:#507cff;}
 .lang-color-bg[srclang="vento"]{background-color:#ff0080;}
 .lang-color-bg[srclang="verilog"]{background-color:#b2b7f8;}
+.lang-color-bg[srclang="verse"]{background-color:#518ef8;}
 .lang-color-bg[srclang="vim help file"]{background-color:#199f4b;}
 .lang-color-bg[srclang="help"]{background-color:#199f4b;}
 .lang-color-bg[srclang="vimhelp"]{background-color:#199f4b;}
@@ -1019,6 +1030,7 @@
 .lang-color-bg[srclang="rst"]{background-color:#141414;}
 .lang-color-bg[srclang="sed"]{background-color:#64b970;}
 .lang-color-bg[srclang="templ"]{background-color:#66D0DD;}
+.lang-color-bg[srclang="ucode"]{background-color:#00b8d4;}
 .lang-color-bg[srclang="vcard"]{background-color:#ee2647;}
 .lang-color-bg[srclang="virtual contact file"]{background-color:#ee2647;}
 .lang-color-bg[srclang="electronic business card"]{background-color:#ee2647;}
