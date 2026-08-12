@@ -408,6 +408,10 @@
 .lang-color-fg[srclang="ignore"]{color:#000000;}
 .lang-color-fg[srclang="gitignore"]{color:#000000;}
 .lang-color-fg[srclang="git-ignore"]{color:#000000;}
+.lang-color-fg[srclang="imhex pattern language"]{color:#3a6be0;}
+.lang-color-fg[srclang="ImHex"]{color:#3a6be0;}
+.lang-color-fg[srclang="ImHexPatternLanguage"]{color:#3a6be0;}
+.lang-color-fg[srclang="imhexpl"]{color:#3a6be0;}
 .lang-color-fg[srclang="imagej macro"]{color:#99AAFF;}
 .lang-color-fg[srclang="ijm"]{color:#99AAFF;}
 .lang-color-fg[srclang="imba"]{color:#16cec6;}

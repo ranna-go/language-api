@@ -408,6 +408,10 @@
 .lang-color-bg[srclang="ignore"]{background-color:#000000;}
 .lang-color-bg[srclang="gitignore"]{background-color:#000000;}
 .lang-color-bg[srclang="git-ignore"]{background-color:#000000;}
+.lang-color-bg[srclang="imhex pattern language"]{background-color:#3a6be0;}
+.lang-color-bg[srclang="ImHex"]{background-color:#3a6be0;}
+.lang-color-bg[srclang="ImHexPatternLanguage"]{background-color:#3a6be0;}
+.lang-color-bg[srclang="imhexpl"]{background-color:#3a6be0;}
 .lang-color-bg[srclang="imagej macro"]{background-color:#99AAFF;}
 .lang-color-bg[srclang="ijm"]{background-color:#99AAFF;}
 .lang-color-bg[srclang="imba"]{background-color:#16cec6;}

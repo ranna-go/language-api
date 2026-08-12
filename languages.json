@@ -6175,6 +6175,54 @@
     "codemirror_mime_type": "text/x-sh",
     "language_id": 74444240
   },
+  "imhex pattern language": {
+    "type": "programming",
+    "color": "#3a6be0",
+    "extensions": [
+      ".hexpat"
+    ],
+    "tm_scope": "source.pl",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 805861688
+  },
+  "ImHex": {
+    "type": "programming",
+    "color": "#3a6be0",
+    "extensions": [
+      ".hexpat"
+    ],
+    "tm_scope": "source.pl",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 805861688
+  },
+  "ImHexPatternLanguage": {
+    "type": "programming",
+    "color": "#3a6be0",
+    "extensions": [
+      ".hexpat"
+    ],
+    "tm_scope": "source.pl",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 805861688
+  },
+  "imhexpl": {
+    "type": "programming",
+    "color": "#3a6be0",
+    "extensions": [
+      ".hexpat"
+    ],
+    "tm_scope": "source.pl",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 805861688
+  },
   "imagej macro": {
     "type": "programming",
     "color": "#99AAFF",
