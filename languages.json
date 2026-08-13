@@ -927,6 +927,16 @@
     "ace_mode": "text",
     "language_id": 28
   },
+  "b": {
+    "type": "programming",
+    "color": "#da7666",
+    "extensions": [
+      ".b"
+    ],
+    "tm_scope": "source.c",
+    "ace_mode": "text",
+    "language_id": 700792152
+  },
   "b (formal method)": {
     "type": "programming",
     "color": "#8aa8c5",
@@ -935,7 +945,7 @@
     ],
     "tm_scope": "source.b",
     "ace_mode": "text",
-    "language_id": 700792152
+    "language_id": 993355937
   },
   "b4x": {
     "type": "programming",
