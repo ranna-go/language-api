@@ -2455,6 +2455,7 @@
       "._coffee",
       ".cake",
       ".cjsx",
+      ".coffee.erb",
       ".iced"
     ],
     "filenames": [
@@ -2477,6 +2478,7 @@
       "._coffee",
       ".cake",
       ".cjsx",
+      ".coffee.erb",
       ".iced"
     ],
     "filenames": [
@@ -2499,6 +2501,7 @@
       "._coffee",
       ".cake",
       ".cjsx",
+      ".coffee.erb",
       ".iced"
     ],
     "filenames": [
@@ -4580,6 +4583,7 @@
     "type": "data",
     "color": "#F44D27",
     "filenames": [
+      ".gitmessage",
       "COMMIT_EDITMSG"
     ],
     "ace_mode": "text",
@@ -4591,6 +4595,7 @@
     "type": "data",
     "color": "#F44D27",
     "filenames": [
+      ".gitmessage",
       "COMMIT_EDITMSG"
     ],
     "ace_mode": "text",
@@ -5887,6 +5892,7 @@
       ".buckconfig",
       ".coveragerc",
       ".flake8",
+      ".gitreview",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -5926,6 +5932,7 @@
       ".buckconfig",
       ".coveragerc",
       ".flake8",
+      ".gitreview",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -5965,6 +5972,7 @@
       ".buckconfig",
       ".coveragerc",
       ".flake8",
+      ".gitreview",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -6044,6 +6052,7 @@
       ".gitignore"
     ],
     "filenames": [
+      ".agignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
@@ -6081,6 +6090,7 @@
       ".gitignore"
     ],
     "filenames": [
+      ".agignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
@@ -6118,6 +6128,7 @@
       ".gitignore"
     ],
     "filenames": [
+      ".agignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
@@ -6155,6 +6166,7 @@
       ".gitignore"
     ],
     "filenames": [
+      ".agignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
@@ -6468,6 +6480,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -6522,6 +6535,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -6576,6 +6590,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -6630,6 +6645,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -6684,6 +6700,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -6731,6 +6748,7 @@
     "filenames": [
       ".babelrc",
       ".devcontainer.json",
+      ".eslintrc",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
@@ -6778,6 +6796,7 @@
     "filenames": [
       ".babelrc",
       ".devcontainer.json",
+      ".eslintrc",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
@@ -11618,9 +11637,12 @@
     "extensions": [
       ".r",
       ".rd",
+      ".rhistory",
       ".rsx"
     ],
     "filenames": [
+      ".Rapp.history",
+      ".Rhistory",
       ".Rprofile",
       "expr-dist"
     ],
@@ -11639,9 +11661,12 @@
     "extensions": [
       ".r",
       ".rd",
+      ".rhistory",
       ".rsx"
     ],
     "filenames": [
+      ".Rapp.history",
+      ".Rhistory",
       ".Rprofile",
       "expr-dist"
     ],
@@ -11660,9 +11685,12 @@
     "extensions": [
       ".r",
       ".rd",
+      ".rhistory",
       ".rsx"
     ],
     "filenames": [
+      ".Rapp.history",
+      ".Rhistory",
       ".Rprofile",
       "expr-dist"
     ],
@@ -17107,6 +17135,7 @@
       ".kml",
       ".launch",
       ".mdpolicy",
+      ".meta4",
       ".mjml",
       ".mm",
       ".mod",
@@ -17241,6 +17270,7 @@
       ".kml",
       ".launch",
       ".mdpolicy",
+      ".meta4",
       ".mjml",
       ".mm",
       ".mod",
@@ -17375,6 +17405,7 @@
       ".kml",
       ".launch",
       ".mdpolicy",
+      ".meta4",
       ".mjml",
       ".mm",
       ".mod",
@@ -17509,6 +17540,7 @@
       ".kml",
       ".launch",
       ".mdpolicy",
+      ".meta4",
       ".mjml",
       ".mm",
       ".mod",
@@ -17758,7 +17790,9 @@
       ".clang-format",
       ".clang-tidy",
       ".clangd",
+      ".eslintrc",
       ".gemrc",
+      ".releaserc",
       "CITATION.cff",
       "glide.lock",
       "pixi.lock",
@@ -17789,7 +17823,9 @@
       ".clang-format",
       ".clang-tidy",
       ".clangd",
+      ".eslintrc",
       ".gemrc",
+      ".releaserc",
       "CITATION.cff",
       "glide.lock",
       "pixi.lock",
