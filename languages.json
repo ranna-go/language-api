@@ -3908,6 +3908,17 @@
     "ace_mode": "text",
     "language_id": 106
   },
+  "fpp": {
+    "type": "programming",
+    "color": "#d37327",
+    "extensions": [
+      ".fpp",
+      ".fppi"
+    ],
+    "tm_scope": "source.fpp",
+    "ace_mode": "text",
+    "language_id": 252360067
+  },
   "factor": {
     "type": "programming",
     "color": "#636746",
@@ -16132,6 +16143,66 @@
     "ace_mode": "text",
     "language_id": 508563686
   },
+  "vim snippet": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
+  "SnipMate": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
+  "UltiSnip": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
+  "UltiSnips": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
+  "NeoSnippet": {
+    "type": "markup",
+    "color": "#199f4b",
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970
+  },
   "vim script": {
     "type": "programming",
     "color": "#199f4b",
@@ -16246,66 +16317,6 @@
     ],
     "ace_mode": "text",
     "language_id": 388
-  },
-  "vim snippet": {
-    "type": "markup",
-    "color": "#199f4b",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
-  },
-  "SnipMate": {
-    "type": "markup",
-    "color": "#199f4b",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
-  },
-  "UltiSnip": {
-    "type": "markup",
-    "color": "#199f4b",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
-  },
-  "UltiSnips": {
-    "type": "markup",
-    "color": "#199f4b",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
-  },
-  "NeoSnippet": {
-    "type": "markup",
-    "color": "#199f4b",
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970
   },
   "visual basic .net": {
     "type": "programming",
