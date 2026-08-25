@@ -16113,6 +16113,26 @@
     "ace_mode": "text",
     "language_id": 180832205
   },
+  "vespa schema definition": {
+    "type": "data",
+    "color": "#61D790",
+    "extensions": [
+      ".sd"
+    ],
+    "tm_scope": "source.vespaSchema",
+    "ace_mode": "text",
+    "language_id": 587879709
+  },
+  "vespa": {
+    "type": "data",
+    "color": "#61D790",
+    "extensions": [
+      ".sd"
+    ],
+    "tm_scope": "source.vespaSchema",
+    "ace_mode": "text",
+    "language_id": 587879709
+  },
   "vim help file": {
     "type": "prose",
     "color": "#199f4b",
