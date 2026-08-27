@@ -12363,6 +12363,16 @@
     "color": "#FFDAB3",
     "language_id": 498022874
   },
+  "rhai": {
+    "type": "programming",
+    "color": "#FBA63B",
+    "extensions": [
+      ".rhai"
+    ],
+    "tm_scope": "source.rhai",
+    "ace_mode": "text",
+    "language_id": 713228814
+  },
   "rich text format": {
     "type": "markup",
     "extensions": [
