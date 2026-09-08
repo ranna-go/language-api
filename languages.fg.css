@@ -56,6 +56,7 @@
 .lang-color-fg[srclang="apples"]{color:#101F1F;}
 .lang-color-fg[srclang="osascript"]{color:#101F1F;}
 .lang-color-fg[srclang="arc"]{color:#aa2afe;}
+.lang-color-fg[srclang="arkts"]{color:#0080ff;}
 .lang-color-fg[srclang="asciidoc"]{color:#73a0c5;}
 .lang-color-fg[srclang="aspectj"]{color:#a957b0;}
 .lang-color-fg[srclang="assembly"]{color:#6E4C13;}
@@ -490,6 +491,8 @@
 .lang-color-fg[srclang="kotlin"]{color:#A97BFF;}
 .lang-color-fg[srclang="lfe"]{color:#4C3023;}
 .lang-color-fg[srclang="llvm"]{color:#185619;}
+.lang-color-fg[srclang="llvm tablegen"]{color:#6E8B3D;}
+.lang-color-fg[srclang="tablegen"]{color:#6E8B3D;}
 .lang-color-fg[srclang="lolcode"]{color:#cc9900;}
 .lang-color-fg[srclang="lsl"]{color:#3d9970;}
 .lang-color-fg[srclang="labview"]{color:#fede06;}
