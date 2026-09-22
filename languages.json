@@ -1162,6 +1162,24 @@
     "ace_mode": "text",
     "language_id": 30
   },
+  "bend": {
+    "type": "programming",
+    "extensions": [
+      ".bend"
+    ],
+    "tm_scope": "source.bend",
+    "ace_mode": "text",
+    "language_id": 571794812
+  },
+  "bend2": {
+    "type": "programming",
+    "extensions": [
+      ".bend"
+    ],
+    "tm_scope": "source.bend",
+    "ace_mode": "text",
+    "language_id": 571794812
+  },
   "berry": {
     "type": "programming",
     "extensions": [
@@ -9057,6 +9075,10 @@
     "color": "#b92381",
     "extensions": [
       ".mbt"
+    ],
+    "filenames": [
+      "moon.mod",
+      "moon.pkg"
     ],
     "tm_scope": "source.moonbit",
     "ace_mode": "text",
